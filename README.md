@@ -1,64 +1,63 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
+# Media Accelerator
+Hello ISVs, SIs, Partners and Customers - Your success is our goal.
+This Repository helps you to Connect, Extend, Build and Contribute to Microsoft Media Industry Accelerator.
 
-# Official Microsoft Sample
+# Table of Contents
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+* Media Accelerator
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+  * [Introduction](#Microsoft-Dynamics-365-Announces-Industry-Accelerators)
+  * [Overview](#Overview-of-the-Industry-Media-Accelerator)
+  * [Releases](#Releases)
+  * [Other Industry Accelerator](#Get-to-know-about-other-Industry-Accelerators)
+  * [Contributing](#Contributing)
+  
+  
+## Microsoft Dynamics 365 Announces Industry Accelerators
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+Dynamics 365 announced the Microsoft Power Platform, a connected app platform that unifies access to your data to enable ISVs, SIs, Partners and Customers to build intelligent, data driven, task focused business and analytic applications. Microsoft is focused on enabling a data culture where the Microsoft Power Platform acts as the glue across Dynamics 365 (CE, F&O, Talent), Office 365 (SharePoint, Teams), Power BI, Power Apps, Microsoft Flow, Azure and other 3rd party on-premise and cloud based solutions.
 
-Give a short description for your sample here. What does it do and why is it important?
+With the Power Platform providing a unified approach to building data driven solutions, the team is taking it one step further by introducing Industry Solution Accelerators. Accelerators are industry focused foundational components that enable ISVs and other solution providers, a way to build solutions that are based on industry standards supported and driven by Microsoft. Along with our Media Accelerator, which you can read about here, we are focused on delivering accelerators for other industries for which you can find more detail in the links below.
 
-## Contents
+## Overview of the Industry Media Accelerator
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+The Dynamics 365 has prioritize going beyond extendible applications and horizontal platform features. We have focused dedicated resources to enable ISVs, Partners and developers alike to rapidly build applications based on Microsoft provided and supported industry focused accelerators.
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+The Dynamics 365 Health Accelerator is the first of such accelerators and is based on the FHIR HL7 3.0 specification. The Health Accelerator is a collaborative effort including but not limited to, the Dynamics 365 CDS, ISV Success, CDM, Connector and Analytic teams, the Microsoft Health Vertical, Marketing, OCP and industry ISVs, SIs and Partners. [Learn more](https://community.dynamics.com/365/b/healthaccelerator)
 
-## Prerequisites
+## Releases
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+Click "release" tab on the top or click this [link](https://github.com/microsoft/Industry-Accelerator-Media/releases) to navigate to latest release details and download the latest release assets.
 
-## Setup
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+## Get to know about other Industry Accelerators
 
-## Runnning the sample
-
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
-
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+| Industry Accelerators | Description |
+|-------------|----------------------|
+| [Automotive Accelerator](https://github.com/Microsoft/Industry-Accelerator-Automotive) |  Rapidly develop test drives, vehicle specifications and service appointment scheduling solutions. The Microsoft Auto Accelerator empowers customers and users to schedule appointments and services facilitated through proactive communications. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+| [Financial Services Accelerator](https://github.com/Microsoft/Industry-Accelerator-FinancialServices) | Rapidly develop Banking solutions using entities such as loan, mortgage, referrals, branch, collateral, deal, limit, facilities, and more. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+| [Higher Education Accelerator](https://github.com/Microsoft/Industry-Accelerator-Education) |  Rapidly build solutions for Higher Education using entities such as student, course, and test scores.  Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+| [Nonprofit Accelerator](https://github.com/Microsoft/Industry-Accelerator-Nonprofit) |  Rapidly develop nonprofit fundraising, grant management, and programmatic measurement solutions. The Microsoft Nonprofit Accelerator is set of capabilities and standards to help drive greater impact. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+| [Manufacturing Accelerator](https://github.com/Microsoft/Industry-Accelerator-Manufacturing) |  Rapidly develop solutions that  empower customers and users to qualify new suppliers, onboard suppliers for API data integration, and manage the ongoing supplier relationships. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 
 ## Contributing
 
+* [CLA](#Contributor-License-Agreement-(CLA))
+
+## Contributor License Agreement (CLA)
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
 provided by the bot. You will only need to do this once across all repos using our CLA.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## License
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the MIT License.
+This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
