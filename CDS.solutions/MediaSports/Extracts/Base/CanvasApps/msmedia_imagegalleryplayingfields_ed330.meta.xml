@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msmedia_imagegalleryplayingfields_ed330</Name>
+  <AppVersion>2020-05-05T22:16:44Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20023.8.0</CreatedByClientVersion>
+  <MinClientVersion>3.20023.8.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"0a7f9eb4-405e-45bc-9d31-28ae56a199c1","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20023.8","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>Image Gallery - Playing Fields</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Playing Fields":{"entitySetName":"msmedia_playingfields","logicalName":"msmedia_playingfield"},"Playing Field Images":{"entitySetName":"msmedia_playingfieldimages","logicalName":"msmedia_playingfieldimage"}}}}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"msmedia_playingfield","componenttype":1},{"logicalname":"msmedia_playingfieldimage","componenttype":1}]}</CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/msmedia_imagegalleryplayingfields_ed330_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msmedia_imagegalleryplayingfields_ed330_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

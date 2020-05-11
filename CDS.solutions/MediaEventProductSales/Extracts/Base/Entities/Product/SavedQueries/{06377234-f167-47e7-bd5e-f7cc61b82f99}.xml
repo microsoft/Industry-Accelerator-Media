@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{06377234-f167-47e7-bd5e-f7cc61b82f99}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="productid">
+          <cell name="name" width="200" />
+          <cell name="price" width="100" />
+          <cell name="msmedia_season" width="100" />
+          <cell name="msmedia_availablequantity" width="125" />
+          <cell name="msmedia_soldquantity" width="100" />
+          <cell name="hierarchypath" width="150" />
+          <cell name="producttypecode" width="150" />
+          <cell name="subjectid" width="100" />
+          <cell name="productstructure" width="0" ishidden="1" />
+          <cell name="statecode" width="0" ishidden="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="product">
+          <attribute name="name" />
+          <attribute name="producttypecode" />
+          <filter type="and">
+            <filter type="or">
+              <condition attribute="statecode" operator="eq" value="0" />
+              <condition attribute="statecode" operator="eq" value="3" />
+            </filter>
+            <condition attribute="productstructure" operator="eq" value="3" />
+          </filter>
+          <attribute name="subjectid" />
+          <attribute name="productid" />
+          <attribute name="productstructure" />
+          <attribute name="iskit" />
+          <attribute name="parentproductid" />
+          <attribute name="statecode" />
+          <attribute name="price" />
+          <attribute name="msmedia_season" />
+          <attribute name="msmedia_availablequantity" />
+          <attribute name="msmedia_soldquantity" />
+          <attribute name="hierarchypath" />
+          <order attribute="hierarchypath" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Product Bundles" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about product bundles which are in active state." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

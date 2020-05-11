@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7fc7df2e-c1a8-491f-80de-22fc17b96e9a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_admissionid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_mediavenue" width="150" />
+          <cell name="msmedia_eventattraction" width="150" />
+          <cell name="msmedia_validfrom" width="100" />
+          <cell name="msmedia_validto" width="100" />
+          <cell name="msmedia_seat" width="100" />
+          <cell name="msmedia_seatstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_admission">
+          <attribute name="msmedia_admissionid" />
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_eventattraction" />
+          <attribute name="msmedia_seat" />
+          <attribute name="msmedia_seatstatus" />
+          <attribute name="msmedia_mediavenue" />
+          <attribute name="msmedia_validfrom" />
+          <attribute name="msmedia_validto" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Admissions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b5f9695f-915f-4ab4-8871-f00602ebab4e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_mediaeventid">
+          <cell name="msmedia_name" width="192" />
+          <cell name="msmedia_eventtype" width="100" />
+          <cell name="msmedia_season" width="100" />
+          <cell name="msmedia_startdate" width="100" />
+          <cell name="msmedia_capacity" width="100" />
+          <cell name="msmedia_issoldout" width="100" />
+          <cell name="msmedia_numberregistered" width="100" />
+          <cell name="msmedia_numberattended" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_mediaevent">
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_startdate" />
+          <attribute name="msmedia_eventtype" />
+          <attribute name="msmedia_mediaeventid" />
+          <attribute name="msmedia_issoldout" />
+          <attribute name="msmedia_capacity" />
+          <attribute name="msmedia_numberregistered" />
+          <attribute name="msmedia_numberattended" />
+          <attribute name="msmedia_season" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Media Events" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

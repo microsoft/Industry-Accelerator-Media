@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.16248" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MediaCommon</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Media Common" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.27</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365media</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Media" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmedia</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76686</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="msmedia_businessrole" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_externalguestid" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_guest" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_guestcategory" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_interest" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_loyaltylevel" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_loyaltyprogram" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_loyaltyprogramaccount" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediaasset" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediaassetcategory" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_region" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_season" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_talent" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_threedigitzipcode" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_tma" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_ageranges" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_assettype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_businessroles" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_contactroles" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_educationtypes" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_eventformat" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_externalguestsources" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_fixedguestlevel" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_providerroles" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_unittype" behavior="0" />
+      <RootComponent type="29" id="{78341b90-e983-ea11-a812-000d3a33f47e}" behavior="0" />
+      <RootComponent type="29" id="{a27d563a-7e7a-ea11-a812-000d3a3b478b}" behavior="0" />
+      <RootComponent type="60" id="{11fab6fd-bb82-ea11-a812-000d3a33f47e}" behavior="0" />
+      <RootComponent type="60" id="{165a28fe-e798-4086-ae69-3ef841d84590}" behavior="0" />
+      <RootComponent type="60" id="{385b117e-7854-4089-ab60-b66b20771517}" behavior="0" />
+      <RootComponent type="60" id="{4dc13cd6-20a2-44b0-b81f-9ced329ab051}" behavior="0" />
+      <RootComponent type="60" id="{79e7f9a3-5278-ea11-a811-000d3a33f47e}" behavior="0" />
+      <RootComponent type="60" id="{c547bc21-d324-494d-ba2c-63591d793e57}" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_GuestCategoriesSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_GuestsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_LoyaltyProgramsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_MediaAssetCategorySVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_MediaAssetsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_RegionsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_SeasonsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_TalentsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_TMAsSVG" behavior="0" />
+      <RootComponent type="431" schemaName="msmedia_talent msmedia_primaryimage" behavior="0" />
+      <RootComponent type="432" schemaName="msmedia_talent" behavior="0" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>

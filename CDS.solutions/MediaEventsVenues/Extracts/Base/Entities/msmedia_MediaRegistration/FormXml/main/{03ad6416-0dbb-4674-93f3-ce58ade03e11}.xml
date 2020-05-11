@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{03ad6416-0dbb-4674-93f3-ce58ade03e11}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d7071ef2-eb7d-417e-a084-16fec5fadc69}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6426cc12-af69-4b80-b82e-a62d5ec7a54b}" columns="11" name="GeneralSection1">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3df355cc-89cf-47d2-ac3a-7fb8d02afb96}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Guest" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_guest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_guest" disabled="false" />
+                      </cell>
+                      <cell id="{f29c80ec-9b19-447f-b494-b79ff1533591}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Status" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_registrationstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_registrationstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9d1496a-ba5c-a679-3411-da425a184e62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_contact" disabled="false" />
+                      </cell>
+                      <cell id="{bb2847ef-8bcf-4369-97dd-f08950b3a6b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Order #" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_externalordernumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_externalordernumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b7f448c-9c4d-44ad-89fe-c8687bf48a54}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Communications Method" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_communicationsmethod" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_communicationsmethod" disabled="false" />
+                      </cell>
+                      <cell id="{dac0ed36-4f57-4390-8e42-7323f6c920ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Table #" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_tablenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_tablenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d0a0858-6a55-49b5-9547-2cfcfc554583}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invitation Email Address" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_invitationemailaddress" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="msmedia_invitationemailaddress" disabled="false" />
+                      </cell>
+                      <cell id="{755b9a3f-4d16-4570-b9fc-595f5ca11a3a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Tickets Sent" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_ticketssent" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_ticketssent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{673f6be0-733d-4d13-88aa-b15f492d2007}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invitation Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_invitationphonenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_invitationphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{95b2db24-31d1-643d-06c9-827a879b7789}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Anonymous" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_isanonymous" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_isanonymous" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{178b8abd-e0d2-45e6-a787-049823c6260c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invitation Sent On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_invitationsenton" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_invitationsenton" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{23ea2c5c-11a3-48ed-ad12-da6a14a6e522}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{58009a0b-0eca-42ac-8599-1099aef959c9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{a4cb6c6c-941e-43ce-ad51-5dc115d933e0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="GeneralSection2" showlabel="false" showbar="false" locklevel="0" id="{838d8986-9055-5736-4a90-246bda17977e}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="General " languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{04687842-0d02-28d9-4902-351d3db62eda}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Event" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediaevent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediaevent" disabled="false" />
+                      </cell>
+                      <cell id="{00ea4c38-1491-b879-05dc-cbeab6ebe94b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Registered On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_registeredon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msmedia_registeredon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e3bd6e9-3b00-2238-4570-de6988939b07}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Attraction" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_eventattraction" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_eventattraction" disabled="false" />
+                      </cell>
+                      <cell id="{2e6812ee-5170-77a6-da0a-7935cd86ca48}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Updated On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_lastupdatedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msmedia_lastupdatedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{56a7cb57-7778-a88d-6aac-4c238375876a}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{79bab49e-a634-465e-8283-0fb84192fc14}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="MediaRegistrationStatusLogSection" id="77e9b4e7-fade-4161-b880-e4468c27bc74" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Media Registration Status Log" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{2cd8edb1-1cfe-4899-9ba9-bbf5eddb0fe8}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1585075834395" languagecode="1033" />
+                        </labels>
+                        <control id="MediaRegistrationStatusLogSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_mediaregistrationstatuslog</TargetEntityType>
+                            <ViewId>{93C93FD4-F753-4B6D-A3B9-FF0362395D59}</ViewId>
+                            <ViewIds>{93C93FD4-F753-4B6D-A3B9-FF0362395D59}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_MediaRegistrationStatusLog_MediaR</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{63558cf2-bd7b-49ef-8b62-f1a7e2da3cb7}" columns="111">
+        <rows>
+          <row>
+            <cell id="{e4cfb543-c8b1-4bc0-a548-96e9de71be92}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4f0349f9-bdf2-4545-8ef1-c23ec10d9823}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{39156b0e-e455-4c42-07d0-bab49934e16d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <footer id="{a69d4dc4-8b03-4ae4-a10c-cfc325749614}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{99056af4-f75c-460e-953d-6bbb7c3b9298}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d0ce207e-052a-46df-b5f3-644b56bc0aba}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{94724a00-014e-4308-8c5d-b3ffc054b72f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Media Registration Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
