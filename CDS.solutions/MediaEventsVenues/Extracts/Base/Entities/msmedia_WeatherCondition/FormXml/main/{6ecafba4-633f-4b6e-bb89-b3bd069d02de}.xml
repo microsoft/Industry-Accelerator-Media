@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6ecafba4-633f-4b6e-bb89-b3bd069d02de}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab name="GeneralTab" id="{53abe42c-0ebc-ae72-b2c7-d2cecbe09a60}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="GeneralSection1" showlabel="false" showbar="false" locklevel="0" id="{6147a3e4-47de-64c7-2110-8be383aee2ba}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4b239968-ad2a-4a09-b69e-973d75b7d8e1}">
+                        <labels>
+                          <label description="ID" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_id" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_id" />
+                      </cell>
+                      <cell id="{c98e7c57-eede-5e3e-1e21-4389559764eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Event" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediaevent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediaevent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4067bfb-d2c1-4d8e-a35d-ca5a84f5d03c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{15e097bb-3a25-490c-9625-3da024eca06b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3864deee-eab4-4e80-a6dd-0ce24e599296}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_description" disabled="false" uniqueid="{5b63dbd9-89d5-e844-9b21-23c34248d04e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a72cbc9-0af9-42c1-88c9-a99a92cebecc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Observed On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_observedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_observedon" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{a82921e4-9837-4c3a-a0bf-d3910c1bb91b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="GeneralSection2" showlabel="false" showbar="false" locklevel="0" id="{a3a0a596-9649-b126-a464-dd243b72db0d}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{da16c787-e2c9-a57d-b31c-4bdb2c8746dc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Humidity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_humidity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msmedia_humidity" disabled="false" />
+                      </cell>
+                      <cell id="{88b3d5dd-cb5b-057e-7283-0d7650e35ca5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Temperature" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_temperature" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msmedia_temperature" disabled="false" />
+                      </cell>
+                      <cell id="{8191ed81-4626-1a91-b577-d8672025b4dc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wind Direction" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_winddirection" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_winddirection" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41a1c0aa-ae8e-27a8-b293-bc4314016b22}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cloud Cover" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_cloudcover" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_cloudcover" disabled="false" />
+                      </cell>
+                      <cell id="{e8649bc6-8925-9130-3c46-a89a903abbc1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Temperature Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_temperatureunit" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_temperatureunit" disabled="false" />
+                      </cell>
+                      <cell id="{d2914d74-5586-c8c4-b0d8-d9d602d81637}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wind Velocity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_windvelocity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msmedia_windvelocity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e60bd8ba-20be-9c9a-7e2b-366e15760a16}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{ce12aded-e3c5-404c-c7e1-918c7cedbd8e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{3908756b-ea1a-7469-9e35-9d7d04132a8b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wind Velocity Measure" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_windvelocitymeasure" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_windvelocitymeasure" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{040bf937-56c6-41cc-a2f4-cddcb55ad8a4}" columns="111">
+        <rows>
+          <row>
+            <cell id="{47de8890-d773-4428-aec9-580832ebbb06}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9fbb950e-e055-4751-b6dd-7d2b396dcb9d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{807803c0-2a32-2d86-1259-10c307939dc3}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{be7dca37-79e3-46fe-b22a-4506413c2900}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ac1f8511-b9d2-4fc7-b14b-67b6beb5739a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ffad8947-7e57-4282-9cd5-63bde5c08d27}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8d552d42-f6aa-4b87-b401-c8c6597321cd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Weather Condition Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

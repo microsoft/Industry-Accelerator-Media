@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msmedia_SportsManagement</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="msmedia_mediapp" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Sport Management" />
+      </Titles>
+      <Group Id="NewGroup_f7b5be55" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Analytics" />
+        </Titles>
+        <SubArea Id="NewSubArea_020aab83" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="d1f511a8-1ead-e211-bb72-00155da9a201" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_26cbb0e4" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Sports Administration" />
+        </Titles>
+        <SubArea Id="NewSubArea_15048288" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_league" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2600d645" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_sportsteam" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Teams" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_485a99e3" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_sportsplayer" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Players" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_6856c03" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_sportingconference" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Conferences" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_69528a6c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_sportingdivision" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Divisons" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_aa1d2b02" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_season" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_14675a36" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_round" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_de347977" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Events &amp; Venues" />
+        </Titles>
+        <SubArea Id="NewSubArea_563dcf55" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_mediaevent" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Events" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_6993ed18" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_mediavenue" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Venues" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_82226429" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_playingfield" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="msmedia_administration" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Customers" />
+        </Titles>
+        <SubArea Id="NewSubArea_a45eef8c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_guest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Fans &amp; Guests" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_04c62f62" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_loyaltyprogram" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_69c7ef28" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_616f5fab" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_14c14ea7" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Activities" />
+        </Titles>
+        <SubArea Id="NewSubArea_65aa0fe2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="activitypointer" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Sports Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

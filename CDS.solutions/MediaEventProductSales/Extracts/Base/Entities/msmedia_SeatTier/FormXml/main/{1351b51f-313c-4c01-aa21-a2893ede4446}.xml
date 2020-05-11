@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1351b51f-313c-4c01-aa21-a2893ede4446}</formid>
+    <IntroducedVersion>1.0.0.21</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{a1e3a3be-11de-41a6-8f36-302957cf4977}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1b7673d5-921e-40fb-a26b-470a7f5d8d25}" name="GeneralSection">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{79932681-e55a-4e48-a5ac-cd211f635c33}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8057da51-6fe4-4b49-882d-0e014f97c789}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Seat Map" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_seatmap" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_seatmap" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e62fb4c-4585-41b9-9593-bd961241a5e9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_number" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msmedia_number" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d707dd2-7ce6-4a39-832b-3c6cad2d3a47}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2aaead78-d47c-43ba-9583-ad0c47226ecc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Number of Seats" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_totalnumberofseats" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msmedia_totalnumberofseats" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93d11a77-6432-4f91-8152-6e63a9c82666}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="RelatedSeatsSection" id="4ced479a-6123-4b45-aea8-624103f2f167" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Related Seats" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{6092ad1d-a23f-48be-95b8-e497bbca9620}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Related Seats Subgrid" languagecode="1033" />
+                        </labels>
+                        <control id="sg_seats" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_seat</TargetEntityType>
+                            <ViewId>{B5BCFA7D-6DB5-42EB-B4AD-CA3A5B4FDF81}</ViewId>
+                            <ViewIds>{B5BCFA7D-6DB5-42EB-B4AD-CA3A5B4FDF81}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_Seat_SeatTier_msmedia_SeatTier</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d30e7905-40e5-4677-8729-6d001830c1aa}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{47dd472e-20fd-49ea-81ef-bef2d150ee52}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2d89b1aa-6199-4f36-bb69-6bfaf21c82e8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{19a1da87-60d5-4e7c-978f-5bd0da125d00}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d9715ce1-2272-4c6f-8a37-2755efbc55d9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{65949dbf-5ab3-4dd7-838e-5ff5acbaf5e9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{09b07c95-d8c5-4d9b-8517-70d56c44e657}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cd647be0-acb8-4baa-97d5-7e9b7ae86ddf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Seat Tier Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

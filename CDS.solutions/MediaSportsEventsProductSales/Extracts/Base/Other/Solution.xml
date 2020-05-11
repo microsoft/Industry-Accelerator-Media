@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.16248" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MediaSportsEventsProductSales</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Media Sports Events Product Sales" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365media</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Media" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmedia</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76686</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msmedia_mediaevent" behavior="2" />
+      <RootComponent type="60" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="0" type="1" schemaName="msmedia_mediaevent" displayName="Media Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="msmedia_talent" displayName="Talent" solution="MediaCommon (1.0.0.26)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msmedia_eventattraction" displayName="Event Attraction" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="msmedia_mediavenue" displayName="Media Venue" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="msmedia_concessionpartner" displayName="Concession Partner" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="msmedia_sportsplayer" displayName="Sports Player" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="1" schemaName="msmedia_weathercondition" displayName="Weather Condition" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="msmedia_attractionschedule" displayName="Attraction Schedule" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="msmedia_eventschedule" displayName="Event Schedule" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="2" schemaName="msmedia_availableformats" displayName="Available Formats" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="2" schemaName="msmedia_numberattended" displayName="Number Attended" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="2" schemaName="msmedia_eventtopic" displayName="Event Topic" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="2" schemaName="msmedia_parentdivision" displayName="Parent Division" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="2" schemaName="msmedia_agerestrictions" displayName="Age Restrictions" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="2" schemaName="msmedia_eventsubtitle" displayName="Event Subtitle" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="2" schemaName="msmedia_ticketingrequired" displayName="Ticketing Required" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="2" schemaName="msmedia_description" displayName="Description" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="2" schemaName="msmedia_startdate" displayName="Start Date" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="2" schemaName="msmedia_registrationopenson" displayName="Registration Opens On" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="2" schemaName="msmedia_theme" displayName="Theme" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="2" schemaName="msmedia_hometeamscore" displayName="Home Team Score" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="msmedia_timezone" displayName="Time Zone" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="2" schemaName="msmedia_visitingteam" displayName="Visiting Team" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="2" schemaName="msmedia_totalcost" displayName="Total Cost" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="msmedia_numberregistered" displayName="Number Registered" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="msmedia_seatproductsautocreated" displayName="Seat Products Auto-Created" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="msmedia_totaladmissionsautocreated" displayName="Total Admissions Auto-Created" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="msmedia_parentevent" displayName="Parent Event" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="2" schemaName="msmedia_primaryperformer" displayName="Primary Performer" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="msmedia_soldouton" displayName="Sold Out On" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="2" schemaName="msmedia_registrationurl" displayName="Registration URL" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="msmedia_gameprogress" displayName="Game Progress" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="2" schemaName="msmedia_producer" displayName="Producer " parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="2" schemaName="msmedia_duration" displayName="Duration" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="2" schemaName="msmedia_scorer" displayName="Scorer" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="2" schemaName="msmedia_eventtype" displayName="Event Type" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="2" schemaName="msmedia_eventurl" displayName="Event URL" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="2" schemaName="msmedia_earlybirdclosuredate" displayName="Early Bird Closure Date" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="2" schemaName="msmedia_season" displayName="Season" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="2" schemaName="msmedia_seriescollectionname" displayName="Series / Collection Name" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="msmedia_durationunit" displayName="Duration Unit" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="2" schemaName="msmedia_lastupdated" displayName="Last Updated" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="2" schemaName="msmedia_parentleague" displayName="Parent League" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="2" schemaName="msmedia_eventschedule" displayName="Event Schedule" parentSchemaName="msmedia_attractionschedule" parentDisplayName="Attraction Schedule" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="2" schemaName="msmedia_totalprofit" displayName="Total Profit" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="2" schemaName="msmedia_issoldout" displayName="Is Sold Out" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="2" schemaName="msmedia_enddate" displayName="End Date" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="msmedia_eventnumber" displayName="Event Number" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="2" schemaName="msmedia_registrationcloseson" displayName="Registration Closes On" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="msmedia_visitingteamscore" displayName="Visiting Team Score" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="msmedia_hometeam" displayName="Home Team" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="2" schemaName="msmedia_admissionsautocreated" displayName="Admissions Auto-Created" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="2" schemaName="msmedia_directions" displayName="Directions" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="2" schemaName="msmedia_mediavenueseatmap" displayName="Media Venue Seat Map" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="2" schemaName="msmedia_primaryvenue" displayName="Primary Venue" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="2" schemaName="msmedia_registrationisrequired" displayName="Registration Is Required" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="2" schemaName="msmedia_barcodeenabled" displayName="Barcode Enabled" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="2" schemaName="msmedia_parentconference" displayName="Parent Conference" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="2" schemaName="msmedia_round" displayName="Round" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="2" schemaName="msmedia_dresscode" displayName="Dress Code" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="2" schemaName="msmedia_totalseatproductsautocreated" displayName="Total Seat Products Auto-Created" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="2" schemaName="msmedia_revenuegenerated" displayName="Revenue Generated" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="2" schemaName="msmedia_seatingoptions" displayName="Seating Options" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="2" schemaName="msmedia_capacity" displayName="Capacity" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="10" schemaName="msmedia_MediaEvent_ParentLeague_msmedia_L" displayName="msmedia_MediaEvent_ParentLeague_msmedia_L" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="10" schemaName="msmedia_MediaEvent_MediaVenueSeatMap_msme" displayName="msmedia_MediaEvent_MediaVenueSeatMap_msme" parentSchemaName="msmedia_mediavenueseatmap" parentDisplayName="Media Venue Seat Map" solution="Active" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="10" schemaName="msmedia_MediaEvent_Season_msmedia_Season" displayName="msmedia_MediaEvent_Season_msmedia_Season" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="10" schemaName="msmedia_MediaEvent_msmedia_MediaVenue_msm" displayName="msmedia_MediaEvent_msmedia_MediaVenue_msm" parentSchemaName="msmedia_mediavenue" parentDisplayName="Media Venue" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="10" schemaName="msmedia_EventAttraction_MediaEvent_msmedi" displayName="msmedia_EventAttraction_MediaEvent_msmedi" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="10" schemaName="msmedia_MediaEvent_Round_msmedia_Round" displayName="msmedia_MediaEvent_Round_msmedia_Round" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="10" schemaName="msmedia_MediaEvent_PrimaryVenue_msmedia_M" displayName="msmedia_MediaEvent_PrimaryVenue_msmedia_M" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="10" schemaName="msmedia_MediaEvent_Scorer_msmedia_SportsP" displayName="msmedia_MediaEvent_Scorer_msmedia_SportsP" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="10" schemaName="msmedia_MediaEvent_ParentEvent_msmedia_Me" displayName="msmedia_MediaEvent_ParentEvent_msmedia_Me" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="10" schemaName="msmedia_WeatherCondition_MediaEvent_msmed" displayName="msmedia_WeatherCondition_MediaEvent_msmed" parentSchemaName="msmedia_weathercondition" parentDisplayName="Weather Condition" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="10" schemaName="msmedia_MediaEvent_VisitingTeam_msmedia_S" displayName="msmedia_MediaEvent_VisitingTeam_msmedia_S" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="10" schemaName="msmedia_MediaEvent_ParentConference_msmed" displayName="msmedia_MediaEvent_ParentConference_msmed" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="10" schemaName="msmedia_MediaEvent_msmedia_SportsPlayer_Referee" displayName="msmedia_MediaEvent_msmedia_SportsPlayer_Referee" parentSchemaName="msmedia_sportsplayer" parentDisplayName="Sports Player" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="10" schemaName="msmedia_ConcessionPartner_MediaEvent_msme" displayName="msmedia_ConcessionPartner_MediaEvent_msme" parentSchemaName="msmedia_concessionpartner" parentDisplayName="Concession Partner" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="10" schemaName="msmedia_MediaEvent_PrimaryPerformer_msmed" displayName="msmedia_MediaEvent_PrimaryPerformer_msmed" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="10" schemaName="msmedia_MediaEvent_HomeTeam_msmedia_Sport" displayName="msmedia_MediaEvent_HomeTeam_msmedia_Sport" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="10" schemaName="msmedia_MediaEvent_msmedia_Talent_Performers" displayName="msmedia_MediaEvent_msmedia_Talent_Performers" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="10" schemaName="msmedia_MediaEvent_ParentDivision_msmedia" displayName="msmedia_MediaEvent_ParentDivision_msmedia" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaSports (1.0.0.22)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="10" schemaName="msmedia_MediaEvent_Producer_Account" displayName="msmedia_MediaEvent_Producer_Account" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="26" schemaName="Active Event Attractions" displayName="Active Event Attractions" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (1.0.0.58)" id="{858b6702-ea38-4871-947c-ef40ff30ba53}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="26" schemaName="Media Venue Lookup View" displayName="Media Venue Lookup View" parentSchemaName="msmedia_mediavenue" parentDisplayName="Media Venue" solution="MediaEventsVenues (1.0.0.58)" id="{a12deb6b-1d32-459e-8fa5-e990c16d7196}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="26" schemaName="Active Weather Conditions" displayName="Active Weather Conditions" parentSchemaName="msmedia_weathercondition" parentDisplayName="Weather Condition" solution="MediaEventsVenues (1.0.0.58)" id="{60b7ddfa-2e10-47a3-91a9-7568135e316a}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="26" schemaName="Active Media Venues" displayName="Active Media Venues" parentSchemaName="msmedia_mediavenue" parentDisplayName="Media Venue" solution="MediaEventsVenues (1.0.0.58)" id="{c19ccd30-889d-41e8-aec5-fce77d28b3d7}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="26" schemaName="Active Talent" displayName="Active Talent" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (1.0.0.26)" id="{5a74ff21-f958-4abc-a97b-d5248ed9573b}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="26" schemaName="Active Media Events" displayName="Active Media Events" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (1.0.0.58)" id="{b5f9695f-915f-4ab4-8871-f00602ebab4e}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="26" schemaName="Active Sports Players" displayName="Active Sports Players" parentSchemaName="msmedia_sportsplayer" parentDisplayName="Sports Player" solution="MediaSports (1.0.0.22)" id="{85801c94-b0f2-43d0-93d1-1dabeac7c261}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="26" schemaName="Active Concession Partners" displayName="Active Concession Partners" parentSchemaName="msmedia_concessionpartner" parentDisplayName="Concession Partner" solution="MediaEventsVenues (1.0.0.58)" id="{07cd8f75-b33e-4bb9-bd60-4c767eb88575}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="26" schemaName="Active Attraction Schedules" displayName="Active Attraction Schedules" parentSchemaName="msmedia_attractionschedule" parentDisplayName="Attraction Schedule" solution="MediaEventsVenues (1.0.0.58)" id="{59fdd3a9-1371-4674-bfca-d574693b260b}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="26" schemaName="Active Event Schedules" displayName="Active Event Schedules" parentSchemaName="msmedia_eventschedule" parentDisplayName="Event Schedule" solution="MediaEventsVenues (1.0.0.58)" id="{f1ba6f90-3d6a-4b3b-bf98-ffe443fb2c75}" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2003.5017)" />
+        <Dependent key="2" type="60" displayName="Media Event Sports Main Form" parentDisplayName="Media Event" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

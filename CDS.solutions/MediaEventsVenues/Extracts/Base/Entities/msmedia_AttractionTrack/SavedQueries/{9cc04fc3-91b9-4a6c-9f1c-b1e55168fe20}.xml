@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9cc04fc3-91b9-4a6c-9f1c-b1e55168fe20}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_attractiontrackid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_mediaevent" width="118" />
+          <cell name="msmedia_ticketingrequired" width="154" />
+          <cell name="msmedia_description" width="298" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_attractiontrack">
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_mediaevent" />
+          <attribute name="msmedia_description" />
+          <attribute name="msmedia_ticketingrequired" />
+          <attribute name="msmedia_attractiontrackid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Attraction Tracks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

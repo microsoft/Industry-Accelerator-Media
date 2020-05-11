@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{97460a5d-9980-ea11-a812-000d3a5bf119}" Name="BR -&gt; Product -&gt; Lock Starting Qty" Description="Locks starting quantity field when product type is ticket. If product type isn't ticket, starting qty will be locked when its value is greater than 0." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BR-Product-LockStartingQty-97460A5D-9980-EA11-A812-000D3A5BF119.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.29</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Product</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="BR -&gt; Product -&gt; Lock Starting Qty" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Locks starting quantity field when product type is ticket. If product type isn't ticket, starting qty will be locked when its value is greater than 0." />
+  </Descriptions>
+</Workflow>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>msmedia_guest</EntitySource>
+    <EntityTarget>lead</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>msmedia_emailaddress</AttributeSource>
+        <AttributeTarget>emailaddress1</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>msmedia_name</AttributeSource>
+        <AttributeTarget>subject</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

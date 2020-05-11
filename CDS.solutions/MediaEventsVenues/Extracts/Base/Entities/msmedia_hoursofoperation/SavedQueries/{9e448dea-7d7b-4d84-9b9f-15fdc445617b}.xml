@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9e448dea-7d7b-4d84-9b9f-15fdc445617b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_hoursofoperationid">
+          <cell name="msmedia_name" width="205" />
+          <cell name="msmedia_concessionstand" width="137" />
+          <cell name="msmedia_opensat" width="100" />
+          <cell name="msmedia_opensatamorpm" width="100" />
+          <cell name="msmedia_closesat" width="100" />
+          <cell name="msmedia_closesatamorpm" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_hoursofoperation">
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_opensat" />
+          <attribute name="msmedia_closesat" />
+          <attribute name="msmedia_concessionstand" />
+          <attribute name="msmedia_opensatamorpm" />
+          <attribute name="msmedia_closesatamorpm" />
+          <attribute name="msmedia_hoursofoperationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Hours of Operation" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

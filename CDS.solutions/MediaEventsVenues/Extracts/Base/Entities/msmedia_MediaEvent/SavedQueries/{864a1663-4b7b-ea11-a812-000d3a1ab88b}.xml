@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{864a1663-4b7b-ea11-a812-000d3a1ab88b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_mediaeventid">
+          <cell name="msmedia_name" width="192" />
+          <cell name="msmedia_eventtype" width="100" />
+          <cell name="msmedia_startdate" width="100" />
+          <cell name="msmedia_producer" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_mediaevent">
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_startdate" />
+          <attribute name="msmedia_eventtype" />
+          <attribute name="msmedia_mediaeventid" />
+          <attribute name="msmedia_producer" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.19</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Media Events (Talent)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

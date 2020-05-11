@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{25d8aa6c-9ace-474a-b088-af403b5508ee}</formid>
+    <IntroducedVersion>1.0.0.5</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{e30ade4b-6e35-4980-a56a-6415d5673db3}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4da8658b-1e85-401f-be59-0a223e991a7b}" name="GeneralSection" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1af55631-54e0-474e-84fa-3fc91b93b9ae}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{2da08f6b-ed81-4b76-93bc-968d4485c1f1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Image" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_image" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_image" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af3954a0-4437-48a8-be69-66cfbba0774b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nickname" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_nickname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_nickname" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{4ad15d6b-1de3-4226-8b1b-0967b5e08b7b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d124ded4-9e67-4bab-b705-9f264247d6eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Weight" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_weight" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_weight" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{893dab8a-7e34-4914-abf0-8a0e09d1f383}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b1b5693-ef93-4579-98fe-57ac884cdcec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Height" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_height" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_height" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{2d5fa09b-8c0d-40bd-91e7-eda68eef1006}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5dafc2d3-108d-4ec4-a352-86c952d5bd2c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gender" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_gender" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_gender" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{6529dcd2-4708-461c-8b93-11a27d0c850c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3304da1-1910-425a-abb7-99c7b6450868}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_dateofbirth" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_dateofbirth" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{d033c8dc-632d-4cd8-829d-b6dda45f9d1b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ec9f609-e456-44c6-a701-8ec09b673bec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Home Town" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_hometown" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_hometown" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{25bf9987-97b7-4385-a7fe-69f2fd0748a9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0f31b846-bdfc-463d-b46d-f361b60e1f95}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Team" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_currentteam" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_currentteam" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{f1b4fe85-ea1b-40f7-8a26-541745e7017d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc6f1b7b-4b25-4db6-8b02-be2c3de7d902}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Player Position" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_playerposition" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_playerposition" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{2d1e6730-514f-4d0c-b006-92253d342a4a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d7b5e9b-bc26-430f-b8b7-3d249d4bf164}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Player Role" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_playerrole" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_playerrole" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{e2050e8a-36d2-43d4-9e9e-94383d7131c5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65813cce-efec-41d8-89ae-7ba50664a83d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lineup Slot" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_lineupslot" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_lineupslot" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{de94c177-11eb-4298-a175-3925b76c72f9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d525a01-51ce-40d3-8d52-356a14a65cd9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Roster Status" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_rosterstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_rosterstatus" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{1ebca2ae-af9b-4c56-b612-c62207a18674}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{507e6049-b69a-4987-b2e5-394fdd0040d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Uniform Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_uniformnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_uniformnumber" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{b805373e-82e9-4e33-9d05-2e15c4be9aea}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e92ba90a-c254-4867-a754-63caaed42a7b}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{27f4548d-e5b4-478a-84cb-9e71d03e94ac}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="TeamHistoryTab" id="9e4ce58d-4869-4202-bdec-d99bcf3c24b9" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Team History" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="TeamHistorySection" id="39d407e6-df9a-4d25-ad4a-62d62e07e110" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Team History" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{d105fa65-d396-4122-80f8-61ae8bf98019}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1586534387390" languagecode="1033" />
+                        </labels>
+                        <control id="SportsPlayerTeamHistorySubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_sportsplayerteamhistory</TargetEntityType>
+                            <ViewId>{4B7EB8C0-5584-49A3-9E93-CBA594075ECD}</ViewId>
+                            <ViewIds>{4B7EB8C0-5584-49A3-9E93-CBA594075ECD}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_SportsPlayerTeamHistory_SportsPla</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="MediaEventsTab" id="4f2c0b9f-375b-47d3-be80-a4205f3cbea2" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Media Events" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="MediaEventsSection" id="71337451-acf6-483b-a00f-ea7595ed3f2a" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Media Events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{a6cf6660-15ca-4718-81e6-bb458f63660d}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1586534459230" languagecode="1033" />
+                        </labels>
+                        <control id="MediaEventsSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_mediaevent</TargetEntityType>
+                            <ViewId>{B5F9695F-915F-4AB4-8871-F00602EBAB4E}</ViewId>
+                            <ViewIds>{B5F9695F-915F-4AB4-8871-F00602EBAB4E}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_MediaEvent_msmedia_SportsPlayer_Referee</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="SportsPlayerImagesTab" id="32a523b4-3b30-4b04-9471-5b72e5d7cd5e" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Images" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="SportsPlayerImagesSection" id="1409f7e6-d75a-46b4-a09d-e522872c6495" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Sports Player Images" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{15f3264b-355c-42cd-be66-619a92082b29}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1586534495231" languagecode="1033" />
+                        </labels>
+                        <control id="SportsPlayerImagesSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_sportsplayerimage</TargetEntityType>
+                            <ViewId>{E3B886E5-644A-401F-B903-87D0BF8068CA}</ViewId>
+                            <ViewIds>{E3B886E5-644A-401F-B903-87D0BF8068CA}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_SportsPlayerImage_SportsPlayer_ms</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ImagesSection1" showlabel="false" showbar="false" locklevel="0" id="{637661be-1ba1-2b85-74c7-3c5b3440730a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a3594b8b-01c1-74d2-989c-4372865064dc}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Home Town" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_hometown" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_hometown" disabled="false" uniqueid="{322a1726-7518-0d70-7c95-0eccd701b71b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{cedab855-11d8-46a5-bcff-a0abc8f0e018}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8560e256-0e2f-41c1-8f35-5e76f071c8f4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7679f5a6-0787-4316-868d-967cb6d78eec}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1e1fa814-1ef9-4cf2-881e-865ab437b700}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8bf3b5f3-79f9-43af-8e69-be0294864255}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8bce78c7-6daa-4e52-8d82-1a1671168aaa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{874d53b4-f6da-469d-82bf-34b1d8fb6319}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5251c2ba-a7b6-413d-ac67-f24ea45311a7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{322a1726-7518-0d70-7c95-0eccd701b71b}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msmedia_hometown</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>msmedia_hometown</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Sports Player</entityName>
+              <appName static="true" type="SingleLine.Text">msmedia_imagegallerysportsplayer_9a973</appName>
+              <appId static="true" type="SingleLine.Text">d28cb8b8-55af-47ea-ba70-01164b83ac76</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>msmedia_hometown</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Sports Player</entityName>
+              <appName static="true" type="SingleLine.Text">msmedia_imagegallerysportsplayer_9a973</appName>
+              <appId static="true" type="SingleLine.Text">d28cb8b8-55af-47ea-ba70-01164b83ac76</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>msmedia_hometown</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Sports Player</entityName>
+              <appName static="true" type="SingleLine.Text">msmedia_imagegallerysportsplayer_9a973</appName>
+              <appId static="true" type="SingleLine.Text">d28cb8b8-55af-47ea-ba70-01164b83ac76</appId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sports Player Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
