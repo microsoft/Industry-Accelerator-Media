@@ -18,6 +18,7 @@
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0.0.53</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>msmedia_MediaRegistration</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="WF -&gt; Media Registration -&gt; Auto-Create Status Log" />

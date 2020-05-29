@@ -494,10 +494,10 @@
                     <Sequence DisplayName="SetVisibilityStep26: Show Event Attraction">
                       <mcwc:SetVisibility ControlId="msmedia_attraction" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
                     </Sequence>
-                    <Sequence DisplayName="SetFieldRequiredLevelStep27: Require Event Attraction">
+                    <Sequence DisplayName="SetFieldRequiredLevelStep27: Don't require Event Attraction">
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
-                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_attraction" ControlType="standard" DisplayName="SetFieldRequiredLevelStep27" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_attraction" ControlType="standard" DisplayName="SetFieldRequiredLevelStep27" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
                     </Sequence>
                     <Sequence DisplayName="SetVisibilityStep28: Show Media Venue">
                       <mcwc:SetVisibility ControlId="msmedia_mediavenue" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />

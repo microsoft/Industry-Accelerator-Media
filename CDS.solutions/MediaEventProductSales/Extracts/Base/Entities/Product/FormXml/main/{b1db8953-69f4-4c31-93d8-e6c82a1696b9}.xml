@@ -635,19 +635,10 @@
                         </labels>
                         <control id="msmedia_image" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_image" disabled="false" />
                       </cell>
-                      <cell showlabel="false" locklevel="0" id="{ab163cd1-47f8-4fc3-a291-afb0dd6d8860}" rowspan="1" colspan="1">
+                      <cell showlabel="true" locklevel="0" id="{fa638e3b-2af3-4630-b520-e6842dda8825}">
                         <labels>
-                          <label description="New SG control 1588265617232" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="Subgrid_5" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>msmedia_productimage</TargetEntityType>
-                            <ViewId>{E358B966-1495-4289-B592-A91B1A2C23AE}</ViewId>
-                            <ViewIds>{E358B966-1495-4289-B592-A91B1A2C23AE}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>msmedia_ProductImage_Product_Product</RelationshipName>
-                          </parameters>
-                        </control>
                       </cell>
                     </row>
                     <row>
@@ -656,7 +647,7 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{fa638e3b-2af3-4630-b520-e6842dda8825}">
+                      <cell showlabel="true" locklevel="0" id="{6ce0467c-60b3-4fae-a5cb-4cab63aef5a1}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -1369,8 +1360,7 @@
         </rows>
       </footer>
       <DisplayConditions FallbackForm="true" Order="3">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Everyone />
       </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>

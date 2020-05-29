@@ -672,29 +672,6 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="ImagesSection" showlabel="false" showbar="false" locklevel="0" id="{3430a919-943b-6944-95e1-eba8a3a834ea}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Images" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{73edbf34-5336-4a42-9f09-2bfa8b0fcb4c}" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="New SG control 1585069499263" languagecode="1033" />
-                        </labels>
-                        <control id="ImagesSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>msmedia_mediavenueimage</TargetEntityType>
-                            <ViewId>{120CE7CA-9027-4319-9A8D-577C83AC58B6}</ViewId>
-                            <ViewIds>{120CE7CA-9027-4319-9A8D-577C83AC58B6}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>msmedia_MediaVenueImage_MediaVenue_msmedi</RelationshipName>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
                 <section name="Images Tab_section_2" showlabel="false" showbar="false" locklevel="0" id="{0d15a807-4970-4b36-a769-2acb1ae5aaac}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
                   <labels>
                     <label description="Section" languagecode="1033" />
@@ -738,7 +715,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
