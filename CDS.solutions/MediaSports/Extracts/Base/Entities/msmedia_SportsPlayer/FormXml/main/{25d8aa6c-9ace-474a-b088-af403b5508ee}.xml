@@ -283,29 +283,6 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="SportsPlayerImagesSection" id="1409f7e6-d75a-46b4-a09d-e522872c6495" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Sports Player Images" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{15f3264b-355c-42cd-be66-619a92082b29}" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="New SG control 1586534495231" languagecode="1033" />
-                        </labels>
-                        <control id="SportsPlayerImagesSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>msmedia_sportsplayerimage</TargetEntityType>
-                            <ViewId>{E3B886E5-644A-401F-B903-87D0BF8068CA}</ViewId>
-                            <ViewIds>{E3B886E5-644A-401F-B903-87D0BF8068CA}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>msmedia_SportsPlayerImage_SportsPlayer_ms</RelationshipName>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
                 <section name="ImagesSection1" showlabel="false" showbar="false" locklevel="0" id="{637661be-1ba1-2b85-74c7-3c5b3440730a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Section" languagecode="1033" />
@@ -369,7 +346,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

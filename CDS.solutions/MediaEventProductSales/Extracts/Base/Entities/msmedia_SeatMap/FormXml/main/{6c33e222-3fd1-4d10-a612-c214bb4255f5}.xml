@@ -153,21 +153,36 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell showlabel="false" locklevel="0" id="{1ed07c52-2420-4f5e-af40-f22b4311353d}" rowspan="1" colspan="1">
+                      <cell showlabel="false" locklevel="0" id="{1ed07c52-2420-4f5e-af40-f22b4311353d}" rowspan="6" colspan="1" auto="false">
                         <labels>
                           <label description="New SG control 1588627527404" languagecode="1033" />
                         </labels>
-                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{61e85cec-3a35-9d11-5173-e028e1e6aba1}">
                           <parameters>
                             <TargetEntityType>msmedia_seatsection</TargetEntityType>
                             <ViewId>{5A165EB2-66AA-4ECC-A8AC-CAAC45EC7E7C}</ViewId>
                             <ViewIds>{5A165EB2-66AA-4ECC-A8AC-CAAC45EC7E7C}</ViewIds>
                             <EnableViewPicker>false</EnableViewPicker>
                             <RelationshipName>msmedia_SeatSection_SeatMap_msmedia_SeatM</RelationshipName>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
                           </parameters>
                         </control>
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
                 <section name="SeatMapDetailsSection" showlabel="false" showbar="false" locklevel="0" id="{ccc1d7e9-d209-c15a-6494-28ea4a254a68}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">

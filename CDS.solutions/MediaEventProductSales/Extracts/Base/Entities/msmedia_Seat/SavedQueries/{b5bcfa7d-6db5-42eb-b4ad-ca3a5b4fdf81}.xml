@@ -13,6 +13,7 @@
           <cell name="msmedia_name" width="300" />
           <cell name="msmedia_number" width="100" />
           <cell name="msmedia_seatrow" width="100" />
+          <cell name="a_f3ea9c9cff6d4f29a759d3e87cd17588.msmedia_seatsection" width="100" />
           <cell name="msmedia_isgeneralseating" width="100" />
         </row>
       </grid>
@@ -30,6 +31,9 @@
           <attribute name="msmedia_seatrow" />
           <attribute name="msmedia_number" />
           <attribute name="msmedia_isgeneralseating" />
+          <link-entity alias="a_f3ea9c9cff6d4f29a759d3e87cd17588" name="msmedia_seatrow" to="msmedia_seatrow" from="msmedia_seatrowid" link-type="outer" visible="false">
+            <attribute name="msmedia_seatsection" />
+          </link-entity>
         </entity>
       </fetch>
     </fetchxml>

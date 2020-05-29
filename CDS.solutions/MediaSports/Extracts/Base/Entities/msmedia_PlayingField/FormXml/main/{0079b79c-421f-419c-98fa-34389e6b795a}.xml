@@ -246,29 +246,6 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="ImagesSection" id="5272c279-8b61-4031-a1b3-a050e5be49a6" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Images Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{b79fd8c1-8e1a-4d50-8fca-9173020b1a64}" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="New SG control 1586283448721" languagecode="1033" />
-                        </labels>
-                        <control id="PlayingFieldImagesSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>msmedia_playingfieldimage</TargetEntityType>
-                            <ViewId>{DE63B84E-1BC0-49C8-8E91-9B517705B585}</ViewId>
-                            <ViewIds>{DE63B84E-1BC0-49C8-8E91-9B517705B585}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>msmedia_PlayingFieldImage_PlayingField_ms</RelationshipName>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
                 <section name="GallerySection" showlabel="false" showbar="false" locklevel="0" id="{b1d8855d-2085-db4e-6417-e45dad50d3a1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
                   <labels>
                     <label description="Section" languagecode="1033" />
@@ -332,7 +309,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

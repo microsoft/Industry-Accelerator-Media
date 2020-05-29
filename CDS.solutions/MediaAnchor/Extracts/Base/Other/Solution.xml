@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.16248" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.17162" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>MediaAnchor</UniqueName>
     <LocalizedNames>
-      <LocalizedName description="Media Anchor" languagecode="1033" />
+      <LocalizedName description="Dynamics 365 Media and Communication Solutions" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.2.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>microsoftdynamics365media</UniqueName>
