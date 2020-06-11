@@ -19,17 +19,11 @@ Dynamics 365 announced the Microsoft Power Platform, a connected app platform th
 
 With the Power Platform providing a unified approach to building data driven solutions, the team is taking it one step further by introducing Industry Solution Accelerators. Accelerators are industry focused foundational components that enable ISVs and other solution providers, a way to build solutions that are based on industry standards supported and driven by Microsoft. Along with our Media and Communications Accelerator, which you can read about here, we are focused on delivering accelerators for other industries for which you can find more detail in the links below.
 
-Engage with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. 
-
-Join the [conversation](https://community.dynamics.com/365/industry-accelerators/).
 
 ## Overview of the Media and Communications Accelerator
 
 The  Dynamics 365 Media and Communications Accelerator expands the Common Data Model and Power Platform into the Media & Entertainment industries. The V1 Media and Communications Accelerator includes data entities and attributes that center around the core theme of “Fan & Guest Engagement”. It includes pre-built solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Communications Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
 
-Engage with experts and peers, read blog articles, and find local events within the Media and Communications Accelerator Community. 
-
-Join the [Media and Communications conversation](https://community.dynamics.com/365/industry-accelerators/f/media-and-communications-accelerator-forum).
 
 ## Releases
 
@@ -46,6 +40,14 @@ Click "release" tab on the top or click this [link](https://github.com/microsoft
 | [Education Accelerator](https://github.com/Microsoft/Industry-Accelerator-Education) |  Rapidly build solutions for Education using entities such as student, course, and test scores.  Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 | [Manufacturing Accelerator](https://github.com/Microsoft/Industry-Accelerator-Manufacturing) |  Rapidly develop solutions that  empower customers and users to qualify new suppliers, onboard suppliers for API data integration, and manage the ongoing supplier relationships. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 | [Nonprofit Accelerator](https://github.com/Microsoft/Industry-Accelerator-Nonprofit) |  Rapidly develop nonprofit fundraising, grant management, and programmatic measurement solutions. The Microsoft Nonprofit Accelerator is set of capabilities and standards to help drive greater impact. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+
+## Engage
+
+Connect with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. 
+
+Join the [Industry Accelerator conversation](https://community.dynamics.com/365/industry-accelerators/).
+
+Join the [Media and Communications conversation](https://community.dynamics.com/365/industry-accelerators/f/media-and-communications-accelerator-forum).
 
 ## Contributing
 
