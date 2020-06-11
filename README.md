@@ -25,7 +25,7 @@ Engage with experts and peers, read blog articles, and find local events within 
 
 The  Dynamics 365 Media and Communications Accelerator expands the Common Data Model and Power Platform into the Media & Entertainment industries. The V1 Media and Communications Accelerator includes data entities and attributes that center around the core theme of “Fan & Guest Engagement”. It includes pre-built solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Communications Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
 
-Engage with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. Join the [conversation](https://community.dynamics.com/365/industry-accelerators/f/media-and-communications-accelerator-forum).
+Engage with experts and peers, read blog articles, and find local events within the Industry Accelerator Community. Join the [Media and Communications conversation](https://community.dynamics.com/365/industry-accelerators/f/media-and-communications-accelerator-forum).
 
 ## Releases
 
