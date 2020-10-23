@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c547bc21-d324-494d-ba2c-63591d793e57}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c2b998ae-8c2b-4407-aa46-aa3003f29658}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="GeneralSection" showlabel="false" showbar="false" locklevel="0" id="{7d6d9423-0bdb-2608-be24-4993171732da}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2680d95f-9a69-4bd2-b4ff-46253a3704bf}">
+                        <labels>
+                          <label description="Name on Account" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{c358ceb5-38b4-4bfd-b9d1-b6d10c12889c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Loyalty Program" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_loyaltyprogram" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_loyaltyprogram" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25aae7ba-49e9-9a09-b389-9483cccbb703}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_accountnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_accountnumber" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{1ee7b1da-4120-4594-a84e-0fa52fde6539}">
+                        <labels>
+                          <label description="New QV control 1586210798395" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1586210798395" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="msmedia_loyaltyprogram" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msmedia_loyaltyprogram"&gt;79e7f9a3-5278-ea11-a811-000d3a33f47e&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c04040e7-9200-40d6-ba82-5b1b651b995e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_contact" disabled="false" />
+                      </cell>
+                      <cell id="{ecd2c6c7-45e8-4744-841d-d753a6b5124a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Loyalty Level" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_currentloyaltylevel" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_currentloyaltylevel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b05e3124-6dbe-e709-bc1a-54e12942613c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_currentbalance" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msmedia_currentbalance" disabled="false" />
+                      </cell>
+                      <cell id="{896064f5-d239-4fa7-90f4-3ac362ccf5cb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Level Started On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_levelstartedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_levelstartedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57b19b79-b812-ba5d-4010-3b8c14d9be92}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account Started On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_accountstartedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msmedia_accountstartedon" disabled="false" />
+                      </cell>
+                      <cell id="{6d47cdc2-5e6d-4be8-9bcc-57741e8355f3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Level Expires On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_levelexpireson" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_levelexpireson" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1344607c-cd60-4284-a94b-7c3ace59eebc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account Ended On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_accountendedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_accountendedon" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{bfb9b03e-0e96-47c7-97e5-9bbd7c3ffa46}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e3976c8-b144-3287-4416-485d76eb2b99}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Renewal Date" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_renewaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msmedia_renewaldate" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{44e9df86-8db2-400f-a28c-3d41ed8e700a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52d69039-2ac7-c92d-654c-9933882899db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Balance Expiration Date" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_balanceexpirationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msmedia_balanceexpirationdate" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{dd1b4e3f-e1f7-4f51-afba-61d36ab3fb97}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{931ba6cd-0b80-bd2e-747b-ee4038070461}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Transaction Date" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_lasttransactiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msmedia_lasttransactiondate" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{23a2efc3-3675-4656-8a7c-90ac15ac1a46}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e261e902-0fc0-4564-b38a-3bc7da1ef574}" columns="111">
+        <rows>
+          <row>
+            <cell id="{6c86d71b-7a2b-48d2-a51d-a65b1bd9c743}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{319f67ba-125a-4194-8543-2541ef59f33e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9d9c66bc-c848-0242-1c57-19d3867a2974}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <footer id="{f54e9868-5b2c-4888-9e7a-94fa47cc132d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7d2f182a-bcc8-4e8f-85b6-ba46a71e038b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cca742ab-6e6a-4703-8efb-170cc7fde0b1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b3c8ca0f-830d-4a6c-af22-bcd64782c184}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Loyalty Program Account Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

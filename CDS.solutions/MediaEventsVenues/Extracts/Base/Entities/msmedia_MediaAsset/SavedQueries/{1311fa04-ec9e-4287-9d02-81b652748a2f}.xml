@@ -11,7 +11,6 @@
           <cell name="msmedia_name" width="300" />
           <cell name="msmedia_assettype" width="100" />
           <cell name="msmedia_category" width="100" />
-          <cell name="msmedia_mediavenue" width="150" />
           <cell name="msmedia_price" width="100" />
         </row>
       </grid>
@@ -29,7 +28,6 @@
           <attribute name="msmedia_price" />
           <attribute name="msmedia_assettype" />
           <attribute name="msmedia_category" />
-          <attribute name="msmedia_mediavenue" />
         </entity>
       </fetch>
     </fetchxml>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{165a28fe-e798-4086-ae69-3ef841d84590}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{9a263a7d-0aa8-46d7-9771-10ee2c9628a5}" IsUserDefined="1" name="GeneralTab" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{5012e43b-5df2-43a6-87ac-61a98ebab2f5}" columns="11" name="GeneralSection" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{4e825077-0e14-4273-b024-08b365613e19}" showlabel="true" locklevel="0" ordinalvalue="20009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{07155da8-df90-4d44-b610-8f86c059580c}" showlabel="true" locklevel="0" ordinalvalue="20011" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{b943b88e-bb98-4b38-a495-968b0c56f23a}" showlabel="true" locklevel="0" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1">
+              <sections>
+                <section name="ref_pan_GeneralTab_section_7" showlabel="false" showbar="false" locklevel="0" id="{270945e4-a162-27c5-293a-8b7464ed6e53}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false" ordinalvalue="1" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{c3e768e9-6740-5a41-5968-93cbdbc0aba2}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{5175de9a-bac5-d3d7-4790-9394a31dced5}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Media Registrations" languagecode="1033" />
+                        </labels>
+                        <control id="sg_MediaRegistrations" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}">
+                          <parameters>
+                            <ViewId>{90983C5C-B84C-4BB5-8A6A-5AC17381CCF3}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_MediaRegistration_Guest_msmedia_G</RelationshipName>
+                            <TargetEntityType>msmedia_mediaregistration</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{90983C5C-B84C-4BB5-8A6A-5AC17381CCF3}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_MediaEventsSVG</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2d514974-3026-4bac-9a2d-201ff0cc689f}" columns="111">
+        <rows>
+          <row>
+            <cell id="{d08b6b41-e177-4c65-9e62-f26b43e994a3}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{f9ad1225-af3d-4935-8521-d7984bbd3f0a}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="Last Registered Event" languagecode="1033" />
+              </labels>
+              <control id="header_msmedia_lastregisteredevent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_lastregisteredevent" disabled="false" />
+            </cell>
+          </row>
+          <row>
+            <cell id="{9c9793f9-a052-4fd9-a5b5-b9ce95c808e4}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+              <labels>
+                <label description="Origin" languagecode="1033" />
+              </labels>
+              <control id="header_msmedia_origin" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_origin" disabled="false" />
+            </cell>
+            <cell id="{99147486-6cdc-4795-9dc9-328417edf28a}" ordinalvalue="20004" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2bf6e870-0a2e-4022-8dd1-78315c351d76}" ordinalvalue="30005" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+      </Navigation>
+      <footer id="{1426c36b-e052-4311-bd46-3633ab57dd57}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d381e3d0-1cc5-484f-935e-dd6c88e64ee2}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{2ff56c4a-05bd-4765-a5b0-97365ce76738}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{278948ac-63d4-45a3-8a2f-c891247abe48}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Guest Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

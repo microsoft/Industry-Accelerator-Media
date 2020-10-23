@@ -7,6 +7,10 @@
   <Templates />
   <EntityImageConfigs>
     <EntityImageConfig>
+      <parententitylogicalname>msmedia_mediaevent</parententitylogicalname>
+      <primaryimageattribute>msmedia_registrationportalbannerimage</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
       <parententitylogicalname>msmedia_mediavenue</parententitylogicalname>
       <primaryimageattribute>msmedia_image</primaryimageattribute>
     </EntityImageConfig>
@@ -16,6 +20,16 @@
     </EntityImageConfig>
   </EntityImageConfigs>
   <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>msmedia_registrationportalbannerimage</attributelogicalname>
+      <parententitylogicalname>msmedia_mediaevent</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>msmedia_registrationportallogo</attributelogicalname>
+      <parententitylogicalname>msmedia_mediaevent</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
     <AttributeImageConfig>
       <attributelogicalname>msmedia_image</attributelogicalname>
       <parententitylogicalname>msmedia_mediavenue</parententitylogicalname>
@@ -36,6 +50,22 @@
   <CustomControls />
   <EntityDataProviders />
   <CanvasApps />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="msmedia_sharedcommondataserviceforapps_89bf1">
+      <connectionreferencedisplayname>Common Data Service (current environment)</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="msmedia_sharedcommondataserviceforapps_af78f">
+      <connectionreferencedisplayname>Common Data Service (current environment)</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
   </Languages>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a069d92f-c63c-4e5a-a189-627c79434c49}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab name="General" id="{8e4d91e1-652b-1289-7a27-05579d56ede9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="1">
+              <sections>
+                <section name="ref_pan_General_section_4" showlabel="false" showbar="false" locklevel="0" id="{120ecb2a-ea93-1cd9-b361-a15729449e13}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false" ordinalvalue="1">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_10" id="{c97da99a-c79d-618d-d0b0-b7d4327d2bde}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="4" solutionaction="Modified" />
+        <tab name="Seat Maps Tab" id="08f18174-e01d-474c-9ac2-48bec78a8301" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="3" solutionaction="Added">
+          <labels>
+            <label description="Seat Maps" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="Seat Map Section" id="a160790c-6cda-4385-8c3d-062d7a690ac1" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Seat Map" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{9c0b3763-48c3-4ec1-b6a2-0d978d129f39}" rowspan="1" colspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="New SG control 1586285003004" languagecode="1033" />
+                        </labels>
+                        <control id="Seat Map Subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_mediavenueseatmap</TargetEntityType>
+                            <ViewId>{15C3BA84-DFCF-4B34-AEC2-E4B1D64529BB}</ViewId>
+                            <ViewIds>{15C3BA84-DFCF-4B34-AEC2-E4B1D64529BB}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_MediaVenueSeatMap_MediaVenue_msme</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{25374476-bf5d-40ae-a1b8-f2f73ff1deca}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{398607fa-8ef0-4186-8ca4-05416fbd3955}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{7d634a56-2d0b-4994-a12d-8cefe4f1e610}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{919c7700-e7b1-42d4-9fd2-6b6bae954246}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Media Venue Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

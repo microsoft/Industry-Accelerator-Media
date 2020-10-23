@@ -5,6 +5,7 @@
   <EntityRelationship Name="business_unit_msmedia_attractiontrack" />
   <EntityRelationship Name="business_unit_msmedia_concessionpartner" />
   <EntityRelationship Name="business_unit_msmedia_concessionstand" />
+  <EntityRelationship Name="business_unit_msmedia_dispenser" />
   <EntityRelationship Name="business_unit_msmedia_eventattraction" />
   <EntityRelationship Name="business_unit_msmedia_eventschedule" />
   <EntityRelationship Name="business_unit_msmedia_facility" />
@@ -27,6 +28,8 @@
   <EntityRelationship Name="lk_msmedia_concessionpartner_modifiedby" />
   <EntityRelationship Name="lk_msmedia_concessionstand_createdby" />
   <EntityRelationship Name="lk_msmedia_concessionstand_modifiedby" />
+  <EntityRelationship Name="lk_msmedia_dispenser_createdby" />
+  <EntityRelationship Name="lk_msmedia_dispenser_modifiedby" />
   <EntityRelationship Name="lk_msmedia_eventattraction_createdby" />
   <EntityRelationship Name="lk_msmedia_eventattraction_modifiedby" />
   <EntityRelationship Name="lk_msmedia_eventschedule_createdby" />
@@ -58,6 +61,8 @@
   <EntityRelationship Name="msmedia_ConcessionPartner_MediaEvent_msme" />
   <EntityRelationship Name="msmedia_ConcessionPartner_Partner_Account" />
   <EntityRelationship Name="msmedia_concessionstand_MediaVenue_msmedi" />
+  <EntityRelationship Name="msmedia_Dispenser_Facility_msmedia_Facili" />
+  <EntityRelationship Name="msmedia_Dispenser_LastServicedBy_Contact" />
   <EntityRelationship Name="msmedia_EventAttraction_Attraction_msmedi" />
   <EntityRelationship Name="msmedia_EventAttraction_EventAttractionTr" />
   <EntityRelationship Name="msmedia_EventAttraction_Facility_msmedia_" />
@@ -70,7 +75,9 @@
   <EntityRelationship Name="msmedia_Facility_MediaVenue_msmedia_Media" />
   <EntityRelationship Name="msmedia_gate_Facility_msmedia_Facility" />
   <EntityRelationship Name="msmedia_gate_MediaVenue_msmedia_MediaVenu" />
+  <EntityRelationship Name="msmedia_Guest_LastRegisteredEvent_msmedia" />
   <EntityRelationship Name="msmedia_hoursofoperation_ConcessionStand_" />
+  <EntityRelationship Name="msmedia_hoursofoperation_EventAttraction" />
   <EntityRelationship Name="msmedia_hoursofoperation_MediaVenue_msmed" />
   <EntityRelationship Name="msmedia_MediaAsset_MediaVenue_msmedia_Med" />
   <EntityRelationship Name="msmedia_MediaEvent_msmedia_MediaVenue_msm" />
@@ -90,6 +97,7 @@
   <EntityRelationship Name="msmedia_MediaVenue_TMA_msmedia_TMA" />
   <EntityRelationship Name="msmedia_MediaVenueImage_MediaVenue_msmedi" />
   <EntityRelationship Name="msmedia_TMA_msmedia_Region_msmedia_Region" />
+  <EntityRelationship Name="msmedia_TMA_msmedia_TMA_Contact" />
   <EntityRelationship Name="msmedia_WeatherCondition_MediaEvent_msmed" />
   <EntityRelationship Name="msmedia_WeatherCondition_MediaVenue_msmed" />
   <EntityRelationship Name="owner_msmedia_attraction" />
@@ -97,6 +105,7 @@
   <EntityRelationship Name="owner_msmedia_attractiontrack" />
   <EntityRelationship Name="owner_msmedia_concessionpartner" />
   <EntityRelationship Name="owner_msmedia_concessionstand" />
+  <EntityRelationship Name="owner_msmedia_dispenser" />
   <EntityRelationship Name="owner_msmedia_eventattraction" />
   <EntityRelationship Name="owner_msmedia_eventschedule" />
   <EntityRelationship Name="owner_msmedia_facility" />
@@ -114,6 +123,7 @@
   <EntityRelationship Name="team_msmedia_attractiontrack" />
   <EntityRelationship Name="team_msmedia_concessionpartner" />
   <EntityRelationship Name="team_msmedia_concessionstand" />
+  <EntityRelationship Name="team_msmedia_dispenser" />
   <EntityRelationship Name="team_msmedia_eventattraction" />
   <EntityRelationship Name="team_msmedia_eventschedule" />
   <EntityRelationship Name="team_msmedia_facility" />
@@ -132,6 +142,7 @@
   <EntityRelationship Name="user_msmedia_attractiontrack" />
   <EntityRelationship Name="user_msmedia_concessionpartner" />
   <EntityRelationship Name="user_msmedia_concessionstand" />
+  <EntityRelationship Name="user_msmedia_dispenser" />
   <EntityRelationship Name="user_msmedia_eventattraction" />
   <EntityRelationship Name="user_msmedia_eventschedule" />
   <EntityRelationship Name="user_msmedia_facility" />

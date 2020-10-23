@@ -260,7 +260,7 @@
                     <row>
                       <cell id="{37fbde00-50a4-45f1-ac65-34a89185746c}" showlabel="true" colspan="1" rowspan="6">
                         <labels>
-                          <label description="COMPETITORS" languagecode="1033" />
+                          <label description="Competitors" languagecode="1033" />
                         </labels>
                         <control id="Competitors" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>

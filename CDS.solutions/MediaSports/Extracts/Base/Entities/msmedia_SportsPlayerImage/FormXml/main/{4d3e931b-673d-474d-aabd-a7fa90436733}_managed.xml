@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4d3e931b-673d-474d-aabd-a7fa90436733}</formid>
+    <IntroducedVersion>1.0.0.5</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{977cd9c8-cc1c-416f-800a-de3b07db7d66}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb6813e2-993e-48cb-9d5d-fbbe8eb7df9b}" name="GeneralSection" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e9347696-67bc-4842-bee7-e07167b32d7c}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{95ce2592-59a0-491f-9b84-7840a0e55ed0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Uploaded Image" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_uploadedimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_uploadedimage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4dcd8ae7-e383-40f5-beb5-7cded20b4c48}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sports Player" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_sportsplayer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_sportsplayer" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{37beea23-04b9-4d5d-8b11-4848d12e6426}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2e862c3-a0a4-4c70-abe2-7eab9290b706}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{861f9913-389e-4ae0-a5b0-b7cc7993e04c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f704f6f1-8748-491e-8f0b-a97fb8aae53e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{d2a45711-868b-4fb3-93c7-3f4848f4a59b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{876adf18-18a8-453e-9c5d-60c8a3fde0bf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{24a0d75c-8d80-4564-9fc9-cd6fa9cb6ced}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4ce6b957-ccdb-454e-8412-9c4dde01de91}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{16f8b8a7-2e82-4e09-980e-7b455f24b6e1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0d7f6a2a-5efd-4655-8a42-8c4b8f273314}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7ecb93ec-f39e-4888-996e-e519cde04ad7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{2280170a-eadd-4050-8839-bb66c1ad905f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4d2f6d48-3997-4878-9f3b-1185422a05b0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6686e5fb-5007-4434-aa7c-53bf1ebac092}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c53b2840-7c2b-4ce6-a7ce-c1b30cb8de38}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sports Player Image Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

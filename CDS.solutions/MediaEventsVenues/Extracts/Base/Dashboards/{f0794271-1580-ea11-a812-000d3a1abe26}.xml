@@ -38,7 +38,7 @@
                               <HeaderColorCode>#F3F3F3</HeaderColorCode>
                               <ViewId>{489E32DF-6E70-EA11-A811-000D3A1AB88B}</ViewId>
                               <IsUserView>false</IsUserView>
-                              <ViewIds>{489E32DF-6E70-EA11-A811-000D3A1AB88B}</ViewIds>
+                              <ViewIds>{B5F9695F-915F-4AB4-8871-F00602EBAB4E},{489E32DF-6E70-EA11-A811-000D3A1AB88B}</ViewIds>
                               <AutoExpand>Fixed</AutoExpand>
                               <VisualizationId>{F87E8704-1780-EA11-A812-000D3A1ABE26}</VisualizationId>
                               <IsUserChart>false</IsUserChart>

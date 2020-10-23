@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>msmedia_imagegallerysportsplayer_9a973</Name>
-  <AppVersion>2020-05-05T22:12:55Z</AppVersion>
+  <AppVersion>2020-07-08T00:01:54Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.20023.8.0</CreatedByClientVersion>
-  <MinClientVersion>3.20023.8.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"c86d22fa-4b4f-48c0-b398-8fc8a7160e7e","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20023.8","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false"}</Tags>
+  <CreatedByClientVersion>3.20053.26.0</CreatedByClientVersion>
+  <MinClientVersion>3.20053.26.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"4a3739d9-fb6f-42d2-8d03-db73b267e054","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20053.26","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>

@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>MediaApps_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="15062:LocalizedName,MediaApps" xml:space="preserve">
+    <value>Media Apps</value>
+    <comment> 'MediaApps' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoftdynamics365medianewmsmedia76686" xml:space="preserve">
+    <value>Microsoft Dynamics 365 Media</value>
+    <comment> 'microsoftdynamics365medianew' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="222:LocalizedName,{f0794271-1580-ea11-a812-000d3a1abe26}" xml:space="preserve">
+    <value>Events/Venues Dashboard</value>
+    <comment>'DashBoard'</comment>
+  </data>
+  <data name="80:Description,msmedia_DisplayAdSales" xml:space="preserve">
+    <value>Media Product Display/Ad Sales</value>
+    <comment> 'msmedia_DisplayAdSales' : Description for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msmedia_DisplayAdSales" xml:space="preserve">
+    <value>Media Product Display/Ad Sales</value>
+    <comment> 'msmedia_DisplayAdSales' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msmedia_EventVenueManagement" xml:space="preserve">
+    <value>Event/Venue Management</value>
+    <comment> 'msmedia_EventVenueManagement' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msmedia_GuestManagement" xml:space="preserve">
+    <value>Guest Management</value>
+    <comment> 'msmedia_GuestManagement' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msmedia_SportsManagement" xml:space="preserve">
+    <value>Sports Management</value>
+    <comment> 'msmedia_SportsManagement' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msmedia_TicketSales" xml:space="preserve">
+    <value>Media Product Sales &amp; Ticketing</value>
+    <comment> 'msmedia_TicketSales' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,msmedia_DisplayAdSales" xml:space="preserve">
+    <value>Display/Ad Sales</value>
+    <comment>'msmedia_DisplayAdSales' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:LocalizedName,msmedia_EventVenueManagement" xml:space="preserve">
+    <value>Event/Venue Management</value>
+    <comment>'msmedia_EventVenueManagement' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:LocalizedName,msmedia_GuestManagement" xml:space="preserve">
+    <value>Guest Management</value>
+    <comment>'msmedia_GuestManagement' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:LocalizedName,msmedia_SportsManagement" xml:space="preserve">
+    <value>Sports Management</value>
+    <comment>'msmedia_SportsManagement' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:LocalizedName,msmedia_TicketSales" xml:space="preserve">
+    <value>Ticket Sales</value>
+    <comment>'msmedia_TicketSales' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappmsmedia_administration" xml:space="preserve">
+    <value>Customers</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'msmedia_administration'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappmsmedia_eventmanagement" xml:space="preserve">
+    <value>Event Management</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'msmedia_eventmanagement'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappmsmedia_mediapp" xml:space="preserve">
+    <value>Sales</value>
+    <comment>Title for Area 'msmedia_mediapp' Area 'msmedia_mediapp'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappmsmedia_sales" xml:space="preserve">
+    <value>Sales</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'msmedia_sales'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappmsmedia_venuemanagement" xml:space="preserve">
+    <value>Venue Management</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'msmedia_venuemanagement'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewGroup_14c14ea7" xml:space="preserve">
+    <value>Activities</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'NewGroup_14c14ea7'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewGroup_17758d76" xml:space="preserve">
+    <value>Product Administration</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'NewGroup_17758d76'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewGroup_26cbb0e4" xml:space="preserve">
+    <value>Events &amp; Venues</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'NewGroup_26cbb0e4'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewGroup_5c154f71" xml:space="preserve">
+    <value>Advertising Product Administration</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'NewGroup_5c154f71'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewGroup_de347977" xml:space="preserve">
+    <value>Events &amp; Venues</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'NewGroup_de347977'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewGroup_f7b5be55" xml:space="preserve">
+    <value>Analytics</value>
+    <comment>Title for Area 'msmedia_mediapp' Group 'NewGroup_f7b5be55'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_08ee9bc5" xml:space="preserve">
+    <value>Ad Segment</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_08ee9bc5'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_2600d645" xml:space="preserve">
+    <value>Teams</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_2600d645'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_485a99e3" xml:space="preserve">
+    <value>Players</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_485a99e3'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_563dcf55" xml:space="preserve">
+    <value>Events</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_563dcf55'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_6856c03" xml:space="preserve">
+    <value>Conferences</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_6856c03'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_69528a6c" xml:space="preserve">
+    <value>Divisons</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_69528a6c'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_6993ed18" xml:space="preserve">
+    <value>Venues</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_6993ed18'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_a45eef8c" xml:space="preserve">
+    <value>Fans &amp; Guests</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_a45eef8c'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_da8b47a9" xml:space="preserve">
+    <value>Ad Segment Group</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_da8b47a9'</comment>
+  </data>
+  <data name="81:Title,msmedia_mediappNewSubArea_fc6374dc" xml:space="preserve">
+    <value>Ad Zone</value>
+    <comment>Title for Area 'msmedia_mediapp' SubArea 'NewSubArea_fc6374dc'</comment>
+  </data>
+</root>

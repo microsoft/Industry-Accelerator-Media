@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{35e079e8-0760-41aa-9a9f-063fade1f844}</formid>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{fb3b9af1-b018-4289-ac43-95bb21151792}" IsUserDefined="1" name="GeneralTab" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1ab808f1-cc7a-4cd3-93a9-bede985b78cd}" columns="11" name="GeneralSection" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{e9e03396-76b4-40b9-8b0b-9e5315a2d8bf}" showlabel="true" locklevel="0" ordinalvalue="20003" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{9541636c-8c23-4700-8730-e48235363227}" showlabel="true" locklevel="0" ordinalvalue="20005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{84ff14c7-34f3-486c-8129-8e6f9e739d86}" showlabel="true" locklevel="0" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{92a7256a-78d6-47e4-a715-d22b6570a4a9}" showlabel="true" locklevel="0" ordinalvalue="20009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{ac7ca6a7-1dd1-4e95-b1e2-891f78924ee9}" ordinalvalue="20009" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{7b172979-eb7e-46a5-a5d1-5798dc7c3d80}" showlabel="true" locklevel="0" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="Media Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e91163aa-874f-486d-9fe4-4d72607025db}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{855865e7-c72d-4c2c-a1e1-8306cd732e53}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{7d4444b7-f64b-41c9-bc2e-a70ec05bcc0c}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{942ecefc-c790-4e0e-9096-d8da4f005d82}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </header>
+      <footer id="{ad6ac3c9-6a61-40ac-b828-50b524d76037}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{81d3d341-eba0-47ad-994e-7499fec86973}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{e47b72bb-5ee6-4204-ba33-1d93a7c5fb17}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{81ed0528-f76a-4eb5-8da6-69e24537b062}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Media Asset Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
