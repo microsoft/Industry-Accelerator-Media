@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_gender" localizedName="Gender" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.2.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Gender" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="766860000">
+      <labels>
+        <label description="Decline to Answer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860001">
+      <labels>
+        <label description="Female" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Male" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="NonBinary" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860004">
+      <labels>
+        <label description="Something Else" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860005">
+      <labels>
+        <label description="TransFemale" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860006">
+      <labels>
+        <label description="TransMale" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860007">
+      <labels>
+        <label description="Unspecified" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{df1ad8fb-f97c-40ff-bf1e-efb23f60d7a4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4de97e32-870b-4630-a5a7-49a85fc34340}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b1e7e6e0-c5e9-4577-a756-73244015070d}" name="GeneralSection">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ffc931af-5ba3-414b-a05b-977c2e1229aa}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5ee053d-d817-406a-af76-56281efca3de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Coordinator" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_coordinator" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_coordinator" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b66c6081-3f89-409c-85a0-92e4bc7b0963}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Deal Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_primarydealcontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_primarydealcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20a2df48-ac63-46ee-8deb-6ad6bc785369}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_product" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_product" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7894a211-ab2e-4b4e-9c32-4b846df1a305}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sponsor" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_sponsor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_sponsor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce222e40-0809-4807-9312-d9aeb480ec0b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Purchase Price" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_purchaseprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msmedia_purchaseprice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0312fa8b-cc73-4266-9f84-e2de2d9888c0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Season" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_startseason" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_startseason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{966c6951-987c-4bc2-9f52-684fb9597343}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Season" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_endseason" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_endseason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e16d49ca-0489-4f4e-a338-8c117b6559aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Deal Status" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_dealstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_dealstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20705147-52a6-4334-9493-ab35f0bb3ba1}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="NotesSection" id="fd8e55d5-dece-4208-bf9d-eb975316db07" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{33898523-da5c-42fc-833a-1ffbdadfe87c}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="NotesSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>annotation</TargetEntityType>
+                            <ViewId>{8A9A0D47-51AC-454E-98C4-B3CF4EF50F2B}</ViewId>
+                            <ViewIds>{8A9A0D47-51AC-454E-98C4-B3CF4EF50F2B}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_mediaeventsponsorship_Annotations</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Media Events Section" id="940b6e29-c885-4f42-80d7-2ff754e5bb3d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Media Events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{af7def3c-2733-4ac5-8fd0-c1b6f2cc43fb}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1586282126611" languagecode="1033" />
+                        </labels>
+                        <control id="Media Events Subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_mediaevent</TargetEntityType>
+                            <ViewId>{B5F9695F-915F-4AB4-8871-F00602EBAB4E}</ViewId>
+                            <ViewIds>{B5F9695F-915F-4AB4-8871-F00602EBAB4E}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_MediaEventSponsorship_msmedia_Event</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{918daa2b-3c36-4c69-b611-f8c2bea9eaf1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9145cc60-27e1-43c4-8253-ca1c75eb60b7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7d8a3bf6-b06d-4722-b39f-1f215f9c89ec}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d06eb01a-39b7-4588-ae41-b9911ad75468}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4ad87117-85ca-4279-8da4-7d9fe0e1f19c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c0d6d7e8-2010-43dd-a2e8-ca35cd546806}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d46bd648-d8cc-4882-81ce-728bb97d942c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{025d41bc-cc2c-4c5a-a232-ca71e6f56957}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Media Event Sponsorship Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

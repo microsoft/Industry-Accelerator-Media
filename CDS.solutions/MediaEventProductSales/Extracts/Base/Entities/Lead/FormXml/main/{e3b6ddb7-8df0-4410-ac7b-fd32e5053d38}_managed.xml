@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="Summary" verticallayout="true" id="{f7109214-c3bd-4734-ad5b-4054499a43d6}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="Contact" showlabel="true" showbar="false" id="{5693ad37-350f-4f0e-b03a-4212e78c9b6e}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="1" id="{26e6720b-6c8c-4848-a8c1-4b8c8abe59f2}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Topic" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{deccc6b6-e5ce-6ca2-d683-16a58247e459}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8afa97d-100e-4f46-8ee8-38081d8a4404}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c5c04eb-beea-433f-994a-5b3ddde2b924}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4622149f-38d7-4ea6-b305-f2cb7be244d0}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4d6539c-ac0b-4006-a423-72e898ad65ad}" ordinalvalue="10005">
+                        <labels>
+                          <label description="Email" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="company" showlabel="true" showbar="false" id="{b10ae496-2d57-4158-b595-2d83a250c001}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{582ca22b-95e3-4d0e-9d81-e29bc8100e7a}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Website" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="BusinessCard" showlabel="true" showbar="false" locklevel="0" id="{097bc91c-86e7-8993-21aa-a956e7229db4}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false" ordinalvalue="3">
+                  <rows>
+                    <row>
+                      <cell id="{ca22ebe3-6165-842d-e963-75eb171c251e}" showlabel="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="Business Card" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="25%" id="2">
+              <sections>
+                <section name="RELATED_TAB" showlabel="false" showbar="false" id="{18423214-41c8-14a6-e083-a1553623339b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{37fbde00-50a4-45f1-ac65-34a89185746c}" showlabel="true" colspan="1" rowspan="6" ordinalvalue="10001">
+                        <labels>
+                          <label description="Competitors" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details_tab" id="{9008acae-4b08-4be6-a5d3-aef9155a7f16}" IsUserDefined="0" ordinalvalue="1">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="lead_information" showlabel="false" showbar="false" id="{494c6aa2-26f3-413f-bcab-dc093d54b82f}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" height="auto" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{10b75e6c-54f9-4c13-8850-5b90cad35c6f}" showlabel="true" locklevel="0" rowspan="2" ordinalvalue="10001" solutionaction="Modified">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9769aa55-a1d0-43d7-9d89-9dfccb1efd0d}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Modified">
+                        <labels>
+                          <label description="Industry" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3cc2bc3f-03a3-47f6-a011-e217dd56ff8d}" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Annual Revenue" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05a0b7d9-b602-493b-a773-e0c34e44be3c}" ordinalvalue="10004" solutionaction="Modified">
+                        <labels>
+                          <label description="No. of Employees" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aee93c8c-a239-4a6d-bb9b-6962c20dc8a9}" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="SIC Code" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f704a5d-5f33-462d-b07b-3c29ddacea29}" ordinalvalue="10006" solutionaction="Modified">
+                        <labels>
+                          <label description="Currency" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{567BF77B-7FC1-41E9-A4A9-9108397D2E63}" showlabel="false" userspacer="true" ordinalvalue="10007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{B28B7513-E1B6-4113-BCC6-1CF821D6C629}" showlabel="false" userspacer="true" ordinalvalue="10008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{cbd2c70c-f7ba-4e0e-9727-9d9c975e7097}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Originating Guest" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_originatingguest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_originatingguest" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section name="marketing_information" showlabel="true" showbar="false" locklevel="0" id="{9ae60f89-6507-4cd3-8c5a-c26915a7e315}" IsUserDefined="0" layout="varheight" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{09513d13-bb7d-43b6-ad5c-9598b82b099e}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Source Campaign" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{a5b3e9c6-2cc7-4273-bd86-12fca3a85e4a}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Last Campaign Date" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{af5017db-93b9-4316-8323-de1d83b41d58}" celllabelposition="Top" columns="1111">
+        <rows>
+          <row>
+            <cell id="{f026324b-8bf6-4273-8c3c-a54975ea8836}" ordinalvalue="10000">
+              <labels>
+                <label description="Lead Source" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{278d1b6f-44fe-4478-b51b-cfc90eab2ed5}" ordinalvalue="20001">
+              <labels>
+                <label description="Rating" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{7da0c9b6-8289-4b50-ab33-b5f0568cadb9}" ordinalvalue="40003">
+              <labels>
+                <label description="Owner" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions>
+        <controlDescription forControl="{e1a0eed7-7d87-4446-a2ed-3fea375b4403}" solutionaction="Modified">
+          <customControl formFactor="0" name="Intelligence.BusinessCardReaderControl.BusinessCardReader">
+            <parameters>
+              <value>businesscard</value>
+              <DefaultImage type="Multiple">businesscard</DefaultImage>
+              <AdvancedCustomization>businesscardattributes</AdvancedCustomization>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="Intelligence.BusinessCardReaderControl.BusinessCardReader">
+            <parameters>
+              <value>businesscard</value>
+              <DefaultImage type="Multiple">businesscard</DefaultImage>
+              <AdvancedCustomization>businesscardattributes</AdvancedCustomization>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="Intelligence.BusinessCardReaderControl.BusinessCardReader">
+            <parameters>
+              <value>businesscard</value>
+              <DefaultImage type="Multiple">businesscard</DefaultImage>
+              <AdvancedCustomization>businesscardattributes</AdvancedCustomization>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{bdcd9c93-4119-4caa-915d-4ef741da8783}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Lead" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Lead form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

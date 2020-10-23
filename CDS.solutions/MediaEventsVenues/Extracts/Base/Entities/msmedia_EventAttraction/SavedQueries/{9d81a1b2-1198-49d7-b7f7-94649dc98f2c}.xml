@@ -11,7 +11,8 @@
       <grid name="msmedia_eventattractions" jump="msmedia_name" select="1" icon="1" preview="0">
         <row name="msmedia_eventattraction" id="msmedia_eventattractionid">
           <cell name="msmedia_name" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="msmedia_mediaevent" width="200" />
+          <cell name="msmedia_startdate" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,10 +22,11 @@
         <entity name="msmedia_eventattraction">
           <attribute name="msmedia_eventattractionid" />
           <attribute name="msmedia_name" />
-          <attribute name="createdon" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="msmedia_mediaevent" />
+          <attribute name="msmedia_startdate" />
         </entity>
       </fetch>
     </fetchxml>

@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{50bd97d4-cab9-47e3-8190-36a86a0667c4}</formid>
+    <IntroducedVersion>1.0.2.7</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{5e0c2eb1-45bc-4c67-bb6d-c75a2a9d20c4}" IsUserDefined="1" name="tb_General">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c015b7de-78d2-4d66-936d-e626bc7a5bba}" name="sec_General" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{08c2edcd-4198-4d1b-99ce-4b83b98e3db3}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{45444bb7-e92d-4bc2-8d23-04a010eaf4d2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Device ID" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_deviceid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_deviceid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{852afde9-2ff1-43df-8337-e60718390ac1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_type" disabled="false" />
+                      </cell>
+                      <cell id="{80c25c06-2591-45d3-9875-7cc4a938f042}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Manufacturer / Brand" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_manufacturer" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_manufacturer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3a55397-8156-48cc-a587-0d30d6d069ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Facility" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_facility" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_facility" disabled="false" />
+                      </cell>
+                      <cell id="{8695e0d0-01b6-446f-a44d-6c9a1e276041}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Color" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_color" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_color" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{afee232a-a763-431b-9373-2ffd89d6490a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Installed On" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_installedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_installedon" disabled="false" />
+                      </cell>
+                      <cell id="{147ad555-487d-4b14-aa4c-53e163554ecc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Form" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_form" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_form" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94ab1692-bf64-4476-a25c-6ed50ae44adc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Dispenser Status" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_dispenserstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_dispenserstatus" disabled="false" />
+                      </cell>
+                      <cell id="{986a7156-cb49-4bac-b87c-781b1cf33c22}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Size (in mL)" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_size" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_size" disabled="false" uniqueid="{b2950eee-ac7f-4775-b917-9f58a0da4d61}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{1679369d-f05b-4319-a368-11c8456d28a9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{662cc5cc-3c20-44a8-bb77-21da409ae948}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="sec_Details" id="74c9edcb-123a-4706-a2a1-054a765986e4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b2283be9-e2ee-4064-a0e8-75caeb91c532}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="# of Uses Since Last Fill" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_numberofusessincelastfill" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_numberofusessincelastfill" disabled="false" uniqueid="{aa8dc0fb-8518-4548-b531-1ee58917de29}" />
+                      </cell>
+                      <cell id="{3efbc3a8-ad21-46f6-af52-84896b8d87aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Battery Level" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_batterylevel" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_batterylevel" disabled="false" uniqueid="{5bc7c2c7-1baf-43ba-81e4-a8ed2d85e801}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{189918bd-682e-4f7a-8d57-3903a73308fc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Running Total" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_runningtotal" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_runningtotal" disabled="false" uniqueid="{5e83f35d-c8b4-4a4a-90fd-5e8d7f537eda}" />
+                      </cell>
+                      <cell id="{7a1aaf97-16a6-494c-977b-72998b02f79c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Liquid Level" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_liquidlevel" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_liquidlevel" disabled="false" uniqueid="{6c5128cf-36b4-4b00-891b-6143578e07e3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{e83de3e9-ca31-4b45-a6a2-7f8e492ca2eb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{e8fa6556-bff6-49f4-bc59-aebe8a59efbe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{1c954ba2-e9a8-47e7-9436-cca0c8b5f2ad}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{0eadf25e-617e-475a-b884-fa2fd2a4bc76}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{efb57b34-31bc-4e6d-99e7-88b0cce59027}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{d84ec4ae-9c88-4984-9b38-cdb4d87979d1}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tb_SystemFields" id="2673aa0d-5aa1-4f3b-bfe1-fa661e2893a7" IsUserDefined="0" locklevel="0" showlabel="true" visible="false">
+          <labels>
+            <label description="System Fields" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_SystemFields" id="a127ee13-8711-45c1-87ae-70fdddf3eed4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="System Fields" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{20d8b59a-7816-490b-9cc8-7ca0c1f8c282}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ff8a19ea-3a77-4a89-859f-458d5c5d910c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c8f5fba1-67a5-4a72-a506-c087f7d3abf9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c02b3518-fdd8-4ab7-a7af-62a1f3de24c2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{59d20b61-62bd-4046-9781-b6eead611640}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dcffc91e-df23-489d-b7c8-8bbf6d6b7340}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Last Updated" languagecode="1033" />
+              </labels>
+              <control id="header_msmedia_lastupdated" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_lastupdated" disabled="false" />
+            </cell>
+            <cell id="{30731733-40fb-4067-bd21-53523e12ad45}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Last Filled" languagecode="1033" />
+              </labels>
+              <control id="header_msmedia_lastfilled" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msmedia_lastfilled" disabled="false" />
+            </cell>
+            <cell id="{238439c3-9626-4c82-b2a7-fc7a3caf3b08}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Last Serviced By" languagecode="1033" />
+              </labels>
+              <control id="header_msmedia_lastservicedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_lastservicedby" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{25d27a91-0952-4828-b954-1cd4d1e36a4d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2c7fafbc-99d2-4266-b426-01ebd7aa72dc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0f7a17eb-9f2c-4992-b399-b1d9ad20b022}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5e9a5466-b119-479f-97da-9306baac1153}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{b2950eee-ac7f-4775-b917-9f58a0da4d61}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>msmedia_size</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_size</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_size</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_size</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{aa8dc0fb-8518-4548-b531-1ee58917de29}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>msmedia_numberofusessincelastfill</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_numberofusessincelastfill</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_numberofusessincelastfill</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_numberofusessincelastfill</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5e83f35d-c8b4-4a4a-90fd-5e8d7f537eda}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>msmedia_runningtotal</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_runningtotal</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_runningtotal</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_runningtotal</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5bc7c2c7-1baf-43ba-81e4-a8ed2d85e801}">
+          <customControl id="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}">
+            <parameters>
+              <datafieldname>msmedia_batterylevel</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Knob.RadialKnobControl">
+            <parameters>
+              <value>msmedia_batterylevel</value>
+              <min type="Decimal" static="true">0.0000000</min>
+              <max type="Decimal" static="true">100.0000000</max>
+              <step type="Decimal" static="true">0.1000000</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Knob.RadialKnobControl">
+            <parameters>
+              <value>msmedia_batterylevel</value>
+              <min type="Decimal" static="true">0.0000000</min>
+              <max type="Decimal" static="true">100.0000000</max>
+              <step type="Decimal" static="true">0.1000000</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Knob.RadialKnobControl">
+            <parameters>
+              <value>msmedia_batterylevel</value>
+              <min type="Decimal" static="true">0.0000000</min>
+              <max type="Decimal" static="true">100.0000000</max>
+              <step type="Decimal" static="true">0.1000000</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{6c5128cf-36b4-4b00-891b-6143578e07e3}">
+          <customControl id="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}">
+            <parameters>
+              <datafieldname>msmedia_liquidlevel</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Knob.RadialKnobControl">
+            <parameters>
+              <value>msmedia_liquidlevel</value>
+              <min type="Decimal" static="true">0.0000000</min>
+              <max type="Decimal" static="true">100.0000000</max>
+              <step type="Decimal" static="true">0.1000000</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Knob.RadialKnobControl">
+            <parameters>
+              <value>msmedia_liquidlevel</value>
+              <min type="Decimal" static="true">0.0000000</min>
+              <max type="Decimal" static="true">100.0000000</max>
+              <step type="Decimal" static="true">0.1000000</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Knob.RadialKnobControl">
+            <parameters>
+              <value>msmedia_liquidlevel</value>
+              <min type="Decimal" static="true">0.0000000</min>
+              <max type="Decimal" static="true">100.0000000</max>
+              <step type="Decimal" static="true">0.1000000</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

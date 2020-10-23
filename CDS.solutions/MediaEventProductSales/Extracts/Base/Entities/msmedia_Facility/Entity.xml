@@ -328,6 +328,7 @@
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
       <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
       <IsSLAEnabled>0</IsSLAEnabled>
@@ -354,6 +355,7 @@
       <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
       <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
       <IntroducedVersion>1.0.0.3</IntroducedVersion>
+      <IconVectorName>msmedia_facilitysvg</IconVectorName>
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
@@ -361,6 +363,5 @@
       <IsSolutionAware>0</IsSolutionAware>
     </entity>
   </EntityInfo>
-  <FormXml />
   <RibbonDiffXml />
 </Entity>

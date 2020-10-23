@@ -336,6 +336,40 @@
             </column>
           </columns>
         </tab>
+        <tab name="hours_of_operation" id="a47be798-1966-4abb-a59f-e5e2ecd4f1e2" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Hours of Operation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="HoursofOperation_section" id="89e87bde-2bbe-4c86-99f8-f0222c69a7bf" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Hours of Operation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{136aabbf-37e3-49c1-8c47-be12020681b6}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="HoursofOperationSubgrid" languagecode="1033" />
+                        </labels>
+                        <control id="HourofOperationSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_hoursofoperation</TargetEntityType>
+                            <ViewId>{9E448DEA-7D7B-4D84-9B9F-15FDC445617B}</ViewId>
+                            <ViewIds>{9E448DEA-7D7B-4D84-9B9F-15FDC445617B}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_hoursofoperation_EventAttraction</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{074a944e-a98c-46b9-bb4f-911c0cc6bf92}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows></rows>

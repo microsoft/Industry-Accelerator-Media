@@ -47,7 +47,7 @@
   </presentationdescription>
   <isdefault>0</isdefault>
   <LocalizedNames>
-    <LocalizedName description="Top Profit by Events" languagecode="1033" />
+    <LocalizedName description="TOP PROFIT BY EVENTS" languagecode="1033" />
   </LocalizedNames>
   <IsCustomizable>1</IsCustomizable>
   <IntroducedVersion>1.0.0.38</IntroducedVersion>
