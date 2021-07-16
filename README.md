@@ -1,10 +1,10 @@
-# Media and Communications Accelerator
+# Media and Entertainment Accelerator
 Hello ISVs, SIs, Partners and Customers - Your success is our goal.
 This Repository helps you to Connect, Extend, Build and Contribute to Microsoft Media and Communications Industry Accelerator.
 
 # Table of Contents
 
-* Media and Communications Accelerator
+* Media and Entertainment Accelerator
 
   * [Introduction](#Microsoft-Dynamics-365-Announces-Industry-Accelerators)
   * [Overview](#Overview-of-the-Industry-Media-Accelerator)
@@ -17,12 +17,12 @@ This Repository helps you to Connect, Extend, Build and Contribute to Microsoft 
 
 Dynamics 365 announced the Microsoft Power Platform, a connected app platform that unifies access to your data to enable ISVs, SIs, Partners and Customers to build intelligent, data driven, task focused business and analytic applications. Microsoft is focused on enabling a data culture where the Microsoft Power Platform acts as the glue across Dynamics 365 (CE, F&O, Talent), Office 365 (SharePoint, Teams), Power BI, Power Apps, Microsoft Flow, Azure and other 3rd party on-premise and cloud based solutions.
 
-With the Power Platform providing a unified approach to building data driven solutions, the team is taking it one step further by introducing Industry Solution Accelerators. Accelerators are industry focused foundational components that enable ISVs and other solution providers, a way to build solutions that are based on industry standards supported and driven by Microsoft. Along with our Media and Communications Accelerator, which you can read about here, we are focused on delivering accelerators for other industries for which you can find more detail in the links below.
+With the Power Platform providing a unified approach to building data driven solutions, the team is taking it one step further by introducing Industry Solution Accelerators. Accelerators are industry focused foundational components that enable ISVs and other solution providers, a way to build solutions that are based on industry standards supported and driven by Microsoft. Along with our Media and Entertainment Accelerator, which you can read about here, we are focused on delivering accelerators for other industries for which you can find more detail in the links below.
 
 
-## Overview of the Media and Communications Accelerator
+## Overview of the Media and Entertainment Accelerator
 
-The  Dynamics 365 Media and Communications Accelerator expands the Common Data Model and Power Platform into the Media & Entertainment industries. The V1 Media and Communications Accelerator includes data entities and attributes that center around the core theme of “Fan & Guest Engagement”. It includes pre-built solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Communications Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
+The  Dynamics 365 Media and Entertainment Accelerator expands the Common Data Model and Power Platform into the Media & Entertainment industries. The V1 Media and Entertainment Accelerator includes data entities and attributes that center around the core theme of “Fan & Guest Engagement”. It includes pre-built solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Entertainment Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
 
 
 ## Releases
