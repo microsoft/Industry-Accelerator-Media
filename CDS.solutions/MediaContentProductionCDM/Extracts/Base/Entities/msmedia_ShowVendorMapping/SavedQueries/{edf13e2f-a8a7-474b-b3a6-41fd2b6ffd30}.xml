@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{edf13e2f-a8a7-474b-b3a6-41fd2b6ffd30}</savedqueryid>
+    <layoutxml>
+      <grid name="msmedia_showvendormappings" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="msmedia_showvendormapping" id="msmedia_showvendormappingid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_vendor" width="242" />
+          <cell name="msmedia_show" width="229" />
+          <cell name="createdon" width="238" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_showvendormapping">
+          <attribute name="msmedia_showvendormappingid" />
+          <attribute name="msmedia_name" />
+          <attribute name="createdon" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_vendor" />
+          <attribute name="msmedia_show" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Show Vendor Mapping Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

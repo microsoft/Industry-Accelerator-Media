@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msmedia_TicketSales</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>9f326a33-6a99-ea11-a811-000d3a17769f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msmedia_TicketSales" />
+    <AppModuleComponent type="60" id="{5947dc26-1480-ea11-a812-000d3a33f58e}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="msmedia_admission" />
+    <AppModuleComponent type="1" schemaName="msmedia_advertisingspotfulfillment" />
+    <AppModuleComponent type="1" schemaName="msmedia_attraction" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{e4070ca7-2774-ea11-a811-000d3a33f58e}" />
+    <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+    <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="1" schemaName="msmedia_guest" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediaevent" />
+    <AppModuleComponent type="60" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" />
+    <AppModuleComponent type="60" id="{386b48bd-039a-4357-a2b8-49d6ba9acff0}" />
+    <AppModuleComponent type="26" id="{b5f9695f-915f-4ab4-8871-f00602ebab4e}" />
+    <AppModuleComponent type="26" id="{489e32df-6e70-ea11-a811-000d3a1ab88b}" />
+    <AppModuleComponent type="26" id="{198ae71f-1266-4e36-b421-c854766528c5}" />
+    <AppModuleComponent type="26" id="{aea8f0ae-c91c-4e2c-97e4-a1efd601ac8f}" />
+    <AppModuleComponent type="26" id="{2c42a1a6-55aa-439d-9aec-1ba61b34fe81}" />
+    <AppModuleComponent type="26" id="{dab06b2f-8252-4505-b844-84229eabf472}" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediavenue" />
+    <AppModuleComponent type="60" id="{a069d92f-c63c-4e5a-a189-627c79434c49}" />
+    <AppModuleComponent type="60" id="{dc47b1db-8d04-49ce-a909-74980567297c}" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="26" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
+    <AppModuleComponent type="1" schemaName="salesorder" />
+    <AppModuleComponent type="26" id="{4b2438f6-4949-484b-a272-6f694a2b2fae}" />
+    <AppModuleComponent type="1" schemaName="salesorderdetail" />
+    <AppModuleComponent type="26" id="{68972f8a-3a2a-42ea-b5dd-40b56f497618}" />
+    <AppModuleComponent type="1" schemaName="pricelevel" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="60" id="{b1db8953-69f4-4c31-93d8-e6c82a1696b9}" />
+    <AppModuleComponent type="60" id="{672e520b-6bbc-47f8-977f-228bfc6d8faf}" />
+    <AppModuleComponent type="26" id="{06377234-f167-47e7-bd5e-f7cc61b82f99}" />
+    <AppModuleComponent type="26" id="{58afc3c5-8add-4552-98cb-473bc8f75619}" />
+    <AppModuleComponent type="26" id="{a066d18a-8a4a-44ee-b78e-9a870dc799dd}" />
+    <AppModuleComponent type="26" id="{eab4cded-a39f-4b21-b06a-49a45bfa47fd}" />
+    <AppModuleComponent type="26" id="{44aeb57e-840f-4026-b898-24b261493c3c}" />
+    <AppModuleComponent type="26" id="{dd35464e-bb9d-4575-9270-ba09db4244c1}" />
+    <AppModuleComponent type="26" id="{89a80f99-f388-412a-add2-d75c6acd930f}" />
+    <AppModuleComponent type="26" id="{fc9c9aa7-16d8-4ef7-a540-2604464efac1}" />
+    <AppModuleComponent type="26" id="{a6c39ba9-ee07-4587-98a7-c23cb1ef496e}" />
+    <AppModuleComponent type="26" id="{18b841eb-8738-4bcb-9a59-af7f906e73b4}" />
+    <AppModuleComponent type="26" id="{19d7f2e0-e427-40fb-85e8-53e7cef2b166}" />
+    <AppModuleComponent type="26" id="{8ba625b2-6a2a-4735-bab2-0c74ae8442a4}" />
+    <AppModuleComponent type="26" id="{bcc509ee-1444-4a95-aed2-128efd85ffd5}" />
+    <AppModuleComponent type="26" id="{6abca607-018d-4042-a8a7-56a6a1190483}" />
+    <AppModuleComponent type="26" id="{0733418d-1275-ea11-a811-000d3a33f58e}" />
+    <AppModuleComponent type="26" id="{8aa246d0-1375-ea11-a811-000d3a33f58e}" />
+    <AppModuleComponent type="26" id="{69dd38eb-1475-ea11-a811-000d3a33f58e}" />
+    <AppModuleComponent type="26" id="{97d694e5-1575-ea11-a811-000d3a33f58e}" />
+    <AppModuleComponent type="1" schemaName="msmedia_ticket" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Media Product Sales &amp; Ticketing" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

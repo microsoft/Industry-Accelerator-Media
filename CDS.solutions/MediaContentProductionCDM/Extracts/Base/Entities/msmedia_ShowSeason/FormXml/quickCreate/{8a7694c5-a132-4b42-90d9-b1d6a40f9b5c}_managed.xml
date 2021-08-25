@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8a7694c5-a132-4b42-90d9-b1d6a40f9b5c}</formid>
+    <IntroducedVersion>1.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{15b79467-ab05-4219-b6e0-9e810c34e1c1}" name="tab_SeasonInformation" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Season Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{ddfe0b56-97c4-4631-a23b-80d96b0fa61f}" name="section_Season Information" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Season Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c55a4da5-3b4e-99c2-b736-478cc9e1be3e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Season Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc49f5ef-bef6-491b-bce7-d2da3ec94f9f}" locklevel="0">
+                        <labels>
+                          <label description="Season Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_seasonnum" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_seasonnum" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{e2a62e0c-6734-4e62-8053-6e404bb26324}" name="section_Show" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Show" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{01aae539-eb2d-d812-5d38-0386c8eb8595}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Show" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_show" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_show" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{b2096348-bf0c-42ef-b214-c6fdc2cb6088}" name="section_Description" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{781e9b79-e844-dae9-393a-59dbc14ba093}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a04bd83-380b-6dd4-c8e1-96d549415e58}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Season Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Season Quick Create Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

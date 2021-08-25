@@ -78,11 +78,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{13514dcb-7398-4a76-29eb-cb5648de0acd}" showlabel="true" locklevel="0">
+                      <cell id="{9ad931d0-c8a9-465e-9796-5ba147af68a9}" locklevel="0">
                         <labels>
                           <label description="Time Zone" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_timezone" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_timezone" disabled="false" />
+                        <control id="msmedia_eventtimezone" classid="{7C624A0B-F59E-493D-9583-638D34759266}" datafieldname="msmedia_eventtimezone" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -769,17 +769,30 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{58160dee-0c8a-4b40-927a-beafd3866043}" showlabel="true" locklevel="0">
+                      <cell id="{58160dee-0c8a-4b40-927a-beafd3866043}" showlabel="true" locklevel="0" colspan="1">
                         <labels>
-                          <label description="Portal Banner Image" languagecode="1033" />
+                          <label description="Portal Banner Image (&quot;Use a jpg that is 870 pixels wide by 200 pixels high&quot;)" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_registrationportalbannerimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_registrationportalbannerimage" disabled="false" />
+                        <control id="msmedia_registrationportalbannerimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_registrationportalbannerimage" disabled="false" uniqueid="{50ee14a6-a80d-0acb-6d86-4c26a5c0406d}" />
                       </cell>
                       <cell id="{2456e233-b2f9-44e2-8b67-27a00e82671b}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Portal Logo" languagecode="1033" />
                         </labels>
                         <control id="msmedia_registrationportallogo" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_registrationportallogo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0de5d42-fbc0-4ee0-87df-7b78f1509f4c}" locklevel="0">
+                        <labels>
+                          <label description="Card Image (&quot;Use a jpg that is 311 pixels wide by 207 pixels high&quot;)" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_cardimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_cardimage" disabled="false" uniqueid="{34ecb981-a991-94c5-3bb2-de5193cea80e}" />
+                      </cell>
+                      <cell id="{00213b91-8cab-aca2-4da4-8de15cbd25c3}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -823,7 +836,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

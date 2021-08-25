@@ -21,6 +21,7 @@
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"logicalname":"msmedia_seatsection","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"msmedia_seatmap","componenttype":1},{"logicalname":"msmedia_advertisingsegmentgroup","componenttype":1},{"logicalname":"msmedia_seatrow","componenttype":1},{"logicalname":"msmedia_seattier","componenttype":1},{"logicalname":"msmedia_seat","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/msmedia_seatmapmilestest_0544c_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/msmedia_seatmapmilestest_0544c_DocumentUri.msapp</DocumentUri>
 </CanvasApp>

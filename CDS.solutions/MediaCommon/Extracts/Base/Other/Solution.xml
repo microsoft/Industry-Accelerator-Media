@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.22554" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21044.130" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>MediaCommon</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Media Common" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.3.0</Version>
+    <Version>2.0.3.0</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>microsoftdynamics365media</UniqueName>
@@ -129,12 +129,268 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.22554)" />
-        <Dependent key="1" type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2008.4010)" />
-        <Dependent key="1" type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="10" schemaName="msmedia_MediaAsset_Category_msmedia_Media" displayName="msmedia_MediaAsset_Category_msmedia_Media" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdbyname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdbyyominame" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdonbehalfbyname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="exchangerate" displayName="Exchange Rate" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedbyname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedbyyominame" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="msmedia_assettypename" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="msmedia_categoryname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="msmedia_isforsalename" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="msmedia_ispublishedtowebname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneriddsc" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneridname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneridtype" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneridyominame" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="statecodename" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="statuscodename" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="transactioncurrencyidname" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="50" schemaName="msmedia_mediaasset:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="68" id="{cc0ca929-9e09-473a-8e09-709243135d8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="10" schemaName="msmedia_MediaAsset_Category_msmedia_Media" displayName="msmedia_MediaAsset_Category_msmedia_Media" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdbyname" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdbyyominame" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdonbehalfbyname" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedbyname" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedbyyominame" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneriddsc" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneridname" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneridtype" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owneridyominame" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="statecodename" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="statuscodename" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msmedia_mediaassetcategory" parentDisplayName="Media Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="50" schemaName="msmedia_mediaassetcategory:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="68" id="{6b086eea-4559-400e-ad35-86699d93f18c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msmedia_MediaAssetCategorySVG" displayName="msmedia_MediaAssetCategorySVG" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="61" schemaName="msmedia_MediaAssetCategorySVG" displayName="msmedia_MediaAssetCategorySVG" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msmedia_MediaAssetsSVG" displayName="msmedia_MediaAssetsSVG" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="61" schemaName="msmedia_MediaAssetsSVG" displayName="msmedia_MediaAssetsSVG" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2104.4005)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.2.21044.00130)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msmedia_assettype" displayName="Media Asset Type" solution="MediaAssetCDM (1.1.3.2)" />
+        <Dependent type="9" schemaName="msmedia_assettype" displayName="Media Asset Type" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

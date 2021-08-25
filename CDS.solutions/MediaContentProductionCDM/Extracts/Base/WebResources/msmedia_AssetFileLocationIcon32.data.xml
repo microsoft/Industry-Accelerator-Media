@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{0473f636-68b8-eb11-8236-000d3a1392e2}</WebResourceId>
+  <Name>msmedia_AssetFileLocationIcon32</Name>
+  <DisplayName>AssetFileLocationIcon32</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.1.3.8</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msmedia_AssetFileLocationIcon320473F636-68B8-EB11-8236-000D3A1392E2</FileName>
+</WebResource>

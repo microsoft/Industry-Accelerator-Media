@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{714ce793-2b7c-4dc9-8bb4-34efc1c3e91f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{65d2193e-c0d0-499e-aa5e-4031e5d7b051}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e406fd8d-b599-4b83-92f7-3b2277b8c1b7}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{78ff8e26-0b79-49d7-ab3f-4a54b12fe6ca}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bc4ccb7-3974-14d8-6ae1-325ee7eb3b28}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Asset File" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_assetfile" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_assetfile" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8dd4b921-d731-2b9a-1a57-bc9b0632e270}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d4ae5b9-99ee-4fa8-9e75-392938f60365}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

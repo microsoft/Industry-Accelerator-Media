@@ -65,6 +65,7 @@
   <EntityRelationship Name="msmedia_Dispenser_LastServicedBy_Contact" />
   <EntityRelationship Name="msmedia_EventAttraction_Attraction_msmedi" />
   <EntityRelationship Name="msmedia_EventAttraction_EventAttractionTr" />
+  <EntityRelationship Name="msmedia_EventAttraction_eventowner_System" />
   <EntityRelationship Name="msmedia_EventAttraction_Facility_msmedia_" />
   <EntityRelationship Name="msmedia_EventAttraction_MediaEvent_msmedi" />
   <EntityRelationship Name="msmedia_EventAttraction_MediaVenue_msmedi" />

@@ -21,6 +21,7 @@
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"logicalname":"msmedia_mediavenueimage","componenttype":1},{"logicalname":"msmedia_mediavenue","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/msmedia_imagegallerymediavenue_1ded7_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/msmedia_imagegallerymediavenue_1ded7_DocumentUri.msapp</DocumentUri>
 </CanvasApp>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f468d9c8-3dc1-4bab-8380-89ae0f1427fe}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_studioid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_studionumber" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_studio">
+          <attribute name="msmedia_studioid" />
+          <attribute name="msmedia_name" />
+          <attribute name="createdon" />
+          <order attribute="msmedia_name" descending="false" />
+          <attribute name="msmedia_studionumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Studio Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

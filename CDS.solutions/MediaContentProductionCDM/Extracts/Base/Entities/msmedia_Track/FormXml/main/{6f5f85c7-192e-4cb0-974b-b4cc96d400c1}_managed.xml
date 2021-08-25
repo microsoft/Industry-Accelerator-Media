@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6f5f85c7-192e-4cb0-974b-b4cc96d400c1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4dfedec7-1873-40cb-a07d-c6556c2b0283}" IsUserDefined="1" name="tab_General" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{540fec59-ea37-43da-acb8-75094f0cbdee}" name="section_TrackInformation">
+                  <labels>
+                    <label description="Track Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c8718246-1c14-4cee-af7d-202a2e839fd9}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e826e8bd-8ab8-1e56-02bc-5dc842201d7a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Asset File" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_assetfile" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_assetfile" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00b97835-5284-b758-56e6-e535242b56a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Track Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_tracknumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_tracknumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63328412-d870-5eea-147d-88b390690a24}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ebccffbe-a48e-4670-add9-dc6aa0a87306}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_AssetMetadata" id="{a37ebcb4-55d8-0ec6-8e96-494050262d28}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Asset Metadata" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="section_AssetMetadata" showlabel="false" showbar="false" locklevel="0" id="{39568942-53d0-3942-27b2-946013956ed1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Asset Metadata" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75371655-39b8-3070-8b7e-3714226e5255}" showlabel="true" colspan="1" auto="false" rowspan="13">
+                        <labels>
+                          <label description="Asset Metadata" languagecode="1033" />
+                        </labels>
+                        <control id="subgrid_AssetMetadata" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{57cc24d9-8c31-4bb2-939b-9b502152be62}">
+                          <parameters>
+                            <ViewId>{0A0FA2B9-8712-4896-8967-B45C101BD1B6}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_AssetMetadata_Track_msmedia_Track</RelationshipName>
+                            <TargetEntityType>msmedia_assetmetadata</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{0A0FA2B9-8712-4896-8967-B45C101BD1B6},{65D33DB5-93A2-EB11-B1AC-000D3A53FFBD}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <header id="{b7f5488e-8be2-4a2d-a15d-bccdcbe81edd}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7858e07b-df3c-463c-9e6e-6e907c604834}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2e2d8ccb-30ac-4ace-9eac-d44493db9b11}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a341b45e-661b-4a3b-b025-43fcfad61820}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f974ba6f-8608-4997-828d-d9913d6168d0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e1ed6439-4173-40f5-a4f1-571ba595b077}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7431fb74-2d6e-4972-b32e-1b0f81260926}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{66baba5b-7b3c-4752-b74b-3a0caacd0878}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

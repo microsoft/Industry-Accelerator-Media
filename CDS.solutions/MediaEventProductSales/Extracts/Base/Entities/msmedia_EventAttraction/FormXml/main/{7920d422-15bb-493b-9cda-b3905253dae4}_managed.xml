@@ -5,9 +5,9 @@
     <IntroducedVersion>1.0.0.4</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="HighWithControls">
+    <form>
       <tabs>
-        <tab verticallayout="true" id="{7ead8bd9-9720-4881-8c51-67e9610cc62f}" IsUserDefined="1" name="GeneralTab" ordinalvalue="0">
+        <tab verticallayout="true" id="{7ead8bd9-9720-4881-8c51-67e9610cc62f}" IsUserDefined="1" name="GeneralTab" expanded="true" ordinalvalue="0">
           <columns>
             <column width="100%" id="0">
               <sections>
@@ -32,22 +32,19 @@
                       <cell id="{6575000b-df23-4c03-9c1e-eb05c91e99ee}" showlabel="true" locklevel="0" ordinalvalue="20017" solutionaction="Modified" />
                     </row>
                     <row>
+                      <cell id="{76dfc3f4-bd85-46a9-87e8-eb7aaedc6b85}" locklevel="0" showlabel="true" ordinalvalue="20023" solutionaction="Modified" />
                       <cell id="{28737260-8169-4f97-ab62-2073c096edaa}" showlabel="true" locklevel="0" ordinalvalue="20019" solutionaction="Modified" />
                     </row>
                     <row>
+                      <cell id="{3c042ef5-95d4-415f-bd61-b5503d9be34f}" showlabel="true" locklevel="0" ordinalvalue="10016" solutionaction="Modified" />
                       <cell id="{8d9d0679-d789-42ec-b406-7c6991fcb5b1}" showlabel="true" locklevel="0" ordinalvalue="20021" solutionaction="Modified" />
                     </row>
                     <row>
-                      <cell id="{efe2989c-360f-4799-9f27-4d4d7f867885}" showlabel="true" locklevel="0" ordinalvalue="20023" solutionaction="Modified" />
+                      <cell id="{13441a30-aea0-e897-ce2c-bb44518816de}" showlabel="false" ordinalvalue="20021" solutionaction="Removed" />
                     </row>
                     <row>
-                      <cell id="{5a1e29ce-f67f-4e95-9a72-1f7b820d18f6}" showlabel="true" locklevel="0" ordinalvalue="20025" solutionaction="Modified" />
-                    </row>
-                    <row>
-                      <cell id="{58ea4bef-f73e-40db-9edc-169cd82d911b}" showlabel="true" locklevel="0" ordinalvalue="20027" solutionaction="Modified" />
-                    </row>
-                    <row>
-                      <cell showlabel="true" locklevel="0" id="{ff84716f-e745-4123-addc-9d0993f26b93}" ordinalvalue="20027" solutionaction="Removed" />
+                      <cell id="{345a70da-23e2-4672-8e08-4140775eb465}" ordinalvalue="10018" solutionaction="Modified" />
+                      <cell locklevel="0" id="{3b20d69c-1c38-40bd-b7c9-b11f555acaf6}" ordinalvalue="20023" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{06fd870f-b354-4bbf-abfd-4cb045ded316}" showlabel="true" locklevel="0" ordinalvalue="20005" solutionaction="Added">
@@ -69,6 +66,28 @@
                           </parameters>
                         </control>
                       </cell>
+                    </row>
+                    <row>
+                      <cell id="{42c058f2-b3bb-4e9c-9cae-6b0093e7b381}" ordinalvalue="10022" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_liveEventSettings" id="{c511e720-2e9e-0e2a-4464-e07e44c92793}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" ordinalvalue="1">
+          <columns>
+            <column width="50%" id="1">
+              <sections>
+                <section name="tab_liveEventSettings_section_2" showlabel="false" showbar="false" locklevel="0" id="{d6b50e12-8698-0e1b-44bb-d82400cda9a8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d0d6a5ad-97c2-441d-e373-b4433dd4c0a1}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
                     </row>
                   </rows>
                 </section>
@@ -95,37 +114,6 @@
           </row>
         </rows>
       </footer>
-      <Navigation solutionaction="Added">
-        <NavBar></NavBar>
-        <NavBarAreas>
-          <NavBarArea Id="Info">
-            <Titles>
-              <Title LCID="1033" Text="Common" />
-            </Titles>
-          </NavBarArea>
-          <NavBarArea Id="Sales">
-            <Titles>
-              <Title LCID="1033" Text="Sales" />
-            </Titles>
-          </NavBarArea>
-          <NavBarArea Id="Service">
-            <Titles>
-              <Title LCID="1033" Text="Service" />
-            </Titles>
-          </NavBarArea>
-          <NavBarArea Id="Marketing">
-            <Titles>
-              <Title LCID="1033" Text="Marketing" />
-            </Titles>
-          </NavBarArea>
-          <NavBarArea Id="ProcessCenter">
-            <Titles>
-              <Title LCID="1033" Text="Process Sessions" />
-            </Titles>
-          </NavBarArea>
-        </NavBarAreas>
-      </Navigation>
-      <controlDescriptions solutionaction="Added" />
     </form>
     <LocalizedNames>
       <LocalizedName description="Event Attraction Main Form" languagecode="1033" />

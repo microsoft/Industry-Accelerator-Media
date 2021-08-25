@@ -93,29 +93,6 @@
                     </row>
                   </rows>
                 </section>
-                <section name="AttractionsSection" id="495af767-9c49-4f7e-833d-40caebdd38d9" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Attractions" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" locklevel="0" id="{c842aa37-fafd-46a2-9277-470e4d0e70ea}" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="New SG control 1585340474426" languagecode="1033" />
-                        </labels>
-                        <control id="AttractionsSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <TargetEntityType>syncerror</TargetEntityType>
-                            <ViewId>{F1203E8B-6C6A-4210-906E-8428CB1FDE68}</ViewId>
-                            <ViewIds>{F1203E8B-6C6A-4210-906E-8428CB1FDE68}</ViewIds>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <RelationshipName>msmedia_attractionschedule_SyncErrors</RelationshipName>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
               </sections>
             </column>
           </columns>

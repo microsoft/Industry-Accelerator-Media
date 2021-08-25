@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bc5196d5-c0b7-eb11-8236-000d3a1392e2}</formid>
+    <IntroducedVersion>1.1.3.8</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_MediaAssetActivityInformation" showlabel="false" labelid="{75628319-2c45-4e95-b138-d354f578b352}">
+          <labels>
+            <label description="Media Asset Activity Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="section_MediaAssetActivityInformation" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{2a8acc62-0d3f-46ac-a819-b105d3baaa1f}">
+                  <labels>
+                    <label description="Media Asset Activity Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{01fb1226-a174-414e-9fe9-5db636ed952d}" locklevel="0">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{adb90add-d4aa-4b43-ac30-e410caba1136}" locklevel="0">
+                        <labels>
+                          <label description="Activity Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_activitytype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_activitytype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2241e7f-1978-44de-ac85-bca88fed9aa2}" locklevel="0">
+                        <labels>
+                          <label description="Activity Status" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_activitystatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_activitystatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{401f9f1d-2408-4f88-8f10-c94fa7ee7e87}" locklevel="0">
+                        <labels>
+                          <label description="Notification Email Address" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_notificationemailaddress" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="msmedia_notificationemailaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{350e6a0b-4e8d-4e36-b3c6-6e94f8cb6e50}" locklevel="0">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" />
+                        </labels>
+                        <control id="regardingobjectid" classid="{F3015350-44A2-4AA0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ca87b19-0d18-46dc-bc78-0a80318e1e8e}" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="scheduledstart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledstart" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60fbc65e-fa12-4793-beef-547827153a04}" locklevel="0">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="scheduledend" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1404db0e-a29b-4c5d-9559-1a2376138d29}" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{118f8301-238d-43b5-96ae-c5aca89eef54}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{9f26b7ed-dcb3-48a6-af54-4ebf395c760b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{5c846dc7-ed56-443b-90fa-4bcb8c8fea3b}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{1bb6925b-9b9e-4c5d-9aab-14bcccdbe61f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description=" Media Asset Activity Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Media Asset Activity Quick Create Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

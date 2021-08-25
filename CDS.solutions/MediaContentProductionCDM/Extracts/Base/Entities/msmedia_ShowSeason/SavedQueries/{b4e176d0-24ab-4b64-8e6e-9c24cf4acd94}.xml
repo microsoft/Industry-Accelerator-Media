@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b4e176d0-24ab-4b64-8e6e-9c24cf4acd94}</savedqueryid>
+    <layoutxml>
+      <grid name="msmedia_showseasons" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="msmedia_showseason" id="msmedia_showseasonid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_seasonnum" width="205" />
+          <cell name="msmedia_show" width="204" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_showseason">
+          <attribute name="msmedia_showseasonid" />
+          <attribute name="msmedia_name" />
+          <attribute name="createdon" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_show" />
+          <attribute name="msmedia_seasonnum" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Show Season Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

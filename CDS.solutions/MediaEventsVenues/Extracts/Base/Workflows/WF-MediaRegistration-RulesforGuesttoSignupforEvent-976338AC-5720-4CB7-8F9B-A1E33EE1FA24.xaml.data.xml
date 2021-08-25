@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{976338ac-5720-4cb7-8f9b-a1e33ee1fa24}" Name="WF-&gt; Media Registration -&gt; Rules for Guest to Signup for Event Attractions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/WF-MediaRegistration-RulesforGuesttoSignupforEvent-976338AC-5720-4CB7-8F9B-A1E33EE1FA24.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>msmedia_eventattraction,msmedia_registrationstatus</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.1.3.13</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <PrimaryEntity>msmedia_MediaRegistration</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="WF-&gt; Media Registration -&gt; Rules for Guest to Signup for Event Attractions" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{d79be6f8-c22e-4c12-9a1f-efef1b7e6819}">
+      <label languagecode="1033" description="Registration for event attraction is created" />
+    </steplabels>
+    <steplabels id="{fdddbcda-b7cf-4f34-84fc-99b2800734d3}">
+      <label languagecode="1033" description="Registration for event attraction is not allowed." />
+    </steplabels>
+  </labels>
+</Workflow>

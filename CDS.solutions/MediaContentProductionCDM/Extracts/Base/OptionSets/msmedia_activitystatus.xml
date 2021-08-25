@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_activitystatus" localizedName="Activity Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Activity Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="207940000">
+      <labels>
+        <label description="Submitted" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940001">
+      <labels>
+        <label description="Started" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940002">
+      <labels>
+        <label description="Completed" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940003">
+      <labels>
+        <label description="Canceled" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940004">
+      <labels>
+        <label description="Failed with error" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940005">
+      <labels>
+        <label description="Completed with warning" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

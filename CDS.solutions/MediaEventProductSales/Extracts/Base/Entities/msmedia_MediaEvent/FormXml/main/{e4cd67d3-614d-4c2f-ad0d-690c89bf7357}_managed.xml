@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="HighWithControls">
+    <form headerdensity="HighWithControls" solutionaction="Modified">
       <tabs>
         <tab name="TicketingTab" id="cdd560cc-5c0f-4c92-a227-9e5638653cbe" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2">
           <columns>
@@ -31,6 +31,32 @@
                             <AllowFilterOff>false</AllowFilterOff>
                           </parameters>
                         </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="registration_config" id="492afe90-cf6b-4082-bfab-0375c337be6b" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="3">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="portal_images" showlabel="false" showbar="false" locklevel="0" id="{02021149-6ad7-7c1a-684b-5d3568108c17}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{58160dee-0c8a-4b40-927a-beafd3866043}" showlabel="true" locklevel="0" colspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Portal Banner Image(&quot;Use a jpg that is 870 pixels wide by 200 pixels high&quot;)" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0de5d42-fbc0-4ee0-87df-7b78f1509f4c}" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Card Image (&quot;Use a jpg that is 311 pixels wide by 207 pixels high&quot;)" languagecode="1033" solutionaction="Modified" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -137,29 +163,15 @@
           </row>
         </rows>
       </header>
+      <Navigation>
+        <NavBar />
+      </Navigation>
       <footer id="{7299fb5b-9903-43fb-a1a7-d139854ce618}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
           <row>
             <cell id="{5e568baa-d1ee-4027-88a6-df082bd1abc1}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
             <cell id="{a357413c-ba20-4d19-bde7-94e4971bcd70}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
             <cell id="{ad25a972-c029-4f06-80f9-0531b389cf02}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
-          </row>
-          <row>
-            <cell id="{e00b7d61-6a41-48bc-be21-3dfc954b52ca}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{a05146c3-1782-4986-a8c3-9f567dec859a}" showlabel="false" ordinalvalue="20001" solutionaction="Added">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{1b1c40b0-4e2d-45ac-95ad-5e4fa1117fb0}" showlabel="false" ordinalvalue="30002" solutionaction="Added">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
           </row>
         </rows>
       </footer>

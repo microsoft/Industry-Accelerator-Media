@@ -26,7 +26,6 @@
           <Title LCID="1033" Title="Venue Management" />
         </Titles>
         <SubArea Id="NewSubArea_b054088e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_mediavenue" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="NewSubArea_0f2bb49b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_seatmap" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_6d3600ca" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_concessionpartner" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_4e4116eb" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_concessionstand" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_89def84f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_attraction" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
