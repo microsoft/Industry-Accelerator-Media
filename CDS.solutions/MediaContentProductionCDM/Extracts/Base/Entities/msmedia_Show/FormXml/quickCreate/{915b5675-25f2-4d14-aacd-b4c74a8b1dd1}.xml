@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{915b5675-25f2-4d14-aacd-b4c74a8b1dd1}</formid>
+    <IntroducedVersion>1.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{2283f661-3a9f-4dc4-bf1e-e35d30cafaaa}" name="tab_ShowInformation" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Show Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{16b12409-817f-4eb9-8aab-ca992dc2338e}" name="section_ShowInformation" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Show Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cd1bc136-1dab-c89a-a306-245c4ba3b114}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Studio" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_studio" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_studio" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{458674b2-dedb-a184-ab3b-03bc08db16c2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2173a39a-323c-67a5-801b-c03609b22eed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{9d8f9c65-5315-48c5-8321-03ad2a077d50}" name="section_AssetFolderInformation" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Asset Folder Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4dcc0410-d69d-be2a-3517-34694d105cb9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Asset Folder Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_assetfoldername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_assetfoldername" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4017e137-026a-383e-6735-cdb1e445a588}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Asset Container Path" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_assetcontainerpath" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_assetcontainerpath" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{f15d1bcc-2506-411d-8b9a-40eb3c668137}" name="section_EnableInformation" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Enable Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b70628a9-eeeb-56db-343b-4b130348c5ee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Enable Checksum Check" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_enablechecksumcheck" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_enablechecksumcheck" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c558ee89-5cae-2c51-8734-a6c1084503d0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Enable Download" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_enabledownload" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_enabledownload" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Show Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Show Quick Create Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

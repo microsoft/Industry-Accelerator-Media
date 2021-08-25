@@ -17,41 +17,16 @@
     <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
     <AppModuleComponent type="1" schemaName="activitypointer" />
-    <AppModuleComponent type="1" schemaName="msmedia_admission" />
-    <AppModuleComponent type="1" schemaName="msmedia_advertisingspotfulfillment" />
     <AppModuleComponent type="1" schemaName="msmedia_attraction" />
     <AppModuleComponent type="1" schemaName="contact" />
-    <AppModuleComponent type="60" id="{e4070ca7-2774-ea11-a811-000d3a33f58e}" />
-    <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
-    <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
     <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
     <AppModuleComponent type="1" schemaName="msmedia_guest" />
     <AppModuleComponent type="1" schemaName="msmedia_guestcategory" />
-    <AppModuleComponent type="1" schemaName="lead" />
-    <AppModuleComponent type="26" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}" />
     <AppModuleComponent type="1" schemaName="msmedia_loyaltyprogram" />
     <AppModuleComponent type="1" schemaName="msmedia_mediaevent" />
     <AppModuleComponent type="1" schemaName="msmedia_mediavenue" />
-    <AppModuleComponent type="1" schemaName="opportunity" />
-    <AppModuleComponent type="26" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
-    <AppModuleComponent type="1" schemaName="salesorder" />
-    <AppModuleComponent type="26" id="{4b2438f6-4949-484b-a272-6f694a2b2fae}" />
-    <AppModuleComponent type="1" schemaName="pricelevel" />
-    <AppModuleComponent type="1" schemaName="product" />
-    <AppModuleComponent type="60" id="{b1db8953-69f4-4c31-93d8-e6c82a1696b9}" />
-    <AppModuleComponent type="60" id="{672e520b-6bbc-47f8-977f-228bfc6d8faf}" />
-    <AppModuleComponent type="26" id="{d4de01b6-1275-ea11-a811-000d3a33febe}" />
-    <AppModuleComponent type="26" id="{1e0488d9-1375-ea11-a811-000d3a33febe}" />
-    <AppModuleComponent type="26" id="{2668dbf5-1475-ea11-a811-000d3a33febe}" />
-    <AppModuleComponent type="26" id="{81eb8ef1-1575-ea11-a811-000d3a33f58e}" />
-    <AppModuleComponent type="26" id="{44aeb57e-840f-4026-b898-24b261493c3c}" />
-    <AppModuleComponent type="26" id="{0733418d-1275-ea11-a811-000d3a33f58e}" />
-    <AppModuleComponent type="26" id="{8aa246d0-1375-ea11-a811-000d3a33f58e}" />
-    <AppModuleComponent type="26" id="{69dd38eb-1475-ea11-a811-000d3a33f58e}" />
-    <AppModuleComponent type="26" id="{97d694e5-1575-ea11-a811-000d3a33f58e}" />
-    <AppModuleComponent type="1" schemaName="msmedia_ticket" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />

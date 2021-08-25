@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>msmedia_ContentProduction</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Content Production" />
+      </Titles>
+      <Group Id="Group_Dashboards" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Dashboards" />
+        </Titles>
+        <SubArea Id="SubArea_MediaCPMActivityLog" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="fb8b9801-2de9-eb11-bacb-000d3a9a6108" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip">
+          <Titles>
+            <Title LCID="1033" Title="Dashboards" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Group_ContentProduction" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Content Production" />
+        </Titles>
+        <SubArea Id="SubArea_Studio" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="msmedia_studio" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_Show" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_show" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_Season" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_showseason" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_Episode" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_episode" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_Asset" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_mediaasset" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_AssetBlocks" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_assetblock" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_AssetFileLocations" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msmedia_assetfilelocation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Asset File Locations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="SubArea_Vendors" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Vendors" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Search" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Search" />
+        </Titles>
+        <SubArea Id="SubArea_SearchMetadata" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="/WebResources/msmedia_AssetMetadataIconSVG" Icon="/WebResources/msmedia_AssetMetadataIconSVG" Url="/main.aspx?pagetype=entitylist&amp;etn=msmedia_mediaasset&amp;viewid=a42a74e5-029d-eb11-b1ac-002248221d0d&amp;viewType=1039" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Search Metadata" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Content Production" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21064.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MediaRegistrationPortal</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Media Registration Portal" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>2.0.3.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365media</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Media" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmedia</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76686</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msmedia_guest" behavior="1" />
+      <RootComponent type="29" id="{09393fc0-a3c2-ea11-a812-000d3a33fb78}" behavior="0" />
+      <RootComponent type="29" id="{1c4e49bf-ecbf-eb11-8236-0022480a2f8f}" behavior="0" />
+      <RootComponent type="29" id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" behavior="0" />
+      <RootComponent type="29" id="{fcd8fd86-7e7d-eb11-a812-00224802914c}" behavior="0" />
+      <RootComponent type="60" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" behavior="0" />
+      <RootComponent type="60" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" behavior="0" />
+      <RootComponent type="60" id="{95282a68-38cc-4600-a5a7-308370d50359}" behavior="0" />
+      <RootComponent type="60" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_publishingstate" displayName="Publishing State" solution="MicrosoftPortalBase (9.2.2001.0)" />
+        <Dependent type="29" displayName="FL - &gt; Manual Trigger -&gt; Create Banner Image Web Files for  existing Media Events" id="{1c4e49bf-ecbf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_publishingstate" displayName="Publishing State" solution="MicrosoftPortalBase (9.2.2001.0)" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webfile" displayName="Web File" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Dependent type="29" displayName="FL - &gt; Manual Trigger -&gt; Create Banner Image Web Files for  existing Media Events" id="{1c4e49bf-ecbf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webfile" displayName="Web File" solution="MicrosoftPortalDependencies (9.2.10.0)" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_eventattraction" displayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Attraction Quick View Form" parentDisplayName="Event Attraction" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_guest" displayName="Guest" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="29" displayName="FL -&gt; Media Registration -&gt; Insert Data to Media Registration" id="{09393fc0-a3c2-ea11-a812-000d3a33fb78}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="29" displayName="FL -&gt; Media Registration -&gt; Update Data of Media Registration" id="{fcd8fd86-7e7d-eb11-a812-00224802914c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="29" displayName="FL - &gt; Manual Trigger -&gt; Create Banner Image Web Files for  existing Media Events" id="{1c4e49bf-ecbf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaregistration" displayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="29" displayName="FL -&gt; Media Registration -&gt; Insert Data to Media Registration" id="{09393fc0-a3c2-ea11-a812-000d3a33fb78}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaregistration" displayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="29" displayName="FL -&gt; Media Registration -&gt; Update Data of Media Registration" id="{fcd8fd86-7e7d-eb11-a812-00224802914c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaregistration" displayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_EventAttraction_MediaVenue_msmedi" displayName="msmedia_EventAttraction_MediaVenue_msmedi" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Attraction Quick View Form" parentDisplayName="Event Attraction" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Guest_Contact_Contact" displayName="msmedia_Guest_Contact_Contact" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Guest_LastRegisteredEvent_msmedia" displayName="msmedia_Guest_LastRegisteredEvent_msmedia" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_MediaEvent_PrimaryVenue_msmedia_M" displayName="msmedia_MediaEvent_PrimaryVenue_msmedia_M" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_EventAttraction_msmedia_MediaRegistration" displayName="msmedia_EventAttraction_msmedia_MediaRegistration" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_MediaRegistration_Contact_Contact" displayName="msmedia_MediaRegistration_Contact_Contact" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_MediaRegistration_MediaEvent_msme" displayName="msmedia_MediaRegistration_MediaEvent_msme" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_enddate" displayName="End Date" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Attraction Quick View Form" parentDisplayName="Event Attraction" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_mediavenue" displayName="Media Venue" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Attraction Quick View Form" parentDisplayName="Event Attraction" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_sessiontype" displayName="Session Type" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Attraction Quick View Form" parentDisplayName="Event Attraction" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_startdate" displayName="Start Date" parentSchemaName="msmedia_eventattraction" parentDisplayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Attraction Quick View Form" parentDisplayName="Event Attraction" id="{9d19f214-f2b4-4f11-ab4c-7a96582fcddc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_birthdate" displayName="Birth Date" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_birthdate" displayName="Birth Date" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_city" displayName="City" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_city" displayName="City" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_company_name" displayName="Company Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_company_name" displayName="Company Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_contact" displayName="Contact" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_contact" displayName="Contact" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_country" displayName="Country" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_country" displayName="Country" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_displayname" displayName="Display Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_displayname" displayName="Display Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_emailaddress" displayName="Email Address" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_emailaddress" displayName="Email Address" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_firstname" displayName="First Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_firstname" displayName="First Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_genderidentity" displayName="Gender Identity" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_genderidentity" displayName="Gender Identity" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_guestid" displayName="Guest" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_jobtitle" displayName="Job Title" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_jobtitle" displayName="Job Title" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_lastname" displayName="Last Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_lastname" displayName="Last Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_lastregisteredevent" displayName="Last Registered Event" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_lastregisteredevent" displayName="Last Registered Event" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktocall" displayName="OK to Call" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktocall" displayName="OK to Call" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktofax" displayName="OK to Fax" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktofax" displayName="OK to Fax" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktomail" displayName="OK to Mail" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktomail" displayName="OK to Mail" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktosendemail" displayName="OK to Send Email" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktosendemail" displayName="OK to Send Email" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_origin" displayName="Origin" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_pronoun" displayName="Pronoun" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_pronoun" displayName="Pronoun" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_specialrequirements" displayName="Special Requirements" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_specialrequirements" displayName="Special Requirements" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_state" displayName="State" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_state" displayName="State" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_telephone" displayName="Telephone " parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="All Active Guests" displayName="All Active Guests" parentSchemaName="msmedia_guest" parentDisplayName="Guest" id="{b639051b-79b8-ea11-a812-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_telephone" displayName="Telephone " parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="Active" />
+        <Dependent type="60" displayName="Portal Event Registration" parentDisplayName="Guest" id="{68c69a49-11fd-ea11-a815-000d3a33f58e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_enddate" displayName="End Date" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_eventtype" displayName="Event Type" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_eventurl" displayName="Event URL" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_primaryvenue" displayName="Primary Venue" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_registrationportalbannerimage" displayName="Portal Banner Image" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_registrationportalbannerimage_timestamp" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_registrationportalbannerimage_url" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_registrationportalbannerimageid" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="Active" />
+        <Dependent type="29" displayName="FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event " id="{ce4c380d-34bf-eb11-8236-0022480a2f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_startdate" displayName="Start Date" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Event Quick View Form" parentDisplayName="Media Event" id="{8e06db47-7868-4575-b23e-b94fdda7be47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_contact" displayName="Contact" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_eventattraction" displayName="Event Attraction" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_externalordernumber" displayName="External Order #" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_invitationemailaddress" displayName="Invitation Email Address" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_invitationphonenumber" displayName="Invitation Phone Number" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_invitationsenton" displayName="Invitation Sent On" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_mediaevent" displayName="Media Event" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_registeredon" displayName="Registered On" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_registrationstatus" displayName="Current Status" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_mediaregistration" parentDisplayName="Media Registration" solution="Active" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Lookup View" displayName="Media Event Lookup View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{dab06b2f-8252-4505-b844-84229eabf472}" />
+        <Dependent type="60" displayName="Media Portal Registration View Details Form" parentDisplayName="Media Registration" id="{95282a68-38cc-4600-a5a7-308370d50359}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

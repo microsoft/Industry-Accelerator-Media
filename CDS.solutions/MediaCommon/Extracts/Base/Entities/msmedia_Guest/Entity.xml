@@ -1047,7 +1047,7 @@
           <Type>nvarchar</Type>
           <Name>msmedia_name</Name>
           <LogicalName>msmedia_name</LogicalName>
-          <RequiredLevel>required</RequiredLevel>
+          <RequiredLevel>recommended</RequiredLevel>
           <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>

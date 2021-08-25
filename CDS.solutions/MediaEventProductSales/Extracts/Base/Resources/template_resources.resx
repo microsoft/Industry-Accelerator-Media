@@ -1,64 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -127,10 +68,10 @@
     <value>Both</value>
   </metadata>
   <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
-        bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
-</value>
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
   </metadata>
   <data name="10:Description,business_unit_msmedia_admission" xml:space="preserve">
     <value>Unique identifier for the business unit that owns the record</value>
@@ -792,14 +733,6 @@
     <value>A form for this entity.</value>
     <comment>'Event Attraction' : Description for systemform in Entity FormXml ID: '{7920d422-15bb-493b-9cda-b3905253dae4}'</comment>
   </data>
-  <data name="1:Description,Facility{8d82ce0d-d994-48f6-9a75-8d207e9ca3c5}" xml:space="preserve">
-    <value>A card form for this entity.</value>
-    <comment>'Facility' : Description for systemform in Entity FormXml ID: '{8d82ce0d-d994-48f6-9a75-8d207e9ca3c5}'</comment>
-  </data>
-  <data name="1:Description,Facility{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>A form for this entity.</value>
-    <comment>'Facility' : Description for systemform in Entity FormXml ID: '{d196d9f4-1d46-4625-b43e-9ea89b769ae7}'</comment>
-  </data>
   <data name="1:Description,Guest{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
     <value>A form for this entity.</value>
     <comment>'Guest' : Description for systemform in Entity FormXml ID: '{165a28fe-e798-4086-ae69-3ef841d84590}'</comment>
@@ -1355,6 +1288,10 @@
   <data name="1:Description,msmedia_MediaEventmsmedia_SeatProductsAutoCreated" xml:space="preserve">
     <value />
     <comment>'msmedia_MediaEvent' : Description for Attribute 'msmedia_SeatProductsAutoCreated' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaEventmsmedia_TicketingRequired" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaEvent' : Description for Attribute 'msmedia_TicketingRequired' on Entity</comment>
   </data>
   <data name="1:Description,msmedia_MediaEventmsmedia_TotalAdmissionsAutoCreated" xml:space="preserve">
     <value />
@@ -2760,6 +2697,14 @@
     <value>Type of product.</value>
     <comment>'Product' : Description for OptionSet 'product_producttypecode' on Entity</comment>
   </data>
+  <data name="1:Description,ProductValidFromDate" xml:space="preserve">
+    <value>Date from which this product is valid.</value>
+    <comment>'Product' : Description for Attribute 'ValidFromDate' on Entity</comment>
+  </data>
+  <data name="1:Description,ProductValidToDate" xml:space="preserve">
+    <value>Date to which this product is valid.</value>
+    <comment>'Product' : Description for Attribute 'ValidToDate' on Entity</comment>
+  </data>
   <data name="1:Description,Product{06377234-f167-47e7-bd5e-f7cc61b82f99}" xml:space="preserve">
     <value>Displays information about product bundles which are in active state.</value>
     <comment>'Product' : Description for SavedQuery on Entity QueryId: '{06377234-f167-47e7-bd5e-f7cc61b82f99}'</comment>
@@ -3351,6 +3296,10 @@
   <data name="1:displayname,msmedia_MediaEventmsmedia_SeatProductsAutoCreated" xml:space="preserve">
     <value>Seat Products Auto-Created</value>
     <comment>'msmedia_MediaEvent' : displayname for Attribute 'msmedia_SeatProductsAutoCreated' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaEventmsmedia_TicketingRequired" xml:space="preserve">
+    <value>Ticketing Required</value>
+    <comment>'msmedia_MediaEvent' : displayname for Attribute 'msmedia_TicketingRequired' on Entity</comment>
   </data>
   <data name="1:displayname,msmedia_MediaEventmsmedia_TotalAdmissionsAutoCreated" xml:space="preserve">
     <value>Total Admissions Auto-Created</value>
@@ -4688,6 +4637,14 @@
     <value>Product Type</value>
     <comment>'Product' : displayname for OptionSet 'product_producttypecode' on Entity</comment>
   </data>
+  <data name="1:displayname,ProductValidFromDate" xml:space="preserve">
+    <value>Valid From</value>
+    <comment>'Product' : displayname for Attribute 'ValidFromDate' on Entity</comment>
+  </data>
+  <data name="1:displayname,ProductValidToDate" xml:space="preserve">
+    <value>Valid To</value>
+    <comment>'Product' : displayname for Attribute 'ValidToDate' on Entity</comment>
+  </data>
   <data name="1:displayname,QuoteDetailmsmedia_EventAttraction" xml:space="preserve">
     <value>Event Attraction</value>
     <comment>'QuoteDetail' : displayname for Attribute 'msmedia_EventAttraction' on Entity</comment>
@@ -5224,73 +5181,13 @@
     <value>Sales Order Product</value>
     <comment>'Advertising Spot Fulfillment' : label for cell in Entity FormXml ID: '{fd765f09-e5ac-4830-9480-3d90d19142ff}'</comment>
   </data>
-  <data name="1:label,Concession Stand637891e1-4d91-481a-8889-b13d5e5583b5" xml:space="preserve">
-    <value>Concession Partners</value>
-    <comment>'Concession Stand' : label for section in Entity FormXml ID: '637891e1-4d91-481a-8889-b13d5e5583b5'</comment>
-  </data>
-  <data name="1:label,Concession Stand770a3cc4-690f-4dde-87ba-1724de32b063" xml:space="preserve">
-    <value>Concession Partners</value>
-    <comment>'Concession Stand' : label for tab in Entity FormXml ID: '770a3cc4-690f-4dde-87ba-1724de32b063'</comment>
-  </data>
-  <data name="1:label,Concession Standa484e176-7702-4af4-a83d-f44ba7940226" xml:space="preserve">
-    <value>Hours of Operation</value>
-    <comment>'Concession Stand' : label for tab in Entity FormXml ID: 'a484e176-7702-4af4-a83d-f44ba7940226'</comment>
-  </data>
-  <data name="1:label,Concession Standddd767fa-5f18-44d0-9627-2550e589782c" xml:space="preserve">
-    <value>Hours of Operation</value>
-    <comment>'Concession Stand' : label for section in Entity FormXml ID: 'ddd767fa-5f18-44d0-9627-2550e589782c'</comment>
-  </data>
-  <data name="1:label,Concession Stand{4af1b830-408f-4e66-a273-4ac894eea615}" xml:space="preserve">
-    <value />
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{4af1b830-408f-4e66-a273-4ac894eea615}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{5b79496d-ea98-401d-a487-c07140e01cff}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{5b79496d-ea98-401d-a487-c07140e01cff}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{687d6aba-c774-4d95-8177-cbb4dacc6c25}" xml:space="preserve">
-    <value>Stand Location</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{687d6aba-c774-4d95-8177-cbb4dacc6c25}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{7ed045b9-970a-a06d-8134-73962197e3b7}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Concession Stand' : label for section in Entity FormXml ID: '{7ed045b9-970a-a06d-8134-73962197e3b7}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{8286c90a-37b6-76a8-a186-db4941bac457}" xml:space="preserve">
-    <value>Food &amp; Beverage</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{8286c90a-37b6-76a8-a186-db4941bac457}'</comment>
-  </data>
   <data name="1:label,Concession Stand{91061128-c918-4b65-ba79-88065600a827}" xml:space="preserve">
     <value>Catalog</value>
     <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{91061128-c918-4b65-ba79-88065600a827}'</comment>
   </data>
-  <data name="1:label,Concession Stand{9387b966-de1a-3d42-1680-1eee9a620abc}" xml:space="preserve">
-    <value>Concession Partners (Concession Stand)</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{9387b966-de1a-3d42-1680-1eee9a620abc}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{9b5e3c5c-1c37-5dab-a319-a05c23213a5e}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{9b5e3c5c-1c37-5dab-a319-a05c23213a5e}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{ad7124ab-a946-40dd-3e7a-35c238dbcbce}" xml:space="preserve">
-    <value>Hours of Operation (Concession Stand)</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{ad7124ab-a946-40dd-3e7a-35c238dbcbce}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{b16c9018-7101-4e22-9082-bbc75335dd75}" xml:space="preserve">
-    <value />
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{b16c9018-7101-4e22-9082-bbc75335dd75}'</comment>
-  </data>
   <data name="1:label,Concession Stand{b6ef2683-f016-4077-9f68-fdd23738d6ec}" xml:space="preserve">
     <value />
     <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{b6ef2683-f016-4077-9f68-fdd23738d6ec}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{b74b525a-cbdb-4e0d-9f98-7ded063b222e}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Concession Stand' : label for tab in Entity FormXml ID: '{b74b525a-cbdb-4e0d-9f98-7ded063b222e}'</comment>
-  </data>
-  <data name="1:label,Concession Stand{d2081cf7-debd-42d2-8ac4-77abb0dd0ba8}" xml:space="preserve">
-    <value>Media Venue</value>
-    <comment>'Concession Stand' : label for cell in Entity FormXml ID: '{d2081cf7-debd-42d2-8ac4-77abb0dd0ba8}'</comment>
   </data>
   <data name="1:label,Contact090115e5-10e6-4512-aa0c-e7c2f0264562" xml:space="preserve">
     <value>New Section</value>
@@ -5656,581 +5553,25 @@
     <value>New SG control 1585850541445</value>
     <comment>'Contact' : label for cell in Entity FormXml ID: '{ff91a148-da07-436c-8bc2-d00ecb9859ff}'</comment>
   </data>
-  <data name="1:label,Event Attraction1a0e00b1-cca5-43ca-ad0e-c50c9a3edaf8" xml:space="preserve">
-    <value>Media Registrations</value>
-    <comment>'Event Attraction' : label for tab in Entity FormXml ID: '1a0e00b1-cca5-43ca-ad0e-c50c9a3edaf8'</comment>
-  </data>
-  <data name="1:label,Event Attraction6bb80dea-8640-4905-949b-71e5fb67b8ce" xml:space="preserve">
-    <value>Attraction Schedules</value>
-    <comment>'Event Attraction' : label for tab in Entity FormXml ID: '6bb80dea-8640-4905-949b-71e5fb67b8ce'</comment>
-  </data>
-  <data name="1:label,Event Attraction7bbc5902-65c3-45e5-a428-59f1e0cebc49" xml:space="preserve">
-    <value>Media Registrations</value>
-    <comment>'Event Attraction' : label for section in Entity FormXml ID: '7bbc5902-65c3-45e5-a428-59f1e0cebc49'</comment>
-  </data>
-  <data name="1:label,Event Attraction89e87bde-2bbe-4c86-99f8-f0222c69a7bf" xml:space="preserve">
-    <value>Hours of Operation</value>
-    <comment>'Event Attraction' : label for section in Entity FormXml ID: '89e87bde-2bbe-4c86-99f8-f0222c69a7bf'</comment>
-  </data>
-  <data name="1:label,Event Attractiona47be798-1966-4abb-a59f-e5e2ecd4f1e2" xml:space="preserve">
-    <value>Hours of Operation</value>
-    <comment>'Event Attraction' : label for tab in Entity FormXml ID: 'a47be798-1966-4abb-a59f-e5e2ecd4f1e2'</comment>
-  </data>
-  <data name="1:label,Event Attractionabb261af-daf7-4e70-b487-5f7d41fe48c9" xml:space="preserve">
-    <value>Attraction Schedules</value>
-    <comment>'Event Attraction' : label for section in Entity FormXml ID: 'abb261af-daf7-4e70-b487-5f7d41fe48c9'</comment>
-  </data>
-  <data name="1:label,Event Attractiondbb54ffb-8383-4356-8274-8bf746b043d7" xml:space="preserve">
-    <value>Registration Status Logs</value>
-    <comment>'Event Attraction' : label for tab in Entity FormXml ID: 'dbb54ffb-8383-4356-8274-8bf746b043d7'</comment>
-  </data>
-  <data name="1:label,Event Attractionf7f1d06e-171b-4762-bb07-6a6d106c15d7" xml:space="preserve">
-    <value>Registration Status Logs</value>
-    <comment>'Event Attraction' : label for section in Entity FormXml ID: 'f7f1d06e-171b-4762-bb07-6a6d106c15d7'</comment>
-  </data>
   <data name="1:label,Event Attraction{06fd870f-b354-4bbf-abfd-4cb045ded316}" xml:space="preserve">
     <value>Media Venue Seat Map</value>
     <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{06fd870f-b354-4bbf-abfd-4cb045ded316}'</comment>
   </data>
-  <data name="1:label,Event Attraction{08e9a67c-6eb3-4192-9517-9aeb8c52ec90}" xml:space="preserve">
-    <value>Location</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{08e9a67c-6eb3-4192-9517-9aeb8c52ec90}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{0e896668-9955-481f-a82e-cb5c639c0fd4}" xml:space="preserve">
-    <value>End Date</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{0e896668-9955-481f-a82e-cb5c639c0fd4}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{136aabbf-37e3-49c1-8c47-be12020681b6}" xml:space="preserve">
-    <value>HoursofOperationSubgrid</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{136aabbf-37e3-49c1-8c47-be12020681b6}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{1883145b-4583-4512-ad01-4722495870de}" xml:space="preserve">
-    <value>Total Ticket Quantity</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{1883145b-4583-4512-ad01-4722495870de}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{1fbcbf11-c0ac-45ea-b816-9d73752b84a4}" xml:space="preserve">
-    <value>Media Event</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{1fbcbf11-c0ac-45ea-b816-9d73752b84a4}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{28737260-8169-4f97-ab62-2073c096edaa}" xml:space="preserve">
-    <value>Current Wait</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{28737260-8169-4f97-ab62-2073c096edaa}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{2c91300d-9719-48bf-856d-6551bafafc71}" xml:space="preserve">
-    <value>Number Attended</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{2c91300d-9719-48bf-856d-6551bafafc71}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{2d64d3c2-260d-44aa-9965-8569d71c2e7b}" xml:space="preserve">
-    <value>Start Date</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{2d64d3c2-260d-44aa-9965-8569d71c2e7b}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{345a70da-23e2-4672-8e08-4140775eb465}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{345a70da-23e2-4672-8e08-4140775eb465}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{39c0e4a8-058d-46a5-8134-735562206877}" xml:space="preserve">
-    <value>Available Ticket Quantity</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{39c0e4a8-058d-46a5-8134-735562206877}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{3c042ef5-95d4-415f-bd61-b5503d9be34f}" xml:space="preserve">
-    <value>Attraction Duration Display</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{3c042ef5-95d4-415f-bd61-b5503d9be34f}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{5642bcc0-e3b2-4cb3-94d6-4f79a284f64c}" xml:space="preserve">
-    <value>Event Attraction Number</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{5642bcc0-e3b2-4cb3-94d6-4f79a284f64c}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{56abde53-beb6-45fd-8819-3a0187df6ac0}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{56abde53-beb6-45fd-8819-3a0187df6ac0}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{58ea4bef-f73e-40db-9edc-169cd82d911b}" xml:space="preserve">
-    <value>Session Summary</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{58ea4bef-f73e-40db-9edc-169cd82d911b}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{5a1e29ce-f67f-4e95-9a72-1f7b820d18f6}" xml:space="preserve">
-    <value>Session Objectives</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{5a1e29ce-f67f-4e95-9a72-1f7b820d18f6}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{5a3d7858-b6a5-4994-94b6-d53dce2c7f20}" xml:space="preserve">
-    <value>Number Registered</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{5a3d7858-b6a5-4994-94b6-d53dce2c7f20}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{607eacda-6299-4131-b016-19eb893946c6}" xml:space="preserve">
-    <value>Event Attraction Track</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{607eacda-6299-4131-b016-19eb893946c6}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{63437278-9721-413c-81bf-f91d4f446b5e}" xml:space="preserve">
-    <value>Pending Ticket Quantity</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{63437278-9721-413c-81bf-f91d4f446b5e}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{641ef920-dcff-4389-85da-140955ebc9ad}" xml:space="preserve">
-    <value>Attraction</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{641ef920-dcff-4389-85da-140955ebc9ad}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{6575000b-df23-4c03-9c1e-eb05c91e99ee}" xml:space="preserve">
-    <value>Target Audience</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{6575000b-df23-4c03-9c1e-eb05c91e99ee}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{6a4af5c4-26ea-4637-9bf0-ed90cb0b196a}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Event Attraction' : label for section in Entity FormXml ID: '{6a4af5c4-26ea-4637-9bf0-ed90cb0b196a}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{6ccb756c-b4ad-47d3-ae06-34b0ab9d8ddb}" xml:space="preserve">
-    <value>Responsible Individual</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{6ccb756c-b4ad-47d3-ae06-34b0ab9d8ddb}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{6e64753a-93be-44cb-8ddb-4b89fda95498}" xml:space="preserve">
-    <value>Sold Ticket Quantity</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{6e64753a-93be-44cb-8ddb-4b89fda95498}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{7135be6b-48b2-4be3-bc3b-591831fd3e30}" xml:space="preserve">
-    <value>New SG control 1585591601392</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{7135be6b-48b2-4be3-bc3b-591831fd3e30}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{7ead8bd9-9720-4881-8c51-67e9610cc62f}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Event Attraction' : label for tab in Entity FormXml ID: '{7ead8bd9-9720-4881-8c51-67e9610cc62f}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{8d9d0679-d789-42ec-b406-7c6991fcb5b1}" xml:space="preserve">
-    <value>URL</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{8d9d0679-d789-42ec-b406-7c6991fcb5b1}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{c9d167da-54ad-4934-9f4e-18761ebe5f1d}" xml:space="preserve">
-    <value>Media Venue</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{c9d167da-54ad-4934-9f4e-18761ebe5f1d}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{d1843763-0eeb-44f5-b472-fb0b52cabbf8}" xml:space="preserve">
-    <value>Is Main Attraction</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{d1843763-0eeb-44f5-b472-fb0b52cabbf8}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{dc70770a-c785-446a-ab80-f0875eabd4c5}" xml:space="preserve">
-    <value>Facility</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{dc70770a-c785-446a-ab80-f0875eabd4c5}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{e40e2b35-f636-4675-8b10-f65fbe23dbb0}" xml:space="preserve">
-    <value>Description</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{e40e2b35-f636-4675-8b10-f65fbe23dbb0}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{e7c3f58c-29a1-4331-b5af-6089f8e1f0e9}" xml:space="preserve">
-    <value>New SG control 1586280760677</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{e7c3f58c-29a1-4331-b5af-6089f8e1f0e9}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{efe2989c-360f-4799-9f27-4d4d7f867885}" xml:space="preserve">
-    <value>Session Type</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{efe2989c-360f-4799-9f27-4d4d7f867885}'</comment>
-  </data>
-  <data name="1:label,Event Attraction{f7e76e2b-d24f-4081-93b1-e4e9dbb15248}" xml:space="preserve">
-    <value>New SG control 1585591566455</value>
-    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{f7e76e2b-d24f-4081-93b1-e4e9dbb15248}'</comment>
-  </data>
-  <data name="1:label,Facility22fb88c5-27ae-4ad4-ac46-8ee9dab8fe45" xml:space="preserve">
-    <value>Location Detail</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '22fb88c5-27ae-4ad4-ac46-8ee9dab8fe45'</comment>
-  </data>
-  <data name="1:label,Facility{08c83e6e-b7eb-1230-e731-4e2a3c53c5bc}" xml:space="preserve">
-    <value>Gates</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{08c83e6e-b7eb-1230-e731-4e2a3c53c5bc}'</comment>
-  </data>
-  <data name="1:label,Facility{0bf07db7-429a-4b62-9ef4-0d8085256c7a}" xml:space="preserve">
-    <value>Floor</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{0bf07db7-429a-4b62-9ef4-0d8085256c7a}'</comment>
-  </data>
-  <data name="1:label,Facility{0edb7a97-54c2-47cd-8a60-e047de309a6c}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{0edb7a97-54c2-47cd-8a60-e047de309a6c}'</comment>
-  </data>
-  <data name="1:label,Facility{10129f96-778c-48a6-b1f7-0f3a064f93dd}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{10129f96-778c-48a6-b1f7-0f3a064f93dd}'</comment>
-  </data>
-  <data name="1:label,Facility{165b6f0e-0b17-4f32-9079-c4d8d943b7f9}" xml:space="preserve">
+  <data name="1:label,Event Attraction{42c058f2-b3bb-4e9c-9cae-6b0093e7b381}" xml:space="preserve">
     <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{165b6f0e-0b17-4f32-9079-c4d8d943b7f9}'</comment>
-  </data>
-  <data name="1:label,Facility{195f34d3-f283-44a7-8e4e-a493e96e7d4e}" xml:space="preserve">
-    <value>Whiteboard</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{195f34d3-f283-44a7-8e4e-a493e96e7d4e}'</comment>
-  </data>
-  <data name="1:label,Facility{1f28fb29-604c-49cb-9747-49d21a17e781}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{1f28fb29-604c-49cb-9747-49d21a17e781}'</comment>
-  </data>
-  <data name="1:label,Facility{26dfdc39-f569-4537-a683-c079d4f8c63e}" xml:space="preserve">
-    <value>ColorStrip</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{26dfdc39-f569-4537-a683-c079d4f8c63e}'</comment>
-  </data>
-  <data name="1:label,Facility{27c69d16-f706-4a96-bb3b-472b2a305858}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{27c69d16-f706-4a96-bb3b-472b2a305858}'</comment>
-  </data>
-  <data name="1:label,Facility{2b6aeba4-24fa-4758-ae51-61ea7ee3d8d1}" xml:space="preserve">
-    <value>Description</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{2b6aeba4-24fa-4758-ae51-61ea7ee3d8d1}'</comment>
-  </data>
-  <data name="1:label,Facility{2fddb960-6ec9-48bd-a144-ce89fdad4133}" xml:space="preserve">
-    <value>GPS Longitude</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{2fddb960-6ec9-48bd-a144-ce89fdad4133}'</comment>
-  </data>
-  <data name="1:label,Facility{52a0cb12-217c-486a-b194-f474b26ce95b}" xml:space="preserve">
-    <value>Created On</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{52a0cb12-217c-486a-b194-f474b26ce95b}'</comment>
-  </data>
-  <data name="1:label,Facility{5afe8cae-387a-4fa4-b545-5ad1247af7b4}" xml:space="preserve">
-    <value>A/V Support</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{5afe8cae-387a-4fa4-b545-5ad1247af7b4}'</comment>
-  </data>
-  <data name="1:label,Facility{60ffff8a-c3ec-41d5-9f3c-a334ed8ab360}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for tab in Entity FormXml ID: '{60ffff8a-c3ec-41d5-9f3c-a334ed8ab360}'</comment>
-  </data>
-  <data name="1:label,Facility{6118d362-3bfb-49e7-85f0-19f9f9de45a8}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{6118d362-3bfb-49e7-85f0-19f9f9de45a8}'</comment>
-  </data>
-  <data name="1:label,Facility{6754da2a-f528-4642-80cc-574c2fdf187b}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{6754da2a-f528-4642-80cc-574c2fdf187b}'</comment>
-  </data>
-  <data name="1:label,Facility{73d0692b-bed0-4a83-a0be-d16bea614f36}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{73d0692b-bed0-4a83-a0be-d16bea614f36}'</comment>
-  </data>
-  <data name="1:label,Facility{7580234f-437f-4717-b48a-3366e7db2d5d}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{7580234f-437f-4717-b48a-3366e7db2d5d}'</comment>
-  </data>
-  <data name="1:label,Facility{78e57a23-8695-478f-bbed-d75f15d7b214}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{78e57a23-8695-478f-bbed-d75f15d7b214}'</comment>
-  </data>
-  <data name="1:label,Facility{7e833c11-2147-4d74-a21f-5d0d50b2df95}" xml:space="preserve">
-    <value>GENERAL</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{7e833c11-2147-4d74-a21f-5d0d50b2df95}'</comment>
-  </data>
-  <data name="1:label,Facility{8005c05c-9a7c-2537-1de0-43e74ed5063b}" xml:space="preserve">
-    <value>Section</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{8005c05c-9a7c-2537-1de0-43e74ed5063b}'</comment>
-  </data>
-  <data name="1:label,Facility{8557e0dd-a8de-9248-ac2c-0a1d106d13b2}" xml:space="preserve">
-    <value>Dispensers</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{8557e0dd-a8de-9248-ac2c-0a1d106d13b2}'</comment>
-  </data>
-  <data name="1:label,Facility{8d40b73a-26da-49fd-86f7-a269c3a4f2b6}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{8d40b73a-26da-49fd-86f7-a269c3a4f2b6}'</comment>
-  </data>
-  <data name="1:label,Facility{934dae11-69dc-47da-b9bc-8dfde5bab062}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{934dae11-69dc-47da-b9bc-8dfde5bab062}'</comment>
-  </data>
-  <data name="1:label,Facility{987d67b9-e05a-43d3-9660-abe11d37de1b}" xml:space="preserve">
-    <value>Internet Connection</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{987d67b9-e05a-43d3-9660-abe11d37de1b}'</comment>
-  </data>
-  <data name="1:label,Facility{99c8dc30-3bc1-4a4f-b1f8-0b6b785f08fc}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Facility' : label for tab in Entity FormXml ID: '{99c8dc30-3bc1-4a4f-b1f8-0b6b785f08fc}'</comment>
-  </data>
-  <data name="1:label,Facility{a38d2912-2b15-4db9-9694-e82f73c44872}" xml:space="preserve">
-    <value>Location</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{a38d2912-2b15-4db9-9694-e82f73c44872}'</comment>
-  </data>
-  <data name="1:label,Facility{aaafc735-4d56-45c9-aa38-ef650ed617a9}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{aaafc735-4d56-45c9-aa38-ef650ed617a9}'</comment>
-  </data>
-  <data name="1:label,Facility{af4a6717-72b7-4ee7-a842-a0809fae3749}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{af4a6717-72b7-4ee7-a842-a0809fae3749}'</comment>
-  </data>
-  <data name="1:label,Facility{b04d5cff-908f-4b39-94cc-7ed90ae17eac}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{b04d5cff-908f-4b39-94cc-7ed90ae17eac}'</comment>
-  </data>
-  <data name="1:label,Facility{b1004894-06c6-4ee0-bdf4-d9f7d67a4466}" xml:space="preserve">
-    <value>GPS Latitude</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{b1004894-06c6-4ee0-bdf4-d9f7d67a4466}'</comment>
-  </data>
-  <data name="1:label,Facility{b21d7057-4a6d-45b1-acf7-e075a62a83cb}" xml:space="preserve">
-    <value>Type</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{b21d7057-4a6d-45b1-acf7-e075a62a83cb}'</comment>
-  </data>
-  <data name="1:label,Facility{b44c742c-c1f2-4b1c-b919-95123d5e884e}" xml:space="preserve">
-    <value>Footer</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{b44c742c-c1f2-4b1c-b919-95123d5e884e}'</comment>
-  </data>
-  <data name="1:label,Facility{bc2ed7bb-b8e0-4de4-aa9e-61e583184006}" xml:space="preserve">
-    <value>Media Venue</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{bc2ed7bb-b8e0-4de4-aa9e-61e583184006}'</comment>
-  </data>
-  <data name="1:label,Facility{bc5027b1-7946-4c30-8fc4-5ccb8157f8e5}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{bc5027b1-7946-4c30-8fc4-5ccb8157f8e5}'</comment>
-  </data>
-  <data name="1:label,Facility{c19f33f7-cd92-4e81-a3be-8d0d49c02df8}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for tab in Entity FormXml ID: '{c19f33f7-cd92-4e81-a3be-8d0d49c02df8}'</comment>
-  </data>
-  <data name="1:label,Facility{cb344ed2-d870-4368-abaf-299d8cc3230b}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{cb344ed2-d870-4368-abaf-299d8cc3230b}'</comment>
-  </data>
-  <data name="1:label,Facility{cbf7cec5-5934-4155-94b8-3c1b2f321de9}" xml:space="preserve">
-    <value>Flipchart</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{cbf7cec5-5934-4155-94b8-3c1b2f321de9}'</comment>
-  </data>
-  <data name="1:label,Facility{cdc04f62-6875-4fa1-aa9c-c97a2f65c77d}" xml:space="preserve">
-    <value>Status Reason</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{cdc04f62-6875-4fa1-aa9c-c97a2f65c77d}'</comment>
-  </data>
-  <data name="1:label,Facility{d481a0f5-5580-42ce-8543-11610ebcc848}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{d481a0f5-5580-42ce-8543-11610ebcc848}'</comment>
-  </data>
-  <data name="1:label,Facility{d7eff4c5-6471-424e-a8b2-340555bfd6d3}" xml:space="preserve">
-    <value>Details</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{d7eff4c5-6471-424e-a8b2-340555bfd6d3}'</comment>
-  </data>
-  <data name="1:label,Facility{e6b3ca4c-cb42-4cfd-8de3-23b0998e2f81}" xml:space="preserve">
-    <value>Video Conferencing</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{e6b3ca4c-cb42-4cfd-8de3-23b0998e2f81}'</comment>
-  </data>
-  <data name="1:label,Facility{e97c8618-abb3-41ee-94c4-b406e6c04469}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{e97c8618-abb3-41ee-94c4-b406e6c04469}'</comment>
-  </data>
-  <data name="1:label,Facility{edee68b3-4671-4116-b22c-e45a21ef0ffa}" xml:space="preserve">
-    <value>Header</value>
-    <comment>'Facility' : label for section in Entity FormXml ID: '{edee68b3-4671-4116-b22c-e45a21ef0ffa}'</comment>
-  </data>
-  <data name="1:label,Facility{f2f49881-5c55-472f-b4cd-62a43c70be29}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{f2f49881-5c55-472f-b4cd-62a43c70be29}'</comment>
-  </data>
-  <data name="1:label,Facility{f34f61e3-50c7-417e-b9b3-b5ef0137f6cb}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{f34f61e3-50c7-417e-b9b3-b5ef0137f6cb}'</comment>
-  </data>
-  <data name="1:label,Facility{f6f9872c-58a3-4465-a1f5-ef8d2a73482e}" xml:space="preserve">
-    <value>Capacity</value>
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{f6f9872c-58a3-4465-a1f5-ef8d2a73482e}'</comment>
-  </data>
-  <data name="1:label,Facility{fe5955ea-8401-486e-9f19-ed99c786fe47}" xml:space="preserve">
-    <value />
-    <comment>'Facility' : label for cell in Entity FormXml ID: '{fe5955ea-8401-486e-9f19-ed99c786fe47}'</comment>
-  </data>
-  <data name="1:label,Guest01c8b0e8-6e09-45c2-a71e-24a90873c5de" xml:space="preserve">
-    <value>Contact Methods</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: '01c8b0e8-6e09-45c2-a71e-24a90873c5de'</comment>
+    <comment>'Event Attraction' : label for cell in Entity FormXml ID: '{42c058f2-b3bb-4e9c-9cae-6b0093e7b381}'</comment>
   </data>
   <data name="1:label,Guest2016a386-db5c-4d59-986e-351d95aee572" xml:space="preserve">
     <value>Leads</value>
     <comment>'Guest' : label for tab in Entity FormXml ID: '2016a386-db5c-4d59-986e-351d95aee572'</comment>
   </data>
-  <data name="1:label,Guest46f3a81d-fef0-41ad-a408-bf8b73a58fb0" xml:space="preserve">
-    <value>Special Requirements</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: '46f3a81d-fef0-41ad-a408-bf8b73a58fb0'</comment>
-  </data>
   <data name="1:label,Guest67b4256d-709f-467d-a4d9-c31901895812" xml:space="preserve">
     <value>Leads</value>
     <comment>'Guest' : label for section in Entity FormXml ID: '67b4256d-709f-467d-a4d9-c31901895812'</comment>
   </data>
-  <data name="1:label,Guest83385899-57ba-427a-8af8-df244deb9c9b" xml:space="preserve">
-    <value>Known Favorites</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: '83385899-57ba-427a-8af8-df244deb9c9b'</comment>
-  </data>
-  <data name="1:label,Guest94d903ec-b75d-460a-982d-697ef78a5acf" xml:space="preserve">
-    <value>Favorites</value>
-    <comment>'Guest' : label for tab in Entity FormXml ID: '94d903ec-b75d-460a-982d-697ef78a5acf'</comment>
-  </data>
-  <data name="1:label,Guestec46a660-6847-4d9d-9f20-990b1c2aec1f" xml:space="preserve">
-    <value>Additional Details</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: 'ec46a660-6847-4d9d-9f20-990b1c2aec1f'</comment>
-  </data>
-  <data name="1:label,Guest{07155da8-df90-4d44-b610-8f86c059580c}" xml:space="preserve">
-    <value>External Created Date</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{07155da8-df90-4d44-b610-8f86c059580c}'</comment>
-  </data>
-  <data name="1:label,Guest{14437a65-712b-4087-a438-9a307762dcc9}" xml:space="preserve">
-    <value>Favorite Team1</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{14437a65-712b-4087-a438-9a307762dcc9}'</comment>
-  </data>
-  <data name="1:label,Guest{15bb3e90-ca2d-d406-50b9-528abb639558}" xml:space="preserve">
-    <value>Telephone </value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{15bb3e90-ca2d-d406-50b9-528abb639558}'</comment>
-  </data>
-  <data name="1:label,Guest{270945e4-a162-27c5-293a-8b7464ed6e53}" xml:space="preserve">
-    <value>Section</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: '{270945e4-a162-27c5-293a-8b7464ed6e53}'</comment>
-  </data>
-  <data name="1:label,Guest{2bf6e870-0a2e-4022-8dd1-78315c351d76}" xml:space="preserve">
-    <value />
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{2bf6e870-0a2e-4022-8dd1-78315c351d76}'</comment>
-  </data>
-  <data name="1:label,Guest{2c7271cc-0b9e-4487-936f-31ea1f0c6df6}" xml:space="preserve">
-    <value>Last Name</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{2c7271cc-0b9e-4487-936f-31ea1f0c6df6}'</comment>
-  </data>
-  <data name="1:label,Guest{3a3b8a2e-d376-65a0-1077-043318c873ec}" xml:space="preserve">
-    <value>Special Requirements</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{3a3b8a2e-d376-65a0-1077-043318c873ec}'</comment>
-  </data>
-  <data name="1:label,Guest{3e321be6-61c2-999e-d3bc-a859de7e0088}" xml:space="preserve">
-    <value />
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{3e321be6-61c2-999e-d3bc-a859de7e0088}'</comment>
-  </data>
-  <data name="1:label,Guest{3f95566e-5bf6-4840-871a-99f763c08032}" xml:space="preserve">
-    <value>Country</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{3f95566e-5bf6-4840-871a-99f763c08032}'</comment>
-  </data>
-  <data name="1:label,Guest{4e825077-0e14-4273-b024-08b365613e19}" xml:space="preserve">
-    <value>Is a Season Ticket Holder</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{4e825077-0e14-4273-b024-08b365613e19}'</comment>
-  </data>
-  <data name="1:label,Guest{5012e43b-5df2-43a6-87ac-61a98ebab2f5}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: '{5012e43b-5df2-43a6-87ac-61a98ebab2f5}'</comment>
-  </data>
-  <data name="1:label,Guest{5175de9a-bac5-d3d7-4790-9394a31dced5}" xml:space="preserve">
-    <value>Media Registrations</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{5175de9a-bac5-d3d7-4790-9394a31dced5}'</comment>
-  </data>
-  <data name="1:label,Guest{61ad8c02-b1e4-874d-9676-d1eb36cade5e}" xml:space="preserve">
-    <value />
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{61ad8c02-b1e4-874d-9676-d1eb36cade5e}'</comment>
-  </data>
-  <data name="1:label,Guest{6302aa33-2717-aa72-eab4-ee89c46589b2}" xml:space="preserve">
-    <value />
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{6302aa33-2717-aa72-eab4-ee89c46589b2}'</comment>
-  </data>
-  <data name="1:label,Guest{65c0c461-30fd-42ae-b3c0-7581c73d469d}" xml:space="preserve">
-    <value>Birth Date</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{65c0c461-30fd-42ae-b3c0-7581c73d469d}'</comment>
-  </data>
   <data name="1:label,Guest{704b1362-bcbe-4cc2-92dc-92b6a7c7b9a2}" xml:space="preserve">
     <value>New SG control 1586284630658</value>
     <comment>'Guest' : label for cell in Entity FormXml ID: '{704b1362-bcbe-4cc2-92dc-92b6a7c7b9a2}'</comment>
-  </data>
-  <data name="1:label,Guest{719dddd0-8d59-4952-a1b3-10dd7af429e3}" xml:space="preserve">
-    <value>Display Name</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{719dddd0-8d59-4952-a1b3-10dd7af429e3}'</comment>
-  </data>
-  <data name="1:label,Guest{72c605f5-27f1-4aac-95e3-93050eb63ad2}" xml:space="preserve">
-    <value>Gender Identity</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{72c605f5-27f1-4aac-95e3-93050eb63ad2}'</comment>
-  </data>
-  <data name="1:label,Guest{79923e6c-4483-44f9-83b6-281ea772fb94}" xml:space="preserve">
-    <value>Company Name</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{79923e6c-4483-44f9-83b6-281ea772fb94}'</comment>
-  </data>
-  <data name="1:label,Guest{91a60b75-ec5e-4207-ab39-2ae3af344de6}" xml:space="preserve">
-    <value>OK to Fax</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{91a60b75-ec5e-4207-ab39-2ae3af344de6}'</comment>
-  </data>
-  <data name="1:label,Guest{9470d8a1-a79f-426a-8d92-b17c0b9274a3}" xml:space="preserve">
-    <value>Favorite Team 2</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{9470d8a1-a79f-426a-8d92-b17c0b9274a3}'</comment>
-  </data>
-  <data name="1:label,Guest{956016f0-8121-46b5-9d5a-bcaf1eaa3d4b}" xml:space="preserve">
-    <value>Category</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{956016f0-8121-46b5-9d5a-bcaf1eaa3d4b}'</comment>
-  </data>
-  <data name="1:label,Guest{95a5ced0-6a42-4461-8c35-1a87463a2c01}" xml:space="preserve">
-    <value>Job Title</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{95a5ced0-6a42-4461-8c35-1a87463a2c01}'</comment>
-  </data>
-  <data name="1:label,Guest{96726043-241f-4bc4-91ef-c9cbe8f3ff1b}" xml:space="preserve">
-    <value>Marketing Opt In</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{96726043-241f-4bc4-91ef-c9cbe8f3ff1b}'</comment>
-  </data>
-  <data name="1:label,Guest{99147486-6cdc-4795-9dc9-328417edf28a}" xml:space="preserve">
-    <value />
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{99147486-6cdc-4795-9dc9-328417edf28a}'</comment>
-  </data>
-  <data name="1:label,Guest{9a263a7d-0aa8-46d7-9771-10ee2c9628a5}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Guest' : label for tab in Entity FormXml ID: '{9a263a7d-0aa8-46d7-9771-10ee2c9628a5}'</comment>
-  </data>
-  <data name="1:label,Guest{9c9793f9-a052-4fd9-a5b5-b9ce95c808e4}" xml:space="preserve">
-    <value>Origin</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{9c9793f9-a052-4fd9-a5b5-b9ce95c808e4}'</comment>
-  </data>
-  <data name="1:label,Guest{a4242a56-3462-e9d3-2254-860cc30367e0}" xml:space="preserve">
-    <value>Note Text</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{a4242a56-3462-e9d3-2254-860cc30367e0}'</comment>
-  </data>
-  <data name="1:label,Guest{b0dbfa70-9b78-4994-8263-962d66dd2cf7}" xml:space="preserve">
-    <value />
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{b0dbfa70-9b78-4994-8263-962d66dd2cf7}'</comment>
-  </data>
-  <data name="1:label,Guest{b727ba7f-18c2-4d36-bd33-3f96563413b8}" xml:space="preserve">
-    <value>Company</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{b727ba7f-18c2-4d36-bd33-3f96563413b8}'</comment>
-  </data>
-  <data name="1:label,Guest{b77b3665-683b-42e1-b430-aa4965e4dbba}" xml:space="preserve">
-    <value>First Name</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{b77b3665-683b-42e1-b430-aa4965e4dbba}'</comment>
-  </data>
-  <data name="1:label,Guest{b943b88e-bb98-4b38-a495-968b0c56f23a}" xml:space="preserve">
-    <value>Guardian</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{b943b88e-bb98-4b38-a495-968b0c56f23a}'</comment>
-  </data>
-  <data name="1:label,Guest{baf46e46-5031-4578-ad83-f900e166c6b4}" xml:space="preserve">
-    <value>OK to Mail</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{baf46e46-5031-4578-ad83-f900e166c6b4}'</comment>
-  </data>
-  <data name="1:label,Guest{bf510eb8-3828-4916-b7a8-709af6e43085}" xml:space="preserve">
-    <value>City</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{bf510eb8-3828-4916-b7a8-709af6e43085}'</comment>
-  </data>
-  <data name="1:label,Guest{c3e768e9-6740-5a41-5968-93cbdbc0aba2}" xml:space="preserve">
-    <value>External Guest IDs</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{c3e768e9-6740-5a41-5968-93cbdbc0aba2}'</comment>
-  </data>
-  <data name="1:label,Guest{c4008e86-ad18-c3a0-7812-98caa394891b}" xml:space="preserve">
-    <value>Guest History</value>
-    <comment>'Guest' : label for tab in Entity FormXml ID: '{c4008e86-ad18-c3a0-7812-98caa394891b}'</comment>
-  </data>
-  <data name="1:label,Guest{ce63ceac-4775-edea-826e-2d5c121094a8}" xml:space="preserve">
-    <value>Email Address</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{ce63ceac-4775-edea-826e-2d5c121094a8}'</comment>
-  </data>
-  <data name="1:label,Guest{d021ab61-7114-58ec-c05c-ce6761046979}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{d021ab61-7114-58ec-c05c-ce6761046979}'</comment>
-  </data>
-  <data name="1:label,Guest{d51c2744-5010-439c-80b3-d8658a3b3a18}" xml:space="preserve">
-    <value>OK to Send Email</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{d51c2744-5010-439c-80b3-d8658a3b3a18}'</comment>
-  </data>
-  <data name="1:label,Guest{d9571cee-2404-4732-8d57-bd94d2ff54a8}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{d9571cee-2404-4732-8d57-bd94d2ff54a8}'</comment>
-  </data>
-  <data name="1:label,Guest{daceb65c-2970-a681-2969-5577c03925bd}" xml:space="preserve">
-    <value>Section</value>
-    <comment>'Guest' : label for section in Entity FormXml ID: '{daceb65c-2970-a681-2969-5577c03925bd}'</comment>
-  </data>
-  <data name="1:label,Guest{e80eff6b-e460-437d-acf4-a828559a9944}" xml:space="preserve">
-    <value>State</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{e80eff6b-e460-437d-acf4-a828559a9944}'</comment>
-  </data>
-  <data name="1:label,Guest{ee82d9fb-714c-4500-92bd-9a01c66c6c68}" xml:space="preserve">
-    <value>OK to Call</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{ee82d9fb-714c-4500-92bd-9a01c66c6c68}'</comment>
-  </data>
-  <data name="1:label,Guest{f2cca802-b517-4438-afa0-c76335dc5a28}" xml:space="preserve">
-    <value>Contact</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{f2cca802-b517-4438-afa0-c76335dc5a28}'</comment>
-  </data>
-  <data name="1:label,Guest{f9ad1225-af3d-4935-8521-d7984bbd3f0a}" xml:space="preserve">
-    <value>Last Registered Event</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{f9ad1225-af3d-4935-8521-d7984bbd3f0a}'</comment>
-  </data>
-  <data name="1:label,Guest{ffa91497-512c-49c4-92b0-169284913c9d}" xml:space="preserve">
-    <value>Pronoun</value>
-    <comment>'Guest' : label for cell in Entity FormXml ID: '{ffa91497-512c-49c4-92b0-169284913c9d}'</comment>
   </data>
   <data name="1:label,Lead{0027a919-4c22-42c2-9931-034ffb6fa262}" xml:space="preserve">
     <value />
@@ -6628,10 +5969,6 @@
     <value>Name</value>
     <comment>'Media Event Sponsorship' : label for cell in Entity FormXml ID: '{ffc931af-5ba3-414b-a05b-977c2e1229aa}'</comment>
   </data>
-  <data name="1:label,Media Event492afe90-cf6b-4082-bfab-0375c337be6b" xml:space="preserve">
-    <value>Registration Config</value>
-    <comment>'Media Event' : label for tab in Entity FormXml ID: '492afe90-cf6b-4082-bfab-0375c337be6b'</comment>
-  </data>
   <data name="1:label,Media EventACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
     <value>Tab</value>
     <comment>'Media Event' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
@@ -6640,41 +5977,9 @@
     <value>Media Event Details</value>
     <comment>'Media Event' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
   </data>
-  <data name="1:label,Media Eventcdd560cc-5c0f-4c92-a227-9e5638653cbe" xml:space="preserve">
-    <value>Ticketing</value>
-    <comment>'Media Event' : label for tab in Entity FormXml ID: 'cdd560cc-5c0f-4c92-a227-9e5638653cbe'</comment>
-  </data>
-  <data name="1:label,Media Eventdf19782f-00bf-4289-8b86-fb3bb4465675" xml:space="preserve">
-    <value>Ticketing Section 1</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: 'df19782f-00bf-4289-8b86-fb3bb4465675'</comment>
-  </data>
-  <data name="1:label,Media Event{0126189e-489f-4597-8dd1-ab09fe5f62fc}" xml:space="preserve">
-    <value>Total Profit</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{0126189e-489f-4597-8dd1-ab09fe5f62fc}'</comment>
-  </data>
-  <data name="1:label,Media Event{02021149-6ad7-7c1a-684b-5d3568108c17}" xml:space="preserve">
-    <value>Portal Images</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{02021149-6ad7-7c1a-684b-5d3568108c17}'</comment>
-  </data>
   <data name="1:label,Media Event{043d8e95-cd87-d116-79d1-263e5b21d906}" xml:space="preserve">
     <value>Total Admissions Auto-Created</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{043d8e95-cd87-d116-79d1-263e5b21d906}'</comment>
-  </data>
-  <data name="1:label,Media Event{0709274a-1276-4082-6d9d-52d3e49d7d39}" xml:space="preserve">
-    <value>Primary Venue</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{0709274a-1276-4082-6d9d-52d3e49d7d39}'</comment>
-  </data>
-  <data name="1:label,Media Event{0b8b6e9c-ccdc-4056-bd03-93c923ed4dca}" xml:space="preserve">
-    <value>Duration</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{0b8b6e9c-ccdc-4056-bd03-93c923ed4dca}'</comment>
-  </data>
-  <data name="1:label,Media Event{0cf6e09e-5624-4195-bb82-874a66709463}" xml:space="preserve">
-    <value>Is Sold Out</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{0cf6e09e-5624-4195-bb82-874a66709463}'</comment>
-  </data>
-  <data name="1:label,Media Event{0dfd65c9-4ae0-453d-a33b-44fd7648a0a8}" xml:space="preserve">
-    <value>Series / Collection Name</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{0dfd65c9-4ae0-453d-a33b-44fd7648a0a8}'</comment>
   </data>
   <data name="1:label,Media Event{0f1e78aa-8ce8-4e51-abaa-a4972ad0335e}" xml:space="preserve">
     <value>Primary Venue</value>
@@ -6684,66 +5989,6 @@
     <value>Seat Products Auto-Created</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{10b46605-92ed-4c72-9524-74a0316aa511}'</comment>
   </data>
-  <data name="1:label,Media Event{13514dcb-7398-4a76-29eb-cb5648de0acd}" xml:space="preserve">
-    <value>Time Zone</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{13514dcb-7398-4a76-29eb-cb5648de0acd}'</comment>
-  </data>
-  <data name="1:label,Media Event{13dfdc38-8e50-4984-9b69-a73ab77a7395}" xml:space="preserve">
-    <value>Attendee Agenda Enabled</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{13dfdc38-8e50-4984-9b69-a73ab77a7395}'</comment>
-  </data>
-  <data name="1:label,Media Event{1514b3a0-4bbc-1a80-21d8-3e692d4ca84b}" xml:space="preserve">
-    <value>Event Type</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{1514b3a0-4bbc-1a80-21d8-3e692d4ca84b}'</comment>
-  </data>
-  <data name="1:label,Media Event{17ddb808-74e4-c259-bdb3-9a9be25196c1}" xml:space="preserve">
-    <value>Portal Details</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{17ddb808-74e4-c259-bdb3-9a9be25196c1}'</comment>
-  </data>
-  <data name="1:label,Media Event{1b18b64e-660c-79ba-15ba-aab7865e1adc}" xml:space="preserve">
-    <value>Dress Code</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{1b18b64e-660c-79ba-15ba-aab7865e1adc}'</comment>
-  </data>
-  <data name="1:label,Media Event{1b1c40b0-4e2d-45ac-95ad-5e4fa1117fb0}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{1b1c40b0-4e2d-45ac-95ad-5e4fa1117fb0}'</comment>
-  </data>
-  <data name="1:label,Media Event{1ce3c466-8d64-00ba-6e5a-47102056d675}" xml:space="preserve">
-    <value>Registration Details</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{1ce3c466-8d64-00ba-6e5a-47102056d675}'</comment>
-  </data>
-  <data name="1:label,Media Event{22b1eee0-349d-c7a1-68c1-5a63aec0e50c}" xml:space="preserve">
-    <value>Directions</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{22b1eee0-349d-c7a1-68c1-5a63aec0e50c}'</comment>
-  </data>
-  <data name="1:label,Media Event{23c2ab5a-e1d4-4cd1-b8e5-1b5f93881f22}" xml:space="preserve">
-    <value>Seating Options</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{23c2ab5a-e1d4-4cd1-b8e5-1b5f93881f22}'</comment>
-  </data>
-  <data name="1:label,Media Event{24007173-d37b-8754-7954-c0b064abdc3b}" xml:space="preserve">
-    <value>Child Events</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{24007173-d37b-8754-7954-c0b064abdc3b}'</comment>
-  </data>
-  <data name="1:label,Media Event{2456e233-b2f9-44e2-8b67-27a00e82671b}" xml:space="preserve">
-    <value>Portal Logo</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{2456e233-b2f9-44e2-8b67-27a00e82671b}'</comment>
-  </data>
-  <data name="1:label,Media Event{256067e4-f48a-4ec9-8d30-bd8f8c5a224a}" xml:space="preserve">
-    <value>Number Registered</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{256067e4-f48a-4ec9-8d30-bd8f8c5a224a}'</comment>
-  </data>
-  <data name="1:label,Media Event{2641e537-0b92-4027-4d8d-add0235a5910}" xml:space="preserve">
-    <value>Start Date</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{2641e537-0b92-4027-4d8d-add0235a5910}'</comment>
-  </data>
-  <data name="1:label,Media Event{29653526-37aa-a9c2-016a-e909a213bc6b}" xml:space="preserve">
-    <value>Media Registrations</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{29653526-37aa-a9c2-016a-e909a213bc6b}'</comment>
-  </data>
-  <data name="1:label,Media Event{299c6ded-44b0-1e52-40dc-339e8da13ba6}" xml:space="preserve">
-    <value>Registration Is Required</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{299c6ded-44b0-1e52-40dc-339e8da13ba6}'</comment>
-  </data>
   <data name="1:label,Media Event{2d96677c-b6d7-4935-9f81-f8bd38695c65}" xml:space="preserve">
     <value>Ticketing Required</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{2d96677c-b6d7-4935-9f81-f8bd38695c65}'</comment>
@@ -6752,105 +5997,21 @@
     <value>Modified By</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{2e54b053-ae69-6244-9a14-7817ea42522d}'</comment>
   </data>
-  <data name="1:label,Media Event{342159a0-9aca-a419-e350-897b3a40ea0d}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{342159a0-9aca-a419-e350-897b3a40ea0d}'</comment>
-  </data>
-  <data name="1:label,Media Event{3423268c-cb43-1a54-491e-422cb31c424d}" xml:space="preserve">
-    <value>Revenue Generated</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{3423268c-cb43-1a54-491e-422cb31c424d}'</comment>
-  </data>
-  <data name="1:label,Media Event{353a45f0-2490-4173-aac4-d6f52f9d8543}" xml:space="preserve">
-    <value>Ticketing Required</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{353a45f0-2490-4173-aac4-d6f52f9d8543}'</comment>
-  </data>
-  <data name="1:label,Media Event{3717b406-c403-ce2d-a768-d71d77e9499a}" xml:space="preserve">
-    <value>Event Details</value>
-    <comment>'Media Event' : label for tab in Entity FormXml ID: '{3717b406-c403-ce2d-a768-d71d77e9499a}'</comment>
-  </data>
-  <data name="1:label,Media Event{38710ccc-1c0c-1e5b-84a9-05682dd3ee46}" xml:space="preserve">
-    <value>Total Cost</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{38710ccc-1c0c-1e5b-84a9-05682dd3ee46}'</comment>
-  </data>
   <data name="1:label,Media Event{3aa09942-96c0-3037-d308-d9668ec23e08}" xml:space="preserve">
     <value>Admissions Auto-Created</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{3aa09942-96c0-3037-d308-d9668ec23e08}'</comment>
   </data>
-  <data name="1:label,Media Event{3aded9a6-f9aa-4433-ac8f-1ee988bd0c7a}" xml:space="preserve">
-    <value>Sold Out On</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{3aded9a6-f9aa-4433-ac8f-1ee988bd0c7a}'</comment>
-  </data>
-  <data name="1:label,Media Event{3b5ea328-c572-8616-6abd-73616327962b}" xml:space="preserve">
-    <value>Parent Event</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{3b5ea328-c572-8616-6abd-73616327962b}'</comment>
-  </data>
-  <data name="1:label,Media Event{3d9a8ebe-21c3-4ecc-b1be-2beeb3a62438}" xml:space="preserve">
-    <value>General Information</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{3d9a8ebe-21c3-4ecc-b1be-2beeb3a62438}'</comment>
-  </data>
-  <data name="1:label,Media Event{418b4a2d-105c-4fc2-ac16-5a6bd8f8268c}" xml:space="preserve">
-    <value>Available Formats</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{418b4a2d-105c-4fc2-ac16-5a6bd8f8268c}'</comment>
-  </data>
-  <data name="1:label,Media Event{41c0e6d8-e480-3843-3560-266401cabd9a}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Media Event' : label for tab in Entity FormXml ID: '{41c0e6d8-e480-3843-3560-266401cabd9a}'</comment>
-  </data>
-  <data name="1:label,Media Event{45573782-1617-09bb-8825-9183a5e06755}" xml:space="preserve">
-    <value>Registration URL</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{45573782-1617-09bb-8825-9183a5e06755}'</comment>
-  </data>
-  <data name="1:label,Media Event{48406e7b-947f-4c9f-9c2f-578ec5bd9cf5}" xml:space="preserve">
-    <value>Capture Attendee Special Requests</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{48406e7b-947f-4c9f-9c2f-578ec5bd9cf5}'</comment>
-  </data>
-  <data name="1:label,Media Event{48466b4a-a33a-7064-17a3-e3073ce2970d}" xml:space="preserve">
-    <value>Created On</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{48466b4a-a33a-7064-17a3-e3073ce2970d}'</comment>
-  </data>
-  <data name="1:label,Media Event{4c7a9ddd-c902-d41b-9d57-ead7decd0a0b}" xml:space="preserve">
-    <value>End Date</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{4c7a9ddd-c902-d41b-9d57-ead7decd0a0b}'</comment>
-  </data>
-  <data name="1:label,Media Event{4d6f1aaa-42e7-4d05-a055-15403f3cff48}" xml:space="preserve">
-    <value>Season</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{4d6f1aaa-42e7-4d05-a055-15403f3cff48}'</comment>
-  </data>
   <data name="1:label,Media Event{58160dee-0c8a-4b40-927a-beafd3866043}" xml:space="preserve">
-    <value>Portal Banner Image</value>
+    <value>Portal Banner Image("Use a jpg that is 870 pixels wide by 200 pixels high")</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{58160dee-0c8a-4b40-927a-beafd3866043}'</comment>
-  </data>
-  <data name="1:label,Media Event{5d7c1456-a68a-a3a3-d49c-6e4ce7ce238b}" xml:space="preserve">
-    <value>Concession Partners</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{5d7c1456-a68a-a3a3-d49c-6e4ce7ce238b}'</comment>
   </data>
   <data name="1:label,Media Event{5f8a9f17-51c4-4576-9a15-4857db008efa}" xml:space="preserve">
     <value>Flow Status</value>
     <comment>'Media Event' : label for section in Entity FormXml ID: '{5f8a9f17-51c4-4576-9a15-4857db008efa}'</comment>
   </data>
-  <data name="1:label,Media Event{6105b905-c0c3-ad80-d289-31727d409055}" xml:space="preserve">
-    <value>Media Venues</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{6105b905-c0c3-ad80-d289-31727d409055}'</comment>
-  </data>
-  <data name="1:label,Media Event{624d17b5-6588-9446-a5d2-b12a545a5aa1}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{624d17b5-6588-9446-a5d2-b12a545a5aa1}'</comment>
-  </data>
-  <data name="1:label,Media Event{65530768-2755-ada4-b40c-b7d0c6aad307}" xml:space="preserve">
-    <value>Financials</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{65530768-2755-ada4-b40c-b7d0c6aad307}'</comment>
-  </data>
   <data name="1:label,Media Event{6aa3ce20-7726-6b09-ab0b-dd91d5a87400}" xml:space="preserve">
     <value>Record History</value>
     <comment>'Media Event' : label for section in Entity FormXml ID: '{6aa3ce20-7726-6b09-ab0b-dd91d5a87400}'</comment>
-  </data>
-  <data name="1:label,Media Event{6eeaf9fc-4c3e-47b7-bc41-7b92af8ca703}" xml:space="preserve">
-    <value>Number Attended</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{6eeaf9fc-4c3e-47b7-bc41-7b92af8ca703}'</comment>
-  </data>
-  <data name="1:label,Media Event{74ea1dba-4aa3-9614-48c0-7ba6b24eceeb}" xml:space="preserve">
-    <value>Registration Closes On</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{74ea1dba-4aa3-9614-48c0-7ba6b24eceeb}'</comment>
   </data>
   <data name="1:label,Media Event{76a47578-7dbb-e202-3117-0a5262c67ec3}" xml:space="preserve">
     <value>Created On</value>
@@ -6860,93 +6021,13 @@
     <value>Media Venue Seat Map</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{7ac2a76e-e16d-4abf-be15-c4733ec1da54}'</comment>
   </data>
-  <data name="1:label,Media Event{7cbbfb93-4355-43fa-b880-32cd6ce0ced6}" xml:space="preserve">
-    <value>Barcode Enabled</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{7cbbfb93-4355-43fa-b880-32cd6ce0ced6}'</comment>
-  </data>
-  <data name="1:label,Media Event{807d148b-0678-4422-bd33-06f7948cced2}" xml:space="preserve">
-    <value>Early Bird Closure Date</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{807d148b-0678-4422-bd33-06f7948cced2}'</comment>
-  </data>
-  <data name="1:label,Media Event{87337946-667a-495d-8eac-b6fde2fde568}" xml:space="preserve">
-    <value>Duration Unit</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{87337946-667a-495d-8eac-b6fde2fde568}'</comment>
-  </data>
   <data name="1:label,Media Event{8a8b3243-a37b-78e2-5000-ed44316a9c0e}" xml:space="preserve">
     <value>Created By</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{8a8b3243-a37b-78e2-5000-ed44316a9c0e}'</comment>
   </data>
-  <data name="1:label,Media Event{98875086-2ae7-2e8e-3c27-59b8cc18e871}" xml:space="preserve">
-    <value>Producer </value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{98875086-2ae7-2e8e-3c27-59b8cc18e871}'</comment>
-  </data>
-  <data name="1:label,Media Event{9be05254-25f6-4574-a52e-4cc73798eb30}" xml:space="preserve">
-    <value>Published to Portal</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{9be05254-25f6-4574-a52e-4cc73798eb30}'</comment>
-  </data>
-  <data name="1:label,Media Event{9de7de9f-db08-4c3e-97a9-55ff7676662b}" xml:space="preserve">
-    <value>Registration Background Color (HTML)</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{9de7de9f-db08-4c3e-97a9-55ff7676662b}'</comment>
-  </data>
-  <data name="1:label,Media Event{9fcd0c95-9f85-463d-ab69-0f6ad20c74fa}" xml:space="preserve">
-    <value>Registration Font Color (HTML)</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{9fcd0c95-9f85-463d-ab69-0f6ad20c74fa}'</comment>
-  </data>
-  <data name="1:label,Media Event{a05146c3-1782-4986-a8c3-9f567dec859a}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{a05146c3-1782-4986-a8c3-9f567dec859a}'</comment>
-  </data>
-  <data name="1:label,Media Event{a4476c93-b093-4704-98a4-05e21f86199d}" xml:space="preserve">
-    <value>Last Updated</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{a4476c93-b093-4704-98a4-05e21f86199d}'</comment>
-  </data>
-  <data name="1:label,Media Event{a483e31c-3881-67b9-0258-23c8ec19add8}" xml:space="preserve">
-    <value>Event Details</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{a483e31c-3881-67b9-0258-23c8ec19add8}'</comment>
-  </data>
-  <data name="1:label,Media Event{a78db601-1468-9eb8-56c6-3b02bc870c8a}" xml:space="preserve">
-    <value>Description</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{a78db601-1468-9eb8-56c6-3b02bc870c8a}'</comment>
-  </data>
-  <data name="1:label,Media Event{a8e5195d-53b6-6e6e-3cb2-c863e62900d1}" xml:space="preserve">
-    <value>Owner</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{a8e5195d-53b6-6e6e-3cb2-c863e62900d1}'</comment>
-  </data>
-  <data name="1:label,Media Event{a9b92727-a85b-4d9e-80ab-886e173b3c06}" xml:space="preserve">
-    <value>Primary Performer</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{a9b92727-a85b-4d9e-80ab-886e173b3c06}'</comment>
-  </data>
-  <data name="1:label,Media Event{abde039b-98d7-3a58-dadb-e2a578d19153}" xml:space="preserve">
-    <value>Talent</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{abde039b-98d7-3a58-dadb-e2a578d19153}'</comment>
-  </data>
-  <data name="1:label,Media Event{ac23b337-d7b7-4031-b8ab-d1e4b5cd7ab6}" xml:space="preserve">
-    <value>Event Number</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{ac23b337-d7b7-4031-b8ab-d1e4b5cd7ab6}'</comment>
-  </data>
-  <data name="1:label,Media Event{b70c8490-024b-4e42-9136-39e98499662c}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{b70c8490-024b-4e42-9136-39e98499662c}'</comment>
-  </data>
-  <data name="1:label,Media Event{b8d41c49-44ec-6038-653d-3db014380b4d}" xml:space="preserve">
-    <value>Age Restrictions</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{b8d41c49-44ec-6038-653d-3db014380b4d}'</comment>
-  </data>
-  <data name="1:label,Media Event{bb56d2f8-7d7b-4bc6-875f-05c469a61275}" xml:space="preserve">
-    <value>Enable Capcha</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{bb56d2f8-7d7b-4bc6-875f-05c469a61275}'</comment>
-  </data>
   <data name="1:label,Media Event{be9b9275-70d5-4f61-8921-7c19d906c67f}" xml:space="preserve">
     <value>Seating Options</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{be9b9275-70d5-4f61-8921-7c19d906c67f}'</comment>
-  </data>
-  <data name="1:label,Media Event{c4b87754-9a41-0593-55ba-6b67e6930186}" xml:space="preserve">
-    <value>Event Attractions</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{c4b87754-9a41-0593-55ba-6b67e6930186}'</comment>
-  </data>
-  <data name="1:label,Media Event{c505c0d6-29a6-49dd-913f-00f49f3358c0}" xml:space="preserve">
-    <value>Event Topic</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{c505c0d6-29a6-49dd-913f-00f49f3358c0}'</comment>
   </data>
   <data name="1:label,Media Event{c9d2e28e-8bc6-37b7-774a-ac52712d1022}" xml:space="preserve">
     <value>Modified On</value>
@@ -6956,61 +6037,13 @@
     <value>Total Seat Products Auto-Created</value>
     <comment>'Media Event' : label for cell in Entity FormXml ID: '{cd1d72d9-b77c-41b2-936a-444b71c168d2}'</comment>
   </data>
-  <data name="1:label,Media Event{cf64ecf3-1ec1-451a-9843-99e852b9130c}" xml:space="preserve">
-    <value>Primary Venue</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{cf64ecf3-1ec1-451a-9843-99e852b9130c}'</comment>
-  </data>
-  <data name="1:label,Media Event{d010c66d-5c79-b4a0-2462-aed64cc3be65}" xml:space="preserve">
-    <value>Capacity</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{d010c66d-5c79-b4a0-2462-aed64cc3be65}'</comment>
-  </data>
-  <data name="1:label,Media Event{d14a5146-fc26-4bdc-ae24-bdae07f6d10b}" xml:space="preserve">
-    <value>Theme</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{d14a5146-fc26-4bdc-ae24-bdae07f6d10b}'</comment>
-  </data>
-  <data name="1:label,Media Event{d2e85091-409a-2d7d-ac69-d8537d6d298d}" xml:space="preserve">
-    <value>Weather Conditions</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{d2e85091-409a-2d7d-ac69-d8537d6d298d}'</comment>
-  </data>
-  <data name="1:label,Media Event{d30c4439-8176-4c1f-8991-c08373b1c6a1}" xml:space="preserve">
-    <value>Registration Payment URL</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{d30c4439-8176-4c1f-8991-c08373b1c6a1}'</comment>
-  </data>
-  <data name="1:label,Media Event{d55c2ac2-7282-3496-caa3-e1639753cde3}" xml:space="preserve">
-    <value>Event Schedules</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{d55c2ac2-7282-3496-caa3-e1639753cde3}'</comment>
-  </data>
-  <data name="1:label,Media Event{da6591ed-90cb-8abb-4dad-6da08258c425}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{da6591ed-90cb-8abb-4dad-6da08258c425}'</comment>
-  </data>
-  <data name="1:label,Media Event{e00b7d61-6a41-48bc-be21-3dfc954b52ca}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{e00b7d61-6a41-48bc-be21-3dfc954b52ca}'</comment>
-  </data>
-  <data name="1:label,Media Event{e1956aa8-4d22-0037-2959-726b58da9e5e}" xml:space="preserve">
-    <value>Event URL</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{e1956aa8-4d22-0037-2959-726b58da9e5e}'</comment>
-  </data>
-  <data name="1:label,Media Event{e2c1f01c-bded-49e5-8a94-53ed82284a7a}" xml:space="preserve">
-    <value>Event Subtitle</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{e2c1f01c-bded-49e5-8a94-53ed82284a7a}'</comment>
+  <data name="1:label,Media Event{d0de5d42-fbc0-4ee0-87df-7b78f1509f4c}" xml:space="preserve">
+    <value>Card Image ("Use a jpg that is 311 pixels wide by 207 pixels high")</value>
+    <comment>'Media Event' : label for cell in Entity FormXml ID: '{d0de5d42-fbc0-4ee0-87df-7b78f1509f4c}'</comment>
   </data>
   <data name="1:label,Media Event{e4a747f2-c268-4be0-8e30-659b0346518e}" xml:space="preserve">
     <value>Administration</value>
     <comment>'Media Event' : label for tab in Entity FormXml ID: '{e4a747f2-c268-4be0-8e30-659b0346518e}'</comment>
-  </data>
-  <data name="1:label,Media Event{e639acd7-53ac-3902-7b0b-e9c50388d0a6}" xml:space="preserve">
-    <value>Section</value>
-    <comment>'Media Event' : label for section in Entity FormXml ID: '{e639acd7-53ac-3902-7b0b-e9c50388d0a6}'</comment>
-  </data>
-  <data name="1:label,Media Event{ee997698-d210-6246-417e-a4ee15bab85c}" xml:space="preserve">
-    <value>Registration Opens On</value>
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{ee997698-d210-6246-417e-a4ee15bab85c}'</comment>
-  </data>
-  <data name="1:label,Media Event{f6487101-36f6-4521-9bbf-d08148f3d352}" xml:space="preserve">
-    <value />
-    <comment>'Media Event' : label for cell in Entity FormXml ID: '{f6487101-36f6-4521-9bbf-d08148f3d352}'</comment>
   </data>
   <data name="1:label,Media Venue Advertising Zone46f4444b-0662-482b-9c67-ef54cbd444db" xml:space="preserve">
     <value>Media Assets</value>
@@ -7320,41 +6353,13 @@
     <value>Wifi SSID</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{01b489b1-aeba-8091-c5d2-babe20ed2c4c}'</comment>
   </data>
-  <data name="1:label,Media Venue{021d9109-db2e-ec56-3d57-a9eb91d714ee}" xml:space="preserve">
-    <value>Media Assets</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{021d9109-db2e-ec56-3d57-a9eb91d714ee}'</comment>
-  </data>
   <data name="1:label,Media Venue{04a5e61a-069a-5496-508a-c6e50565e0dd}" xml:space="preserve">
     <value>Contact Info</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{04a5e61a-069a-5496-508a-c6e50565e0dd}'</comment>
   </data>
-  <data name="1:label,Media Venue{08b139ca-90c5-4399-88aa-b3b4ca28ded3}" xml:space="preserve">
-    <value>Venue Information</value>
-    <comment>'Media Venue' : label for section in Entity FormXml ID: '{08b139ca-90c5-4399-88aa-b3b4ca28ded3}'</comment>
-  </data>
-  <data name="1:label,Media Venue{09a08adc-3887-6bc9-e461-c6e0c53c83d6}" xml:space="preserve">
-    <value>Name</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{09a08adc-3887-6bc9-e461-c6e0c53c83d6}'</comment>
-  </data>
-  <data name="1:label,Media Venue{0d15a807-4970-4b36-a769-2acb1ae5aaac}" xml:space="preserve">
-    <value>Section</value>
-    <comment>'Media Venue' : label for section in Entity FormXml ID: '{0d15a807-4970-4b36-a769-2acb1ae5aaac}'</comment>
-  </data>
-  <data name="1:label,Media Venue{120ecb2a-ea93-1cd9-b361-a15729449e13}" xml:space="preserve">
-    <value>Section</value>
-    <comment>'Media Venue' : label for section in Entity FormXml ID: '{120ecb2a-ea93-1cd9-b361-a15729449e13}'</comment>
-  </data>
-  <data name="1:label,Media Venue{1542cd0e-1771-0bd0-a445-ad014b1e5ad5}" xml:space="preserve">
-    <value>Attractions</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{1542cd0e-1771-0bd0-a445-ad014b1e5ad5}'</comment>
-  </data>
   <data name="1:label,Media Venue{188cf9d4-01ed-4321-a570-eef99187e742}" xml:space="preserve">
     <value />
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{188cf9d4-01ed-4321-a570-eef99187e742}'</comment>
-  </data>
-  <data name="1:label,Media Venue{190117d8-ca53-c8ba-5e27-4a06e991bb07}" xml:space="preserve">
-    <value>Concession Stands</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{190117d8-ca53-c8ba-5e27-4a06e991bb07}'</comment>
   </data>
   <data name="1:label,Media Venue{199b7add-e147-3ec2-9e22-3ac657558ca3}" xml:space="preserve">
     <value>Time Zone</value>
@@ -7363,10 +6368,6 @@
   <data name="1:label,Media Venue{1b1c3eba-2bba-d152-2834-89d315d29292}" xml:space="preserve">
     <value>Gates (Media Venue)</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{1b1c3eba-2bba-d152-2834-89d315d29292}'</comment>
-  </data>
-  <data name="1:label,Media Venue{1bea6009-7580-3177-9b7a-582ba4cca2a2}" xml:space="preserve">
-    <value>Gates</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{1bea6009-7580-3177-9b7a-582ba4cca2a2}'</comment>
   </data>
   <data name="1:label,Media Venue{1deda2da-1ac7-45df-97d0-2570fb5ad994}" xml:space="preserve">
     <value>New SG control 1586285341044</value>
@@ -7424,10 +6425,6 @@
     <value>Address State or Province</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{51fe038e-234c-4a45-a9c8-7e82ec45050a}'</comment>
   </data>
-  <data name="1:label,Media Venue{523906e4-de6f-45c5-8627-75a7b278a776}" xml:space="preserve">
-    <value>Image</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{523906e4-de6f-45c5-8627-75a7b278a776}'</comment>
-  </data>
   <data name="1:label,Media Venue{58d6937a-d68b-4d6e-8cc4-6efc3c918e39}" xml:space="preserve">
     <value>Address Line 1</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{58d6937a-d68b-4d6e-8cc4-6efc3c918e39}'</comment>
@@ -7436,17 +6433,9 @@
     <value>Handicapped Accessible</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{62ee20cd-55a6-6628-e99c-8a4c9505841c}'</comment>
   </data>
-  <data name="1:label,Media Venue{68439770-8b62-4895-8f30-03779af943e0}" xml:space="preserve">
-    <value>Longitude</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{68439770-8b62-4895-8f30-03779af943e0}'</comment>
-  </data>
   <data name="1:label,Media Venue{6b929ede-3730-4ee2-acec-36d389b31822}" xml:space="preserve">
     <value />
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{6b929ede-3730-4ee2-acec-36d389b31822}'</comment>
-  </data>
-  <data name="1:label,Media Venue{6d53d57e-4c8b-a2b9-6e9c-6cabcc654ee9}" xml:space="preserve">
-    <value>Hours of Operation</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{6d53d57e-4c8b-a2b9-6e9c-6cabcc654ee9}'</comment>
   </data>
   <data name="1:label,Media Venue{6ff5cf7f-688a-4984-84e3-a52419635992}" xml:space="preserve">
     <value />
@@ -7455,10 +6444,6 @@
   <data name="1:label,Media Venue{7027c901-08b7-aae4-493d-9a0e01a2a9ab}" xml:space="preserve">
     <value>Gates</value>
     <comment>'Media Venue' : label for tab in Entity FormXml ID: '{7027c901-08b7-aae4-493d-9a0e01a2a9ab}'</comment>
-  </data>
-  <data name="1:label,Media Venue{71231323-ce40-0a92-ea1b-078c29a7ee8c}" xml:space="preserve">
-    <value>Weather Conditions</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{71231323-ce40-0a92-ea1b-078c29a7ee8c}'</comment>
   </data>
   <data name="1:label,Media Venue{73968855-c1b6-8641-290c-ba433265d25a}" xml:space="preserve">
     <value>Concession Stands</value>
@@ -7480,14 +6465,6 @@
     <value>Longitude</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{7900f3ba-e510-4bf3-a923-bb2112731013}'</comment>
   </data>
-  <data name="1:label,Media Venue{7a04e6cb-a15a-4aaa-8ff2-ee28ffdafae5}" xml:space="preserve">
-    <value>Latitude</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{7a04e6cb-a15a-4aaa-8ff2-ee28ffdafae5}'</comment>
-  </data>
-  <data name="1:label,Media Venue{7b663070-21dc-001d-08b0-49c377b15110}" xml:space="preserve">
-    <value>Address</value>
-    <comment>'Media Venue' : label for section in Entity FormXml ID: '{7b663070-21dc-001d-08b0-49c377b15110}'</comment>
-  </data>
   <data name="1:label,Media Venue{7bfba711-bae6-43f2-bfa5-e219f421bef4}" xml:space="preserve">
     <value>Rating</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{7bfba711-bae6-43f2-bfa5-e219f421bef4}'</comment>
@@ -7500,10 +6477,6 @@
     <value>General</value>
     <comment>'Media Venue' : label for section in Entity FormXml ID: '{7f96f13a-2fdb-4d8e-aeb9-19f6f22e2857}'</comment>
   </data>
-  <data name="1:label,Media Venue{8089b3d9-d5b1-ee1d-3db8-b960ea9dea35}" xml:space="preserve">
-    <value>Venue Image</value>
-    <comment>'Media Venue' : label for section in Entity FormXml ID: '{8089b3d9-d5b1-ee1d-3db8-b960ea9dea35}'</comment>
-  </data>
   <data name="1:label,Media Venue{84a8ce0c-1bdf-4e87-9a84-fd0369eb0f50}" xml:space="preserve">
     <value />
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{84a8ce0c-1bdf-4e87-9a84-fd0369eb0f50}'</comment>
@@ -7511,10 +6484,6 @@
   <data name="1:label,Media Venue{865c32e7-dc85-0ede-4170-c2a525388210}" xml:space="preserve">
     <value>Concession Stands</value>
     <comment>'Media Venue' : label for tab in Entity FormXml ID: '{865c32e7-dc85-0ede-4170-c2a525388210}'</comment>
-  </data>
-  <data name="1:label,Media Venue{8e4d91e1-652b-1289-7a27-05579d56ede9}" xml:space="preserve">
-    <value>General</value>
-    <comment>'Media Venue' : label for tab in Entity FormXml ID: '{8e4d91e1-652b-1289-7a27-05579d56ede9}'</comment>
   </data>
   <data name="1:label,Media Venue{8e7153f3-28d4-4f2f-95fe-6f6d6fce653d}" xml:space="preserve">
     <value />
@@ -7551,10 +6520,6 @@
   <data name="1:label,Media Venue{a48a3ae6-b40d-49c9-8098-5c547cfef36a}" xml:space="preserve">
     <value>Name</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{a48a3ae6-b40d-49c9-8098-5c547cfef36a}'</comment>
-  </data>
-  <data name="1:label,Media Venue{a674d28b-c514-148e-734e-ee2932aa4d2d}" xml:space="preserve">
-    <value>Facilities</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{a674d28b-c514-148e-734e-ee2932aa4d2d}'</comment>
   </data>
   <data name="1:label,Media Venue{a7dcee83-a284-e07e-ca59-840100093a4c}" xml:space="preserve">
     <value>Owner</value>
@@ -7595,10 +6560,6 @@
   <data name="1:label,Media Venue{c1b6dd81-ec29-36bd-9c8a-2840847a0b39}" xml:space="preserve">
     <value>Number of Elevators</value>
     <comment>'Media Venue' : label for cell in Entity FormXml ID: '{c1b6dd81-ec29-36bd-9c8a-2840847a0b39}'</comment>
-  </data>
-  <data name="1:label,Media Venue{c5594c7f-3a6a-4368-bc49-0265ce20701a}" xml:space="preserve">
-    <value>TMA</value>
-    <comment>'Media Venue' : label for cell in Entity FormXml ID: '{c5594c7f-3a6a-4368-bc49-0265ce20701a}'</comment>
   </data>
   <data name="1:label,Media Venue{c59e8217-0d6d-459e-85e1-b903f0670423}" xml:space="preserve">
     <value />
@@ -9796,18 +8757,6 @@
     <value>Event Attraction Main Form</value>
     <comment>'Event Attraction' : LocalizedName for systemform in Entity FormXml ID: '{7920d422-15bb-493b-9cda-b3905253dae4}'</comment>
   </data>
-  <data name="1:LocalizedName,Facility{8d82ce0d-d994-48f6-9a75-8d207e9ca3c5}" xml:space="preserve">
-    <value>Information</value>
-    <comment>'Facility' : LocalizedName for systemform in Entity FormXml ID: '{8d82ce0d-d994-48f6-9a75-8d207e9ca3c5}'</comment>
-  </data>
-  <data name="1:LocalizedName,Facility{ae08633a-a4f6-4638-835b-6526afc14356}" xml:space="preserve">
-    <value>Facility Quick View Form</value>
-    <comment>'Facility' : LocalizedName for systemform in Entity FormXml ID: '{ae08633a-a4f6-4638-835b-6526afc14356}'</comment>
-  </data>
-  <data name="1:LocalizedName,Facility{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>Facility Main Form</value>
-    <comment>'Facility' : LocalizedName for systemform in Entity FormXml ID: '{d196d9f4-1d46-4625-b43e-9ea89b769ae7}'</comment>
-  </data>
   <data name="1:LocalizedName,Guest{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
     <value>Guest Main Form</value>
     <comment>'Guest' : LocalizedName for systemform in Entity FormXml ID: '{165a28fe-e798-4086-ae69-3ef841d84590}'</comment>
@@ -10480,26 +9429,6 @@
     <value>Service</value>
     <comment>'Advertising Segment' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
   </data>
-  <data name="1:Title,Concession StandInfo{a0288e1b-1f03-461f-b8f4-9c1af1d33bae}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Concession Stand' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,Concession StandMarketing{a0288e1b-1f03-461f-b8f4-9c1af1d33bae}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Concession Stand' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,Concession StandProcessCenter{a0288e1b-1f03-461f-b8f4-9c1af1d33bae}" xml:space="preserve">
-    <value>Process Sessions</value>
-    <comment>'Concession Stand' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,Concession StandSales{a0288e1b-1f03-461f-b8f4-9c1af1d33bae}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Concession Stand' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,Concession StandService{a0288e1b-1f03-461f-b8f4-9c1af1d33bae}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Concession Stand' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
   <data name="1:Title,ContactInfo{e4070ca7-2774-ea11-a811-000d3a33f58e}" xml:space="preserve">
     <value>Common</value>
     <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
@@ -10552,71 +9481,7 @@
     <value>Service</value>
     <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
   </data>
-  <data name="1:Title,Event AttractionInfo{7920d422-15bb-493b-9cda-b3905253dae4}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Event Attraction' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,Event AttractionMarketing{7920d422-15bb-493b-9cda-b3905253dae4}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Event Attraction' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,Event AttractionProcessCenter{7920d422-15bb-493b-9cda-b3905253dae4}" xml:space="preserve">
-    <value>Process Sessions</value>
-    <comment>'Event Attraction' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,Event AttractionSales{7920d422-15bb-493b-9cda-b3905253dae4}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Event Attraction' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,Event AttractionService{7920d422-15bb-493b-9cda-b3905253dae4}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Event Attraction' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
-  <data name="1:Title,FacilityInfo{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Facility' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,FacilityMarketing{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Facility' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,FacilityProcessCenter{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>Process Sessions</value>
-    <comment>'Facility' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,FacilitySales{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Facility' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,FacilityService{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Facility' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
-  <data name="1:Title,GuestInfo{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Guest' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,GuestMarketing{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Guest' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,GuestProcessCenter{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
-    <value>Process Sessions</value>
-    <comment>'Guest' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,GuestSales{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Guest' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,GuestService{165a28fe-e798-4086-ae69-3ef841d84590}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Guest' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
   <data name="1:Title,LeadInfo{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,LeadInfo{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
     <value>Common</value>
     <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
   </data>
@@ -10624,15 +9489,7 @@
     <value>Marketing</value>
     <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
   </data>
-  <data name="1:Title,LeadMarketing{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
   <data name="1:Title,LeadnavActivities{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
-    <value>Activities</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
-  </data>
-  <data name="1:Title,LeadnavActivities{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
     <value>Activities</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
   </data>
@@ -10640,15 +9497,7 @@
     <value>Workflows</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAsyncOperations'</comment>
   </data>
-  <data name="1:Title,LeadnavAsyncOperations{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Workflows</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAsyncOperations'</comment>
-  </data>
   <data name="1:Title,LeadnavAudit{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
-    <value>Audit History</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
-  </data>
-  <data name="1:Title,LeadnavAudit{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
     <value>Audit History</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
   </data>
@@ -10656,15 +9505,7 @@
     <value>Campaigns</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navCampaignsInSFA'</comment>
   </data>
-  <data name="1:Title,LeadnavCampaignsInSFA{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Campaigns</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navCampaignsInSFA'</comment>
-  </data>
   <data name="1:Title,LeadnavConnections{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
-    <value>Connections</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navConnections'</comment>
-  </data>
-  <data name="1:Title,LeadnavConnections{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
     <value>Connections</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navConnections'</comment>
   </data>
@@ -10672,15 +9513,7 @@
     <value>Documents</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navDocument'</comment>
   </data>
-  <data name="1:Title,LeadnavDocument{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Documents</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navDocument'</comment>
-  </data>
   <data name="1:Title,LeadnavLeadCompetitor{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
-    <value>Competitors</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navLeadCompetitor'</comment>
-  </data>
-  <data name="1:Title,LeadnavLeadCompetitor{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
     <value>Competitors</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navLeadCompetitor'</comment>
   </data>
@@ -10688,15 +9521,7 @@
     <value>Dialog Sessions</value>
     <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
   </data>
-  <data name="1:Title,LeadnavProcessSessions{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Dialog Sessions</value>
-    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
-  </data>
   <data name="1:Title,LeadProcessCenter{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
-    <value>Processes</value>
-    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,LeadProcessCenter{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
     <value>Processes</value>
     <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
   </data>
@@ -10704,73 +9529,25 @@
     <value>Sales</value>
     <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
   </data>
-  <data name="1:Title,LeadSales{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
   <data name="1:Title,LeadService{13d57712-5f78-ea11-a811-000d3a33febe}" xml:space="preserve">
     <value>Service</value>
     <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
-  <data name="1:Title,LeadService{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
-  <data name="1:Title,Media EventInfo{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Media Event' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,Media EventMarketing{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Media Event' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,Media EventProcessCenter{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" xml:space="preserve">
-    <value>Process Sessions</value>
-    <comment>'Media Event' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,Media EventSales{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Media Event' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,Media EventService{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Media Event' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
-  <data name="1:Title,Media VenueInfo{a069d92f-c63c-4e5a-a189-627c79434c49}" xml:space="preserve">
-    <value>Common</value>
-    <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
   </data>
   <data name="1:Title,Media VenueInfo{a6cd5d4d-0079-ea11-a811-000d3a33febe}" xml:space="preserve">
     <value>Common</value>
     <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
   </data>
-  <data name="1:Title,Media VenueMarketing{a069d92f-c63c-4e5a-a189-627c79434c49}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
   <data name="1:Title,Media VenueMarketing{a6cd5d4d-0079-ea11-a811-000d3a33febe}" xml:space="preserve">
     <value>Marketing</value>
     <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,Media VenueProcessCenter{a069d92f-c63c-4e5a-a189-627c79434c49}" xml:space="preserve">
-    <value>Process Sessions</value>
-    <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
   </data>
   <data name="1:Title,Media VenueProcessCenter{a6cd5d4d-0079-ea11-a811-000d3a33febe}" xml:space="preserve">
     <value>Process Sessions</value>
     <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
   </data>
-  <data name="1:Title,Media VenueSales{a069d92f-c63c-4e5a-a189-627c79434c49}" xml:space="preserve">
-    <value>Sales</value>
-    <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
   <data name="1:Title,Media VenueSales{a6cd5d4d-0079-ea11-a811-000d3a33febe}" xml:space="preserve">
     <value>Sales</value>
     <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,Media VenueService{a069d92f-c63c-4e5a-a189-627c79434c49}" xml:space="preserve">
-    <value>Service</value>
-    <comment>'Media Venue' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
   </data>
   <data name="1:Title,Media VenueService{a6cd5d4d-0079-ea11-a811-000d3a33febe}" xml:space="preserve">
     <value>Service</value>

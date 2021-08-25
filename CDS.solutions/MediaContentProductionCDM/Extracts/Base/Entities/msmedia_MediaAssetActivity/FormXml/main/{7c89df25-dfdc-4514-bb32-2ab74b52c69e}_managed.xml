@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7c89df25-dfdc-4514-bb32-2ab74b52c69e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d1c36676-fc98-4cf7-8e06-dc07b01a59f9}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{b0b2fd8e-61ae-42af-a353-c988c6d0d205}" name="section_MediaAssetActivityInformation" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Media Asset Activity Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2400dcc7-4a10-4abe-bfe8-aab767c6db6e}">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{435d6e6b-6138-a13e-cae8-5c5de579a5b0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity Status" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_activitystatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_activitystatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de092d7a-6e8a-661b-5c6e-5c72e0b078be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Notification Email Address" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_notificationemailaddress" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="msmedia_notificationemailaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a098874d-2b2c-44a2-a01b-efecd9f14cd8}">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" />
+                        </labels>
+                        <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f43ac58c-49a7-459b-bb9f-9eb702a41644}" locklevel="0">
+                        <labels>
+                          <label description="Actual Start" languagecode="1033" />
+                        </labels>
+                        <control id="actualstart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="actualstart" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b7f7ef7b-3eee-4083-8304-5d93f3c0cc44}" locklevel="0">
+                        <labels>
+                          <label description="Actual End" languagecode="1033" />
+                        </labels>
+                        <control id="actualend" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="actualend" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3367452c-39b9-476a-bc6b-81dfa2015af6}" locklevel="0">
+                        <labels>
+                          <label description="Requested By" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_requestedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_requestedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{99445fdc-66ee-4cd1-ae01-01632be61b9e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="scheduledend" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{885b581d-25ed-4241-bbad-0993ae119cd7}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{480e351d-0839-4924-9255-a3306cbef3a7}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{c85d4218-8f75-4019-a277-8db4bc492b8f}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{8aa55ad9-6570-716c-2926-1b7ab11d14a0}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{becc1365-e73d-4a99-8bd2-e0f17835814c}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{e5280ab4-96c4-226e-699b-5926bbda2cd3}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Activity Type" languagecode="1033" />
+              </labels>
+              <control id="header_msmedia_activitytype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_activitytype" disabled="false" uniqueid="{29227bcb-4726-812e-21d2-a8a183cbc1a6}" />
+            </cell>
+            <cell id="{944475e2-da10-4105-95e0-553b73304179}" locklevel="0">
+              <labels>
+                <label description="Start Date" languagecode="1033" />
+              </labels>
+              <control id="header_scheduledstart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledstart" disabled="false" />
+            </cell>
+            <cell id="{41ba4393-3b57-4ed2-8bf4-349ac0aadec3}">
+              <labels>
+                <label description="Activity Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{96f082ee-aeb2-40e7-a0ea-866c830b5b82}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+          <row>
+            <cell locklevel="0" id="{53485967-4da2-4b1c-93bf-1cd9e70b147c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{100503fd-3eca-434c-a86a-8c934c32edea}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{b74af7e6-4347-4abd-a68e-fbc91865cd42}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{d0651205-f5e9-4762-948a-059b5d67a524}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{47efdc5d-e079-4416-a2d5-0f460a1394d8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b575f3d1-6682-4345-a0c0-21a3f0e8b622}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3979bc0e-0897-4637-b40b-490eb3d6c46c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{898cbab4-42a8-439e-961a-998160d2fc03}</formid>
+    <IntroducedVersion>1.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{dcbc2257-2b70-41f6-9c3c-9f651cece57a}" name="tab_EpisodeInformation" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Episode Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{385f845a-5a8e-4aaa-814c-cbccffaf6644}" name="section_EpisodeInformation" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="EpisodeInformation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c6002e92-4988-e177-8c08-a9b829973ecc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{318a5893-ea1e-83c6-b01c-1322c573d527}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Episode Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_episodenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_episodenum" disabled="false" uniqueid="{0903529e-e140-2725-383b-0bc3164ed61c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{193a6e52-a636-4ce1-ac6c-bf8bd0250fd3}" name="section_Seasons" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Season" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5e43d651-7dd0-8025-22a3-5c030643b596}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Season" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_season" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_season" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{79ec5b3b-c229-81ac-4662-ca6719354e36}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{efd91510-8d3b-4b98-b7ec-5a3b67ee0d3f}" name="section_Description" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d9ea1db0-7546-c25a-43ca-4165a3bb09d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Episode Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Episode Quick Create Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{7ead8bd9-9720-4881-8c51-67e9610cc62f}" IsUserDefined="1" name="GeneralTab">
+        <tab verticallayout="true" id="{7ead8bd9-9720-4881-8c51-67e9610cc62f}" IsUserDefined="1" name="GeneralTab" expanded="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
@@ -44,7 +44,19 @@
                         <labels>
                           <label description="Media Venue" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" uniqueid="{9b983e2a-8435-d0eb-ab90-c9be9a703228}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{A12DEB6B-1D32-459E-8FA5-E990C16D7196}</DefaultViewId>
+                            <FilterRelationshipName>msmedia_MediaEvent_msmedia_MediaVenue_msm</FilterRelationshipName>
+                            <DependentAttributeName>msmedia_eventattraction.msmedia_mediaevent</DependentAttributeName>
+                            <DependentAttributeType>msmedia_mediaevent</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
@@ -132,11 +144,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3c042ef5-95d4-415f-bd61-b5503d9be34f}" showlabel="true" locklevel="0">
+                      <cell id="{76dfc3f4-bd85-46a9-87e8-eb7aaedc6b85}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="Attraction Duration Display" languagecode="1033" />
+                          <label description="Publish To Portal" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_attractiondurationdisplay" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_attractiondurationdisplay" disabled="false" />
+                        <control id="msmedia_publishtoportal" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_publishtoportal" disabled="false" uniqueid="{527bba6e-3de6-7ed7-2566-d714911cd933}" />
                       </cell>
                       <cell id="{28737260-8169-4f97-ab62-2073c096edaa}" showlabel="true" locklevel="0">
                         <labels>
@@ -146,11 +158,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{39c0e4a8-058d-46a5-8134-735562206877}" showlabel="true" locklevel="0">
+                      <cell id="{3c042ef5-95d4-415f-bd61-b5503d9be34f}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Available Ticket Quantity" languagecode="1033" />
+                          <label description="Attraction Duration Display" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_availableticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_availableticketquantity" disabled="false" />
+                        <control id="msmedia_attractiondurationdisplay" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_attractiondurationdisplay" disabled="false" />
                       </cell>
                       <cell id="{8d9d0679-d789-42ec-b406-7c6991fcb5b1}" showlabel="true" locklevel="0">
                         <labels>
@@ -160,45 +172,16 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{63437278-9721-413c-81bf-f91d4f446b5e}" showlabel="true" locklevel="0">
+                      <cell id="{43124ec0-fdbb-419c-a272-066a98f63f7e}" locklevel="0">
                         <labels>
-                          <label description="Pending Ticket Quantity" languagecode="1033" />
+                          <label description="Is Sold Out" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_pendingticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_pendingticketquantity" disabled="false" />
+                        <control id="msmedia_issoldout" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_issoldout" disabled="false" uniqueid="{d0266279-afab-46fc-bdbc-26f212b1e66e}" />
                       </cell>
-                      <cell id="{efe2989c-360f-4799-9f27-4d4d7f867885}" showlabel="true" locklevel="0">
+                      <cell id="{13441a30-aea0-e897-ce2c-bb44518816de}" showlabel="false">
                         <labels>
-                          <label description="Session Type" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="msmedia_sessiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_sessiontype" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{6e64753a-93be-44cb-8ddb-4b89fda95498}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Sold Ticket Quantity" languagecode="1033" />
-                        </labels>
-                        <control id="msmedia_soldticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_soldticketquantity" disabled="false" />
-                      </cell>
-                      <cell id="{5a1e29ce-f67f-4e95-9a72-1f7b820d18f6}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Session Objectives" languagecode="1033" />
-                        </labels>
-                        <control id="msmedia_sessionobjectives" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_sessionobjectives" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{1883145b-4583-4512-ad01-4722495870de}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Total Ticket Quantity" languagecode="1033" />
-                        </labels>
-                        <control id="msmedia_totalticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_totalticketquantity" disabled="false" />
-                      </cell>
-                      <cell id="{58ea4bef-f73e-40db-9edc-169cd82d911b}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Session Summary" languagecode="1033" />
-                        </labels>
-                        <control id="msmedia_sessionsummary" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_sessionsummary" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -208,7 +191,7 @@
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
-                      <cell showlabel="true" locklevel="0" id="{ff84716f-e745-4123-addc-9d0993f26b93}">
+                      <cell locklevel="0" id="{3b20d69c-1c38-40bd-b7c9-b11f555acaf6}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -220,7 +203,83 @@
             </column>
           </columns>
         </tab>
-        <tab name="AttractionSchedulesTab" id="6bb80dea-8640-4905-949b-71e5fb67b8ce" IsUserDefined="0" locklevel="0" showlabel="true">
+        <tab name="tab_liveEventSettings" id="{c511e720-2e9e-0e2a-4464-e07e44c92793}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Online Streaming" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{5c5bc37e-9d7c-2208-d95a-ad928c890d99}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d677c7a7-23d4-4478-b6cd-614d4b05e1e6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Stream This Online" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_streamthisonline" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_streamthisonline" disabled="false" uniqueid="{06d71c98-715a-9c88-34ba-0d0cddc15546}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4615757-3375-4de9-aa52-d234200b3383}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Streaming Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_streamingtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_streamingtype" disabled="false" uniqueid="{3800b722-d9d1-d766-8e56-b2a6565d945a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6d0dc5d-6d10-4c5c-98a4-3049ff5af210}" locklevel="0">
+                        <labels>
+                          <label description="Join URL" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_joinurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="msmedia_joinurl" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a50a9be-01c8-49ab-962a-93e09b688f99}" locklevel="0">
+                        <labels>
+                          <label description="Event Owner" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_eventowner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_eventowner" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ad21730-a9c0-469d-b493-50024b1d0c03}" locklevel="0">
+                        <labels>
+                          <label description="Teams Event Id" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_teamseventid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_teamseventid" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_liveEventSettings_section_2" showlabel="false" showbar="false" locklevel="0" id="{d6b50e12-8698-0e1b-44bb-d82400cda9a8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d0d6a5ad-97c2-441d-e373-b4433dd4c0a1}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="AttractionSchedulesTab" id="6bb80dea-8640-4905-949b-71e5fb67b8ce" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Attraction Schedules" languagecode="1033" />
           </labels>
@@ -254,7 +313,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="MediaRegistrationsTab" id="1a0e00b1-cca5-43ca-ad0e-c50c9a3edaf8" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="MediaRegistrationsTab" id="1a0e00b1-cca5-43ca-ad0e-c50c9a3edaf8" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Media Registrations" languagecode="1033" />
           </labels>
@@ -288,7 +347,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="RegistrationStatusLogsTab" id="dbb54ffb-8383-4356-8274-8bf746b043d7" IsUserDefined="0" locklevel="0" showlabel="true">
+        <tab name="RegistrationStatusLogsTab" id="dbb54ffb-8383-4356-8274-8bf746b043d7" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Registration Status Logs" languagecode="1033" />
           </labels>
@@ -322,7 +381,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="hours_of_operation" id="a47be798-1966-4abb-a59f-e5e2ecd4f1e2" IsUserDefined="0" locklevel="0" showlabel="true">
+        <tab name="hours_of_operation" id="a47be798-1966-4abb-a59f-e5e2ecd4f1e2" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Hours of Operation" languagecode="1033" />
           </labels>
@@ -348,6 +407,98 @@
                             <RelationshipName>msmedia_hoursofoperation_EventAttraction</RelationshipName>
                           </parameters>
                         </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="TicketingTab" id="{a51ca616-b108-3474-d3b5-db8eb75c53e8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Ticketing" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="TicketingSection" showlabel="false" showbar="false" locklevel="0" id="{9033c3e2-8113-0a3d-538c-ead9354ea005}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Ticketing Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{39c0e4a8-058d-46a5-8134-735562206877}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Available Ticket Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_availableticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_availableticketquantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63437278-9721-413c-81bf-f91d4f446b5e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pending Ticket Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_pendingticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_pendingticketquantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e64753a-93be-44cb-8ddb-4b89fda95498}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sold Ticket Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_soldticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_soldticketquantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1883145b-4583-4512-ad01-4722495870de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Ticket Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_totalticketquantity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_totalticketquantity" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Session Info Tab" id="{d2639e43-1522-7acd-7c0c-07c9a7cbc76d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Session Info" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Session Info Section" showlabel="false" showbar="false" locklevel="0" id="{e5101722-0d99-cd8b-d2b0-2a231beabe6a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Session Info" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{efe2989c-360f-4799-9f27-4d4d7f867885}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Session Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_sessiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_sessiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5a1e29ce-f67f-4e95-9a72-1f7b820d18f6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Session Objectives" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_sessionobjectives" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_sessionobjectives" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58ea4bef-f73e-40db-9edc-169cd82d911b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Session Summary" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_sessionsummary" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_sessionsummary" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -399,6 +550,104 @@
           </row>
         </rows>
       </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{06d71c98-715a-9c88-34ba-0d0cddc15546}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_streamthisonline</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>msmedia_streamthisonline</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>msmedia_streamthisonline</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>msmedia_streamthisonline</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{527bba6e-3de6-7ed7-2566-d714911cd933}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_publishtoportal</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>msmedia_publishtoportal</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>msmedia_publishtoportal</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>msmedia_publishtoportal</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d0266279-afab-46fc-bdbc-26f212b1e66e}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_issoldout</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">msmedia_issoldout</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">msmedia_issoldout</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">msmedia_issoldout</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
       <DisplayConditions Order="0" FallbackForm="true" />
     </form>
     <IsCustomizable>1</IsCustomizable>

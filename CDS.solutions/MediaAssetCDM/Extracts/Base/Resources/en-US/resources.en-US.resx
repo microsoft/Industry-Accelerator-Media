@@ -1,0 +1,1152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>MediaAssetCDM_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="10:Description,business_unit_msmedia_mediaasset" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'business_unit_msmedia_mediaasset'</comment>
+  </data>
+  <data name="10:Description,business_unit_msmedia_mediaassetcategory" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msmedia_MediaAssetCategory Description for EntityRelationship 'business_unit_msmedia_mediaassetcategory'</comment>
+  </data>
+  <data name="10:Description,lk_msmedia_mediaassetcategory_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msmedia_MediaAssetCategory Description for EntityRelationship 'lk_msmedia_mediaassetcategory_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msmedia_mediaassetcategory_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msmedia_MediaAssetCategory Description for EntityRelationship 'lk_msmedia_mediaassetcategory_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msmedia_mediaasset_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'lk_msmedia_mediaasset_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msmedia_mediaasset_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'lk_msmedia_mediaasset_modifiedby'</comment>
+  </data>
+  <data name="10:Description,msmedia_MediaAsset_Category_msmedia_Media" xml:space="preserve">
+    <value />
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'msmedia_MediaAsset_Category_msmedia_Media'</comment>
+  </data>
+  <data name="10:Description,owner_msmedia_mediaasset" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'owner_msmedia_mediaasset'</comment>
+  </data>
+  <data name="10:Description,owner_msmedia_mediaassetcategory" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msmedia_MediaAssetCategory Description for EntityRelationship 'owner_msmedia_mediaassetcategory'</comment>
+  </data>
+  <data name="10:Description,team_msmedia_mediaasset" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'team_msmedia_mediaasset'</comment>
+  </data>
+  <data name="10:Description,team_msmedia_mediaassetcategory" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msmedia_MediaAssetCategory Description for EntityRelationship 'team_msmedia_mediaassetcategory'</comment>
+  </data>
+  <data name="10:Description,TransactionCurrency_msmedia_MediaAsset" xml:space="preserve">
+    <value>Unique identifier of the currency associated with the entity.</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'TransactionCurrency_msmedia_MediaAsset'</comment>
+  </data>
+  <data name="10:Description,user_msmedia_mediaasset" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msmedia_MediaAsset Description for EntityRelationship 'user_msmedia_mediaasset'</comment>
+  </data>
+  <data name="10:Description,user_msmedia_mediaassetcategory" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msmedia_MediaAssetCategory Description for EntityRelationship 'user_msmedia_mediaassetcategory'</comment>
+  </data>
+  <data name="15062:LocalizedName,MediaAssetCDM" xml:space="preserve">
+    <value>Media Asset CDM</value>
+    <comment> 'MediaAssetCDM' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoftdynamics365mediamsmedia76686" xml:space="preserve">
+    <value>Microsoft Dynamics 365 Media</value>
+    <comment> 'microsoftdynamics365media' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,Media Asset Category{3f6674c3-c044-4640-bcbd-8cc268eb2c5c}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Media Asset Category' : Description for systemform in Entity FormXml ID: '{3f6674c3-c044-4640-bcbd-8cc268eb2c5c}'</comment>
+  </data>
+  <data name="1:Description,Media Asset Category{a6624077-285e-ea11-a811-000d3a579c33}" xml:space="preserve">
+    <value>Active Media Asset Categories owned by me</value>
+    <comment>'Media Asset Category' : Description for SavedQuery on Entity QueryId: '{a6624077-285e-ea11-a811-000d3a579c33}'</comment>
+  </data>
+  <data name="1:Description,Media Asset Category{ab274235-a9a0-420a-8622-c859a67ab419}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Media Asset Category' : Description for systemform in Entity FormXml ID: '{ab274235-a9a0-420a-8622-c859a67ab419}'</comment>
+  </data>
+  <data name="1:Description,Media Asset{35e079e8-0760-41aa-9a9f-063fade1f844}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Media Asset' : Description for systemform in Entity FormXml ID: '{35e079e8-0760-41aa-9a9f-063fade1f844}'</comment>
+  </data>
+  <data name="1:Description,Media Asset{41e5e6eb-c3f8-45ef-b59c-d7730ddff39b}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Media Asset' : Description for systemform in Entity FormXml ID: '{41e5e6eb-c3f8-45ef-b59c-d7730ddff39b}'</comment>
+  </data>
+  <data name="1:Description,Media Asset{5a5156b0-275e-ea11-a811-000d3a579c33}" xml:space="preserve">
+    <value>Active Media Assets owned by me</value>
+    <comment>'Media Asset' : Description for SavedQuery on Entity QueryId: '{5a5156b0-275e-ea11-a811-000d3a579c33}'</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryentitymsmedia_MediaAssetCategory" xml:space="preserve">
+    <value>A collection of similar Media Assets</value>
+    <comment> 'msmedia_MediaAssetCategory' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorymsmedia_Code" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'msmedia_Code' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorymsmedia_Description" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'msmedia_Description' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorymsmedia_MediaAssetCategoryId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'msmedia_MediaAssetCategoryId' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statecode" xml:space="preserve">
+    <value>Status of the Media Asset Category</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for OptionSet 'msmedia_mediaassetcategory_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Media Asset Category</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for OptionSet 'msmedia_mediaassetcategory_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorymsmedia_Name" xml:space="preserve">
+    <value>Required name field</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'msmedia_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorystatecode" xml:space="preserve">
+    <value>Status of the Media Asset Category</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategorystatuscode" xml:space="preserve">
+    <value>Reason for the status of the Media Asset Category</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCategoryUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msmedia_MediaAssetCategory' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetentitymsmedia_MediaAsset" xml:space="preserve">
+    <value>A physical or digital asset owned by a Provider or Operator and used in the course of their Media business</value>
+    <comment> 'msmedia_MediaAsset' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetExchangeRate" xml:space="preserve">
+    <value>Exchange rate for the currency associated with the entity with respect to the base currency.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'ExchangeRate' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Actual" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Actual' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_actual_Base" xml:space="preserve">
+    <value>Value of the Actual in base currency.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_actual_Base' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_AssetType" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_AssetType' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Budget" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Budget' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_budget_Base" xml:space="preserve">
+    <value>Value of the Budget in base currency.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_budget_Base' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Category" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Category' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Description" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Description' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Forecast" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Forecast' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_forecast_Base" xml:space="preserve">
+    <value>Value of the Forecast in base currency.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_forecast_Base' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_IsforSale" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_IsforSale' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_IsPublishedtoWeb" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_IsPublishedtoWeb' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_MediaAssetId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_MediaAssetId' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_mediaasset_statecode" xml:space="preserve">
+    <value>Status of the Media Asset</value>
+    <comment>'msmedia_MediaAsset' : Description for OptionSet 'msmedia_mediaasset_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_mediaasset_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Media Asset</value>
+    <comment>'msmedia_MediaAsset' : Description for OptionSet 'msmedia_mediaasset_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_msmedia_mediaasset_isforsale" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for OptionSet 'msmedia_msmedia_mediaasset_isforsale' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_msmedia_mediaasset_ispublishedtoweb" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for OptionSet 'msmedia_msmedia_mediaasset_ispublishedtoweb' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Name" xml:space="preserve">
+    <value>Required name field</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_Price" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_Price' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_price_Base" xml:space="preserve">
+    <value>Value of the Price in base currency.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_price_Base' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_PurchaseMaximum" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_PurchaseMaximum' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetmsmedia_PurchaseMinimum" xml:space="preserve">
+    <value />
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'msmedia_PurchaseMinimum' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetstatecode" xml:space="preserve">
+    <value>Status of the Media Asset</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Media Asset</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetTransactionCurrencyId" xml:space="preserve">
+    <value>Unique identifier of the currency associated with the entity.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'TransactionCurrencyId' on Entity</comment>
+  </data>
+  <data name="1:Description,msmedia_MediaAssetUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msmedia_MediaAsset' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorymsmedia_Code" xml:space="preserve">
+    <value>Code</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'msmedia_Code' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorymsmedia_Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'msmedia_Description' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorymsmedia_MediaAssetCategoryId" xml:space="preserve">
+    <value>Media Asset Category</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'msmedia_MediaAssetCategoryId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for OptionSet 'msmedia_mediaassetcategory_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for OptionSet 'msmedia_mediaassetcategory_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorymsmedia_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'msmedia_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorystatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategorystatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCategoryUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msmedia_MediaAssetCategory' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetExchangeRate" xml:space="preserve">
+    <value>Exchange Rate</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'ExchangeRate' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Actual" xml:space="preserve">
+    <value>Actual</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Actual' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_actual_Base" xml:space="preserve">
+    <value>Actual (Base)</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_actual_Base' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_AssetType" xml:space="preserve">
+    <value>Asset Type</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_AssetType' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Budget" xml:space="preserve">
+    <value>Budget</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Budget' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_budget_Base" xml:space="preserve">
+    <value>Budget (Base)</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_budget_Base' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Category" xml:space="preserve">
+    <value>Category</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Category' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Description' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Forecast" xml:space="preserve">
+    <value>Forecast</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Forecast' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_forecast_Base" xml:space="preserve">
+    <value>Forecast (Base)</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_forecast_Base' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_IsforSale" xml:space="preserve">
+    <value>Is for Sale</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_IsforSale' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_IsPublishedtoWeb" xml:space="preserve">
+    <value>Is Published to Web</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_IsPublishedtoWeb' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_MediaAssetId" xml:space="preserve">
+    <value>Media Asset</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_MediaAssetId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_mediaasset_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msmedia_MediaAsset' : displayname for OptionSet 'msmedia_mediaasset_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_mediaasset_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msmedia_MediaAsset' : displayname for OptionSet 'msmedia_mediaasset_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_msmedia_mediaasset_isforsale" xml:space="preserve">
+    <value>Local Enumeration</value>
+    <comment>'msmedia_MediaAsset' : displayname for OptionSet 'msmedia_msmedia_mediaasset_isforsale' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_msmedia_mediaasset_ispublishedtoweb" xml:space="preserve">
+    <value>Local Enumeration</value>
+    <comment>'msmedia_MediaAsset' : displayname for OptionSet 'msmedia_msmedia_mediaasset_ispublishedtoweb' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_Price" xml:space="preserve">
+    <value>Price</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_Price' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_price_Base" xml:space="preserve">
+    <value>Price (Base)</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_price_Base' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_PurchaseMaximum" xml:space="preserve">
+    <value>Purchase Maximum</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_PurchaseMaximum' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetmsmedia_PurchaseMinimum" xml:space="preserve">
+    <value>Purchase Minimum</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'msmedia_PurchaseMinimum' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetTransactionCurrencyId" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'TransactionCurrencyId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msmedia_MediaAssetUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msmedia_MediaAsset' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Media Asset Category1318aed5-7132-4a35-8739-a2ec91360de5" xml:space="preserve">
+    <value>Medias Assets</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '1318aed5-7132-4a35-8739-a2ec91360de5'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{0101f22b-b194-4fc4-b1d7-d2f4e87f59b5}" xml:space="preserve">
+    <value>Code</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{0101f22b-b194-4fc4-b1d7-d2f4e87f59b5}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{0ab7b3fe-d3c4-457a-a815-e433c2079efa}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{0ab7b3fe-d3c4-457a-a815-e433c2079efa}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{1dd40d43-aabf-46a5-91f1-96720973f4c5}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{1dd40d43-aabf-46a5-91f1-96720973f4c5}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{242c6a0d-17a3-4788-9ea6-20984236692c}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{242c6a0d-17a3-4788-9ea6-20984236692c}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{40b3cd23-04d0-47fa-87f5-465b892f567f}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '{40b3cd23-04d0-47fa-87f5-465b892f567f}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{4ac2ce5b-8650-496f-a717-b72780999f7c}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for tab in Entity FormXml ID: '{4ac2ce5b-8650-496f-a717-b72780999f7c}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{4afd8ed3-f8bd-4ad8-b558-5abd2510e17d}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{4afd8ed3-f8bd-4ad8-b558-5abd2510e17d}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{4fdf86b7-a131-43e5-b3e1-0b6f2ec5c3a7}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{4fdf86b7-a131-43e5-b3e1-0b6f2ec5c3a7}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{5d8aab18-de59-419c-871e-0d85a964f617}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '{5d8aab18-de59-419c-871e-0d85a964f617}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{771fd5e1-9b0d-4f22-8eb6-be6c6bc9899c}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{771fd5e1-9b0d-4f22-8eb6-be6c6bc9899c}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{8d14b174-0b9e-4679-a4e7-15dd5d293e93}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{8d14b174-0b9e-4679-a4e7-15dd5d293e93}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{8f05a9e0-1aaf-4eac-8c63-c0f01a2e7141}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{8f05a9e0-1aaf-4eac-8c63-c0f01a2e7141}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{9028dda0-6540-4455-9d00-9c99c68a67ab}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{9028dda0-6540-4455-9d00-9c99c68a67ab}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{93961cf5-9883-40ad-b77b-7312f8959a4c}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '{93961cf5-9883-40ad-b77b-7312f8959a4c}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{ae51c73a-aecf-4412-bfdb-8a4b95317bc7}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{ae51c73a-aecf-4412-bfdb-8a4b95317bc7}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{b18384f2-65fd-4ce9-8584-aa29cefa3902}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{b18384f2-65fd-4ce9-8584-aa29cefa3902}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{b3873563-9d05-404a-a674-77da70cc467c}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for tab in Entity FormXml ID: '{b3873563-9d05-404a-a674-77da70cc467c}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{b5039571-f940-4bb6-a364-13a3c68088e6}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '{b5039571-f940-4bb6-a364-13a3c68088e6}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{b5143efc-acee-4d94-8834-b08a3233322a}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{b5143efc-acee-4d94-8834-b08a3233322a}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{cb0e88d0-e2f8-4652-89f8-8edf7db52376}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '{cb0e88d0-e2f8-4652-89f8-8edf7db52376}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{e04ce915-b411-4aa3-9ed5-7faec8193a04}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{e04ce915-b411-4aa3-9ed5-7faec8193a04}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{ea9216d5-ef4d-4d8d-ab11-b35ea0c6ff15}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Media Asset Category' : label for tab in Entity FormXml ID: '{ea9216d5-ef4d-4d8d-ab11-b35ea0c6ff15}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{eb2c6151-45be-4d28-b5ab-3e2ce55ce032}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{eb2c6151-45be-4d28-b5ab-3e2ce55ce032}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{f0950554-2d4f-4ad7-a5e7-35b47bff50e6}" xml:space="preserve">
+    <value>New SG control 1585068238330</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{f0950554-2d4f-4ad7-a5e7-35b47bff50e6}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{f3c152b5-75cd-4fdb-918a-14fcf5e717d3}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{f3c152b5-75cd-4fdb-918a-14fcf5e717d3}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{f409d18e-10d0-46b5-9e5f-628e9ffd3938}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{f409d18e-10d0-46b5-9e5f-628e9ffd3938}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{f96efc5e-27aa-4172-b38d-924af8686728}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Media Asset Category' : label for section in Entity FormXml ID: '{f96efc5e-27aa-4172-b38d-924af8686728}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{f9e70346-e260-46c4-b3e1-a485867f780c}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{f9e70346-e260-46c4-b3e1-a485867f780c}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{fdee5868-2b27-43f3-ad41-d7ce07c32a64}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{fdee5868-2b27-43f3-ad41-d7ce07c32a64}'</comment>
+  </data>
+  <data name="1:label,Media Asset Category{fedefb3a-4e63-43a2-a2e7-349250db6a96}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Media Asset Category' : label for cell in Entity FormXml ID: '{fedefb3a-4e63-43a2-a2e7-349250db6a96}'</comment>
+  </data>
+  <data name="1:label,Media Assetc5f1e3af-a011-48a7-ac43-d9f43d62ede4" xml:space="preserve">
+    <value>Notes</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: 'c5f1e3af-a011-48a7-ac43-d9f43d62ede4'</comment>
+  </data>
+  <data name="1:label,Media Asset{0ddcc07c-ca28-408d-9b34-5301e2b63d6c}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{0ddcc07c-ca28-408d-9b34-5301e2b63d6c}'</comment>
+  </data>
+  <data name="1:label,Media Asset{1206c4dd-8668-4b76-aac6-4a46571a4878}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{1206c4dd-8668-4b76-aac6-4a46571a4878}'</comment>
+  </data>
+  <data name="1:label,Media Asset{1ab808f1-cc7a-4cd3-93a9-bede985b78cd}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: '{1ab808f1-cc7a-4cd3-93a9-bede985b78cd}'</comment>
+  </data>
+  <data name="1:label,Media Asset{1be0d3db-3c39-41ad-ae63-70a8ebc9b905}" xml:space="preserve">
+    <value>Notes</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{1be0d3db-3c39-41ad-ae63-70a8ebc9b905}'</comment>
+  </data>
+  <data name="1:label,Media Asset{3347deed-61d9-4433-8f19-39a32ffac734}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{3347deed-61d9-4433-8f19-39a32ffac734}'</comment>
+  </data>
+  <data name="1:label,Media Asset{4254f518-5565-470a-b161-80809fc0bbf6}" xml:space="preserve">
+    <value>Budget</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{4254f518-5565-470a-b161-80809fc0bbf6}'</comment>
+  </data>
+  <data name="1:label,Media Asset{43039791-1201-4d08-84bd-848e7291655e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{43039791-1201-4d08-84bd-848e7291655e}'</comment>
+  </data>
+  <data name="1:label,Media Asset{48d0c312-30ce-42d7-b084-80fa965cc578}" xml:space="preserve">
+    <value>Forecast</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{48d0c312-30ce-42d7-b084-80fa965cc578}'</comment>
+  </data>
+  <data name="1:label,Media Asset{493faffd-a2e9-46f2-a270-c9092138bc5d}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{493faffd-a2e9-46f2-a270-c9092138bc5d}'</comment>
+  </data>
+  <data name="1:label,Media Asset{4cfc20f1-5d61-4d73-8430-585e0e183b46}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for tab in Entity FormXml ID: '{4cfc20f1-5d61-4d73-8430-585e0e183b46}'</comment>
+  </data>
+  <data name="1:label,Media Asset{50b222d0-12c1-4aa5-a635-99f0de265d74}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for tab in Entity FormXml ID: '{50b222d0-12c1-4aa5-a635-99f0de265d74}'</comment>
+  </data>
+  <data name="1:label,Media Asset{523fb91c-4841-412c-8010-cbb0c1b191ac}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: '{523fb91c-4841-412c-8010-cbb0c1b191ac}'</comment>
+  </data>
+  <data name="1:label,Media Asset{5db67530-904c-41e2-98c5-30259a623330}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{5db67530-904c-41e2-98c5-30259a623330}'</comment>
+  </data>
+  <data name="1:label,Media Asset{603646d1-546f-4684-9b61-a8587392a8f7}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: '{603646d1-546f-4684-9b61-a8587392a8f7}'</comment>
+  </data>
+  <data name="1:label,Media Asset{63baee64-556e-4c1a-bbe0-4fec7931bac7}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{63baee64-556e-4c1a-bbe0-4fec7931bac7}'</comment>
+  </data>
+  <data name="1:label,Media Asset{79f2ac63-3500-4edf-8527-728d2ec001a1}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{79f2ac63-3500-4edf-8527-728d2ec001a1}'</comment>
+  </data>
+  <data name="1:label,Media Asset{7d4444b7-f64b-41c9-bc2e-a70ec05bcc0c}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{7d4444b7-f64b-41c9-bc2e-a70ec05bcc0c}'</comment>
+  </data>
+  <data name="1:label,Media Asset{81d3d341-eba0-47ad-994e-7499fec86973}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{81d3d341-eba0-47ad-994e-7499fec86973}'</comment>
+  </data>
+  <data name="1:label,Media Asset{81ed0528-f76a-4eb5-8da6-69e24537b062}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{81ed0528-f76a-4eb5-8da6-69e24537b062}'</comment>
+  </data>
+  <data name="1:label,Media Asset{841d11f2-d9a3-4606-9195-56ecc4a185a5}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{841d11f2-d9a3-4606-9195-56ecc4a185a5}'</comment>
+  </data>
+  <data name="1:label,Media Asset{84ff14c7-34f3-486c-8129-8e6f9e739d86}" xml:space="preserve">
+    <value>Purchase Maximum</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{84ff14c7-34f3-486c-8129-8e6f9e739d86}'</comment>
+  </data>
+  <data name="1:label,Media Asset{855865e7-c72d-4c2c-a1e1-8306cd732e53}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{855865e7-c72d-4c2c-a1e1-8306cd732e53}'</comment>
+  </data>
+  <data name="1:label,Media Asset{89c54bcf-3bb9-4145-9e4b-9cabd3e493af}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{89c54bcf-3bb9-4145-9e4b-9cabd3e493af}'</comment>
+  </data>
+  <data name="1:label,Media Asset{92a7256a-78d6-47e4-a715-d22b6570a4a9}" xml:space="preserve">
+    <value>Purchase Minimum</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{92a7256a-78d6-47e4-a715-d22b6570a4a9}'</comment>
+  </data>
+  <data name="1:label,Media Asset{942ecefc-c790-4e0e-9096-d8da4f005d82}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{942ecefc-c790-4e0e-9096-d8da4f005d82}'</comment>
+  </data>
+  <data name="1:label,Media Asset{9541636c-8c23-4700-8730-e48235363227}" xml:space="preserve">
+    <value>Is for Sale</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{9541636c-8c23-4700-8730-e48235363227}'</comment>
+  </data>
+  <data name="1:label,Media Asset{95e36905-33ea-4ded-af4a-72225456adcb}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{95e36905-33ea-4ded-af4a-72225456adcb}'</comment>
+  </data>
+  <data name="1:label,Media Asset{9705e667-5b6b-473e-9672-f5f04d33225b}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: '{9705e667-5b6b-473e-9672-f5f04d33225b}'</comment>
+  </data>
+  <data name="1:label,Media Asset{98cd99f8-b278-42d3-8746-f9ba178b0da7}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: '{98cd99f8-b278-42d3-8746-f9ba178b0da7}'</comment>
+  </data>
+  <data name="1:label,Media Asset{9ce86f69-40d1-440c-84e5-d819b6628de6}" xml:space="preserve">
+    <value>Actual</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{9ce86f69-40d1-440c-84e5-d819b6628de6}'</comment>
+  </data>
+  <data name="1:label,Media Asset{a767d744-e1ee-4871-b4b7-db00850c9fc4}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{a767d744-e1ee-4871-b4b7-db00850c9fc4}'</comment>
+  </data>
+  <data name="1:label,Media Asset{a869e4b5-45ec-4487-ab9c-fafeea021f95}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{a869e4b5-45ec-4487-ab9c-fafeea021f95}'</comment>
+  </data>
+  <data name="1:label,Media Asset{ac7ca6a7-1dd1-4e95-b1e2-891f78924ee9}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{ac7ca6a7-1dd1-4e95-b1e2-891f78924ee9}'</comment>
+  </data>
+  <data name="1:label,Media Asset{bcba7b72-da8d-47c7-99e7-07ddcb84b21c}" xml:space="preserve">
+    <value>Price</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{bcba7b72-da8d-47c7-99e7-07ddcb84b21c}'</comment>
+  </data>
+  <data name="1:label,Media Asset{bcede36b-5f29-4275-8322-448d3e7542f2}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{bcede36b-5f29-4275-8322-448d3e7542f2}'</comment>
+  </data>
+  <data name="1:label,Media Asset{c01a8eff-f1f5-4ee3-a0f9-1baad8d2c39f}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Media Asset' : label for section in Entity FormXml ID: '{c01a8eff-f1f5-4ee3-a0f9-1baad8d2c39f}'</comment>
+  </data>
+  <data name="1:label,Media Asset{c08fd3a6-5f3d-4890-9901-67620b314db1}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{c08fd3a6-5f3d-4890-9901-67620b314db1}'</comment>
+  </data>
+  <data name="1:label,Media Asset{dab6a712-2846-436c-8945-f3edaaf58022}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{dab6a712-2846-436c-8945-f3edaaf58022}'</comment>
+  </data>
+  <data name="1:label,Media Asset{e47b72bb-5ee6-4204-ba33-1d93a7c5fb17}" xml:space="preserve">
+    <value />
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{e47b72bb-5ee6-4204-ba33-1d93a7c5fb17}'</comment>
+  </data>
+  <data name="1:label,Media Asset{e5aaa46d-9b44-4b34-92e6-c701a2246d09}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{e5aaa46d-9b44-4b34-92e6-c701a2246d09}'</comment>
+  </data>
+  <data name="1:label,Media Asset{e9e03396-76b4-40b9-8b0b-9e5315a2d8bf}" xml:space="preserve">
+    <value>Is Published to Web</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{e9e03396-76b4-40b9-8b0b-9e5315a2d8bf}'</comment>
+  </data>
+  <data name="1:label,Media Asset{f1ae6fb9-b220-426b-a1bd-50d919ac76b5}" xml:space="preserve">
+    <value>Category</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{f1ae6fb9-b220-426b-a1bd-50d919ac76b5}'</comment>
+  </data>
+  <data name="1:label,Media Asset{f4320a3e-8faf-4341-a44f-2c8c4bf92b8b}" xml:space="preserve">
+    <value>Asset Type</value>
+    <comment>'Media Asset' : label for cell in Entity FormXml ID: '{f4320a3e-8faf-4341-a44f-2c8c4bf92b8b}'</comment>
+  </data>
+  <data name="1:label,Media Asset{fb3b9af1-b018-4289-ac43-95bb21151792}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Media Asset' : label for tab in Entity FormXml ID: '{fb3b9af1-b018-4289-ac43-95bb21151792}'</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msmedia_MediaAssetCategory' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msmedia_MediaAssetCategory' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msmedia_MediaAssetCategory' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetCategorymsmedia_mediaassetcategory_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msmedia_MediaAssetCategory' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_mediaasset_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msmedia_MediaAsset' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_mediaasset_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msmedia_MediaAsset' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_mediaasset_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msmedia_MediaAsset' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_mediaasset_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msmedia_MediaAsset' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_msmedia_mediaasset_isforsale0" xml:space="preserve">
+    <value>No</value>
+    <comment>'msmedia_MediaAsset' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_msmedia_mediaasset_isforsale1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'msmedia_MediaAsset' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_msmedia_mediaasset_ispublishedtoweb0" xml:space="preserve">
+    <value>No</value>
+    <comment>'msmedia_MediaAsset' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,msmedia_MediaAssetmsmedia_msmedia_mediaasset_ispublishedtoweb1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'msmedia_MediaAsset' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msmedia_MediaAssetCategoryentitymsmedia_MediaAssetCategory" xml:space="preserve">
+    <value>Media Asset Categories</value>
+    <comment> 'msmedia_MediaAssetCategory' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msmedia_MediaAssetentitymsmedia_MediaAsset" xml:space="preserve">
+    <value>Media Assets</value>
+    <comment> 'msmedia_MediaAsset' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{3f6674c3-c044-4640-bcbd-8cc268eb2c5c}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Media Asset Category' : LocalizedName for systemform in Entity FormXml ID: '{3f6674c3-c044-4640-bcbd-8cc268eb2c5c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{a6624077-285e-ea11-a811-000d3a579c33}" xml:space="preserve">
+    <value>My Media Asset Categories</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{a6624077-285e-ea11-a811-000d3a579c33}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{ab274235-a9a0-420a-8622-c859a67ab419}" xml:space="preserve">
+    <value>Media Asset Category Main Form</value>
+    <comment>'Media Asset Category' : LocalizedName for systemform in Entity FormXml ID: '{ab274235-a9a0-420a-8622-c859a67ab419}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{b07719f1-dd1a-4f44-a4c5-54eb7ce5fe1a}" xml:space="preserve">
+    <value>Active Media Asset Categories</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{b07719f1-dd1a-4f44-a4c5-54eb7ce5fe1a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{baad65e7-6077-449c-b44d-6e1a9201a974}" xml:space="preserve">
+    <value>Media Asset Category Associated View</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{baad65e7-6077-449c-b44d-6e1a9201a974}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{bb04de0e-3d20-445b-82f1-9e3b37392527}" xml:space="preserve">
+    <value>Media Asset Category Advanced Find View</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{bb04de0e-3d20-445b-82f1-9e3b37392527}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{bfd6dace-0303-464d-953f-c40f397c584c}" xml:space="preserve">
+    <value>Media Asset Category Quick View Form</value>
+    <comment>'Media Asset Category' : LocalizedName for systemform in Entity FormXml ID: '{bfd6dace-0303-464d-953f-c40f397c584c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{c217e9f5-9a9e-4280-9001-9fb69abaa586}" xml:space="preserve">
+    <value>Media Asset Category Lookup View</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{c217e9f5-9a9e-4280-9001-9fb69abaa586}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{ca05bb4a-1600-412d-9934-19a5ab0f69b3}" xml:space="preserve">
+    <value>Inactive Media Asset Categories</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{ca05bb4a-1600-412d-9934-19a5ab0f69b3}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset Category{f42053bf-391b-469a-92a9-af853a978f73}" xml:space="preserve">
+    <value>Quick Find Active Media Asset Categories</value>
+    <comment>'Media Asset Category' : LocalizedName for SavedQuery on Entity QueryId: '{f42053bf-391b-469a-92a9-af853a978f73}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{1311fa04-ec9e-4287-9d02-81b652748a2f}" xml:space="preserve">
+    <value>Active Media Assets</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{1311fa04-ec9e-4287-9d02-81b652748a2f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{138c04a2-8bc1-4f44-9ab9-143d6a84701a}" xml:space="preserve">
+    <value>Inactive Media Assets</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{138c04a2-8bc1-4f44-9ab9-143d6a84701a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{30595bad-5d55-4264-b90b-f57693053b86}" xml:space="preserve">
+    <value>Media Asset Advanced Find View</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{30595bad-5d55-4264-b90b-f57693053b86}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{35e079e8-0760-41aa-9a9f-063fade1f844}" xml:space="preserve">
+    <value>Media Asset Main Form</value>
+    <comment>'Media Asset' : LocalizedName for systemform in Entity FormXml ID: '{35e079e8-0760-41aa-9a9f-063fade1f844}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{3b5335fb-bb3c-49a6-891c-1f1f9f786c29}" xml:space="preserve">
+    <value>Media Asset Lookup View</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{3b5335fb-bb3c-49a6-891c-1f1f9f786c29}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{41e5e6eb-c3f8-45ef-b59c-d7730ddff39b}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Media Asset' : LocalizedName for systemform in Entity FormXml ID: '{41e5e6eb-c3f8-45ef-b59c-d7730ddff39b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{5a5156b0-275e-ea11-a811-000d3a579c33}" xml:space="preserve">
+    <value>My Media Assets</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{5a5156b0-275e-ea11-a811-000d3a579c33}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{99064be8-dea8-4754-b6dc-1152f197d031}" xml:space="preserve">
+    <value>Quick Find Active Media Assets</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{99064be8-dea8-4754-b6dc-1152f197d031}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{ceb3a586-042b-40e2-9dac-bdc366fc6a86}" xml:space="preserve">
+    <value>Media Asset Associated View</value>
+    <comment>'Media Asset' : LocalizedName for SavedQuery on Entity QueryId: '{ceb3a586-042b-40e2-9dac-bdc366fc6a86}'</comment>
+  </data>
+  <data name="1:LocalizedName,Media Asset{f9ea9b60-dbe0-492a-a6b4-c1474b52120e}" xml:space="preserve">
+    <value>Media Asset Quick View Form</value>
+    <comment>'Media Asset' : LocalizedName for systemform in Entity FormXml ID: '{f9ea9b60-dbe0-492a-a6b4-c1474b52120e}'</comment>
+  </data>
+  <data name="1:LocalizedName,msmedia_MediaAssetCategoryentitymsmedia_MediaAssetCategory" xml:space="preserve">
+    <value>Media Asset Category</value>
+    <comment> 'msmedia_MediaAssetCategory' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msmedia_MediaAssetentitymsmedia_MediaAsset" xml:space="preserve">
+    <value>Media Asset</value>
+    <comment> 'msmedia_MediaAsset' : LocalizedName for Entity</comment>
+  </data>
+  <data name="9:Description,msmedia_assettype" xml:space="preserve">
+    <value />
+    <comment>'msmedia_assettype' : Description for OptionSet</comment>
+  </data>
+  <data name="9:displayname,msmedia_assettype" xml:space="preserve">
+    <value>Media Asset Type</value>
+    <comment>'msmedia_assettype' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860000" xml:space="preserve">
+    <value>Video</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860000'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860001" xml:space="preserve">
+    <value>Audio</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860001'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860002" xml:space="preserve">
+    <value>Web Site</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860002'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860003" xml:space="preserve">
+    <value>Billboard</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860003'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860004" xml:space="preserve">
+    <value>Signage</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860004'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860005" xml:space="preserve">
+    <value>Display</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860005'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860006" xml:space="preserve">
+    <value>Scoreboard</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860006'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860007" xml:space="preserve">
+    <value>Kiosk</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860007'</comment>
+  </data>
+  <data name="9:label,msmedia_assettype766860008" xml:space="preserve">
+    <value>Other</value>
+    <comment>'msmedia_assettype' : label for OptionSet Value '766860008'</comment>
+  </data>
+</root>
