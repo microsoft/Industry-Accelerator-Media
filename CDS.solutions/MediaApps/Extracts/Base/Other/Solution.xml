@@ -6,7 +6,7 @@
       <LocalizedName description="Media Apps" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>2.0.3.0</Version>
+    <Version>2.0.3.5</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>microsoftdynamics365medianew</UniqueName>

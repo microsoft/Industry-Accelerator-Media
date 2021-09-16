@@ -257,6 +257,10 @@
     <value>FL - &gt; Manual Trigger -&gt; Create Banner Image Web Files for  existing Media Events</value>
     <comment>'FL - &gt; Manual Trigger -&gt; Create Banner Image Web Files for  existing Media Events' : LocalizedName for Workflow</comment>
   </data>
+  <data name="29:LocalizedName,{a76d3f1f-1405-ec11-94ef-00224805b5dd}" xml:space="preserve">
+    <value>FL -&gt; Media Event -&gt; Create Card Image Web File For Media Event </value>
+    <comment>'FL -&gt; Media Event -&gt; Create Card Image Web File For Media Event ' : LocalizedName for Workflow</comment>
+  </data>
   <data name="29:LocalizedName,{ce4c380d-34bf-eb11-8236-0022480a2f8f}" xml:space="preserve">
     <value>FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event </value>
     <comment>'FL -&gt; Media Event -&gt; Create Banner Image Web File For Media Event ' : LocalizedName for Workflow</comment>
