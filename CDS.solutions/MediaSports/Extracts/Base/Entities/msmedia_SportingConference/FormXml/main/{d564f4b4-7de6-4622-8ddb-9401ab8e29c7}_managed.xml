@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d564f4b4-7de6-4622-8ddb-9401ab8e29c7}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{50b1e6a5-938f-4529-ad11-e3f6238c512a}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3c409927-9a70-4ff1-ae62-bd6d896f458f}" name="GeneralSection">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{92afd4f8-be8c-4608-a867-9e005773c861}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{341ab248-d605-57c9-38ed-593d7be524c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="League" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_league" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_league" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="MediaEventsTab" id="{55d664e4-8aeb-561b-a225-116ccd51ba55}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Media Events" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="MediaEventsSection" showlabel="false" showbar="false" locklevel="0" id="{83a13b7c-4988-9655-7041-a0cbd081ab99}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Media Events Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{48bff344-80fb-4b9e-944c-1f638c7cd7e2}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Media Events (Parent Conference)" languagecode="1033" />
+                        </labels>
+                        <control id="MediaEventsSubgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>msmedia_mediaevent</TargetEntityType>
+                            <ViewId>{B5F9695F-915F-4AB4-8871-F00602EBAB4E}</ViewId>
+                            <ViewIds>{B5F9695F-915F-4AB4-8871-F00602EBAB4E}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>msmedia_MediaEvent_ParentConference_msmed</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="TeamsTab" id="3b50aa06-b073-4134-b6e0-d3cdc7ce13be" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Teams" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="TeamsSection" id="9137fd10-ed8b-4de2-a88b-3ccb73f27cba" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Teams Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a9980077-a747-9363-c793-957aad82d701}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Sports Teams (Conference)" languagecode="1033" />
+                        </labels>
+                        <control id="SportsTeamsSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{C5EE0FCD-DF5D-48B1-879D-C321FB6F99B9}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_SportsTeam_Conference_msmedia_Spo</RelationshipName>
+                            <TargetEntityType>msmedia_sportsteam</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C5EE0FCD-DF5D-48B1-879D-C321FB6F99B9}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="DivisionsTab" id="38657766-fa84-41ad-8e06-2b6f4eb3ff61" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Divisions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="SportingDivisionsSection" showlabel="false" showbar="false" locklevel="0" id="{0d5c1903-edc8-c2ed-5962-8c99e36c59e3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Sporting Divisions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{45d0088e-998a-997c-1c20-94e2b43bd811}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Sporting Divisions (Conference)" languagecode="1033" />
+                        </labels>
+                        <control id="SportingDivisionsSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{80F227BF-1CD5-48FD-9D82-9E27274A113B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_SportingDivision_Conference_msmed</RelationshipName>
+                            <TargetEntityType>msmedia_sportingdivision</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{80F227BF-1CD5-48FD-9D82-9E27274A113B}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <header id="{4c5d7b6f-bd95-490d-b434-34c3dfbe4ca7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{82d105ee-45af-48e4-a700-af1f4e342d8b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{58de1757-54f8-4faa-84fd-a8a99d8c9da9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d854f75d-adaf-43aa-9a2e-329b11b06f6d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{1ac2fb42-3509-45ed-89af-5c6ae3ae04e8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{60d31b97-500a-4670-90d8-4dc51f5c4359}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{33d3202a-448b-4e54-8e15-e8056dfdd026}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{840c555c-df82-4d5c-8c95-1dcc0eef6d16}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sporting Conference Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

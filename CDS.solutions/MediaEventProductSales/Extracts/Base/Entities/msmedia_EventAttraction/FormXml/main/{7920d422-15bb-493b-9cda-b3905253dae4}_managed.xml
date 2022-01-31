@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7920d422-15bb-493b-9cda-b3905253dae4}</formid>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7ead8bd9-9720-4881-8c51-67e9610cc62f}" IsUserDefined="1" name="GeneralTab" expanded="true" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6a4af5c4-26ea-4637-9bf0-ed90cb0b196a}" columns="11" name="GeneralSection" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{dc70770a-c785-446a-ab80-f0875eabd4c5}" showlabel="true" locklevel="0" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{08e9a67c-6eb3-4192-9517-9aeb8c52ec90}" showlabel="true" locklevel="0" ordinalvalue="20009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{6ccb756c-b4ad-47d3-ae06-34b0ab9d8ddb}" showlabel="true" locklevel="0" ordinalvalue="20011" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{5a3d7858-b6a5-4994-94b6-d53dce2c7f20}" showlabel="true" locklevel="0" ordinalvalue="20013" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{2c91300d-9719-48bf-856d-6551bafafc71}" showlabel="true" locklevel="0" ordinalvalue="20015" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{6575000b-df23-4c03-9c1e-eb05c91e99ee}" showlabel="true" locklevel="0" ordinalvalue="20017" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{76dfc3f4-bd85-46a9-87e8-eb7aaedc6b85}" locklevel="0" showlabel="true" ordinalvalue="20023" solutionaction="Modified" />
+                      <cell id="{28737260-8169-4f97-ab62-2073c096edaa}" showlabel="true" locklevel="0" ordinalvalue="20019" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{3c042ef5-95d4-415f-bd61-b5503d9be34f}" showlabel="true" locklevel="0" ordinalvalue="10016" solutionaction="Modified" />
+                      <cell id="{8d9d0679-d789-42ec-b406-7c6991fcb5b1}" showlabel="true" locklevel="0" ordinalvalue="20021" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{13441a30-aea0-e897-ce2c-bb44518816de}" showlabel="false" ordinalvalue="20021" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{345a70da-23e2-4672-8e08-4140775eb465}" ordinalvalue="10018" solutionaction="Modified" />
+                      <cell locklevel="0" id="{3b20d69c-1c38-40bd-b7c9-b11f555acaf6}" ordinalvalue="20023" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{06fd870f-b354-4bbf-abfd-4cb045ded316}" showlabel="true" locklevel="0" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="Media Venue Seat Map" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenueseatmap" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenueseatmap" disabled="false" uniqueid="{6818b552-4550-50cc-bb60-72a8adb05203}">
+                          <parameters>
+                            <AvailableViewIds>{69C38B01-233D-48F3-9646-2E5F38BA2930}</AvailableViewIds>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{69C38B01-233D-48F3-9646-2E5F38BA2930}</DefaultViewId>
+                            <FilterRelationshipName>msmedia_MediaVenueSeatMap_MediaVenue_msme</FilterRelationshipName>
+                            <DependentAttributeName>msmedia_eventattraction.msmedia_mediavenue</DependentAttributeName>
+                            <DependentAttributeType>msmedia_mediavenue</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42c058f2-b3bb-4e9c-9cae-6b0093e7b381}" ordinalvalue="10022" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_liveEventSettings" id="{c511e720-2e9e-0e2a-4464-e07e44c92793}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" ordinalvalue="1">
+          <columns>
+            <column width="50%" id="1">
+              <sections>
+                <section name="tab_liveEventSettings_section_2" showlabel="false" showbar="false" locklevel="0" id="{d6b50e12-8698-0e1b-44bb-d82400cda9a8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d0d6a5ad-97c2-441d-e373-b4433dd4c0a1}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{074a944e-a98c-46b9-bb4f-911c0cc6bf92}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e8b188fd-b2fc-43df-a614-2eb82d3a3eca}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{1daed17b-b795-45cd-bd5d-23e3564ee9c6}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{058f5380-bbaf-42df-bfc9-b72ce684eb91}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </header>
+      <footer id="{d64ec7a6-c4ac-47f9-917d-86e519e03ed0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fc5246ce-bdf1-4387-9052-f03a91f99d41}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{d0b2c931-b83f-4472-81b3-d138a2bf18ff}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{cdb5e6a3-f228-419a-922d-9413efe5f7e5}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Event Attraction Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

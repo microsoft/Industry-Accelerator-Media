@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a0288e1b-1f03-461f-b8f4-9c1af1d33bae}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{b74b525a-cbdb-4e0d-9f98-7ded063b222e}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="GeneralSection" showlabel="false" showbar="false" locklevel="0" id="{7ed045b9-970a-a06d-8134-73962197e3b7}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5b79496d-ea98-401d-a487-c07140e01cff}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{8286c90a-37b6-76a8-a186-db4941bac457}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Food &amp; Beverage" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_foodbeverage" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_foodbeverage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2081cf7-debd-42d2-8ac4-77abb0dd0ba8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                      </cell>
+                      <cell id="{687d6aba-c774-4d95-8177-cbb4dacc6c25}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Stand Location" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_standlocation" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_standlocation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="HoursofOperationTab" id="a484e176-7702-4af4-a83d-f44ba7940226" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Hours of Operation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="HoursofOperationSection" id="ddd767fa-5f18-44d0-9627-2550e589782c" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Hours of Operation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ad7124ab-a946-40dd-3e7a-35c238dbcbce}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Hours of Operation (Concession Stand)" languagecode="1033" />
+                        </labels>
+                        <control id="HoursofOperationSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{9E448DEA-7D7B-4D84-9B9F-15FDC445617B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_hoursofoperation_ConcessionStand_</RelationshipName>
+                            <TargetEntityType>msmedia_hoursofoperation</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{9E448DEA-7D7B-4D84-9B9F-15FDC445617B}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ConcessionPartnersTab" id="770a3cc4-690f-4dde-87ba-1724de32b063" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Concession Partners" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="ConcessionPartnersSection" id="637891e1-4d91-481a-8889-b13d5e5583b5" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Concession Partners" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9387b966-de1a-3d42-1680-1eee9a620abc}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Concession Partners (Concession Stand)" languagecode="1033" />
+                        </labels>
+                        <control id="ConcessionPartnersSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{07CD8F75-B33E-4BB9-BD60-4C767EB88575}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_ConcessionPartner_ConcessionStand</RelationshipName>
+                            <TargetEntityType>msmedia_concessionpartner</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{07CD8F75-B33E-4BB9-BD60-4C767EB88575}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{12b86b52-b706-41f8-b2b1-2018275c5292}" columns="111">
+        <rows>
+          <row>
+            <cell id="{b16c9018-7101-4e22-9082-bbc75335dd75}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4af1b830-408f-4e66-a273-4ac894eea615}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9b5e3c5c-1c37-5dab-a319-a05c23213a5e}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{a86219a3-7f41-40df-ad58-e782f3e96ead}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{be5c112a-75c4-4bc5-b66d-be7c4d4547b8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e5b63e3b-bb05-4fe7-8f6d-860c0692fa2e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6fd8176d-6a30-4644-88d2-c4b1ab4ca1c9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Concession Stand Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

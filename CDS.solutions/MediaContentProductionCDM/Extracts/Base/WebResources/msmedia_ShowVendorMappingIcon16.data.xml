@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{4afb8476-b0b7-eb11-8236-000d3a139a67}</WebResourceId>
+  <Name>msmedia_ShowVendorMappingIcon16</Name>
+  <DisplayName>ShowVendorMappingIcon16</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.1.3.8</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msmedia_ShowVendorMappingIcon164AFB8476-B0B7-EB11-8236-000D3A139A67</FileName>
+</WebResource>

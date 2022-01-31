@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_rosterstatus" localizedName="Roster Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Roster Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="766860000">
+      <labels>
+        <label description="Active" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860001">
+      <labels>
+        <label description="Injured" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Inactive" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="Retired" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860004">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

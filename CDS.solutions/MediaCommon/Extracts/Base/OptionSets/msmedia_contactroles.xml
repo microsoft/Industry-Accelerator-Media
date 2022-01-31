@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_contactroles" localizedName="Contact Roles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Contact Roles" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="766860000">
+      <labels>
+        <label description="Customer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860001">
+      <labels>
+        <label description="Fan" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Viewer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="Player" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860004">
+      <labels>
+        <label description="Artist" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860005">
+      <labels>
+        <label description="Actor" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860006">
+      <labels>
+        <label description="Director" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860007">
+      <labels>
+        <label description="DJ" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860008">
+      <labels>
+        <label description="Employee" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860009">
+      <labels>
+        <label description="Exhibitor" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860010">
+      <labels>
+        <label description="Host" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860011">
+      <labels>
+        <label description="Official" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860012">
+      <labels>
+        <label description="Referee" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860013">
+      <labels>
+        <label description="Writer" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

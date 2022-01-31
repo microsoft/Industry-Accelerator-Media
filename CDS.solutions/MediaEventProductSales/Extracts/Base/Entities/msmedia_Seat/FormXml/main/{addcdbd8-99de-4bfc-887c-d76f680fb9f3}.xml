@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{addcdbd8-99de-4bfc-887c-d76f680fb9f3}</formid>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{e4821502-51c5-4603-b6c1-b165e7c6a5b6}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b33204a2-2770-47e9-8e9b-22807d392983}" name="GeneralSection">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{80d1ccf2-187a-4df5-a9f5-027c2a4907b5}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{99e393ce-c3ef-4f9a-a239-36df23881809}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_number" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msmedia_number" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d1b42b2-f540-4272-8488-0a361108a055}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Seat Tier" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_seattier" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_seattier" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29aa28c2-22ef-4709-85a0-175247adea7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Seat Row" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_seatrow" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_seatrow" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{712c9f8d-dd1f-4377-be63-bb36b1963b61}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is General Seating" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_isgeneralseating" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_isgeneralseating" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7fa18a85-7133-4f19-b7cd-db74d7cbb128}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is VIP" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_isvip" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_isvip" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9518d29f-e902-4e89-9f79-c5b364b1455a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Season Ticket Enabled" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_seasonticketenabled" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_seasonticketenabled" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27ad145b-b98d-4987-85b2-eee644315d26}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Suite Ticket Enabled" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_suiteticketenabled" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_suiteticketenabled" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e66512d-dc31-41d3-ae61-c313713bcad3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wheelchair Option" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_wheelchairoption" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_wheelchairoption" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{955a2584-1ce0-4386-b5d6-2e121aecfa07}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5f83df7c-e6b7-4e28-ac0f-2ac18fc9d5d6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e14e57b1-ca7c-4b3f-ab12-12d1da771af0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{31eed837-30e6-44c3-85cd-b4c02f2ed480}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5bc10a6c-3130-4b95-9dcb-6a0597adabd0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e7fa9141-b64a-44df-bf8c-1d3b3744bca0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1a035401-16e0-4ac9-8323-115c6db8ea9d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{76866b59-9df7-4aa6-a113-d66161e0cfed}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2cd66787-f834-443c-a8e3-b1225a68b19e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Seat Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

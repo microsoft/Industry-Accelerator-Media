@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21064.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MediaEventsVenues</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Media Events &amp; Venues" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>2.0.3.5</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365media</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Media" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmedia</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76686</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_attraction" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_attractionschedule" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_attractiontrack" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_concessionpartner" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_concessionstand" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_dispenser" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_eventattraction" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_eventschedule" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_facility" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_gate" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_guest" behavior="2" />
+      <RootComponent type="1" schemaName="msmedia_hoursofoperation" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediaasset" behavior="2" />
+      <RootComponent type="1" schemaName="msmedia_mediaevent" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediaregistration" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediaregistrationstatuslog" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediavenue" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_mediavenueimage" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_talent" behavior="1" />
+      <RootComponent type="1" schemaName="msmedia_tma" behavior="0" />
+      <RootComponent type="1" schemaName="msmedia_weathercondition" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_amorpm" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_attractiontype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_communicationsmethods" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_daysofweek" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_dispenserformtype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_dispenserstatus" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_dispensertype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_durationunits" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_eventformat" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_eventtype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_facilitytype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_registrationstatuses" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_seatingoptions" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_sessiontypes" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_streamingtype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_targetaudiences" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_temperatureunit" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_ticketingtypes" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_venuetype" behavior="0" />
+      <RootComponent type="9" schemaName="msmedia_windvelocitymeasure" behavior="0" />
+      <RootComponent type="9" schemaName="msmedi_timezones" behavior="0" />
+      <RootComponent type="29" id="{0f9c3eb6-a7b4-487e-9e6e-799f3e35a2a7}" behavior="0" />
+      <RootComponent type="29" id="{1be49906-c1bc-eb11-8236-000d3a571a0e}" behavior="0" />
+      <RootComponent type="29" id="{28f3255b-2383-ea11-a812-000d3a1abe26}" behavior="0" />
+      <RootComponent type="29" id="{504d140b-f5a0-ea11-a812-000d3a1ab88b}" behavior="0" />
+      <RootComponent type="29" id="{641207f0-1d78-eb11-a812-002248204e69}" behavior="0" />
+      <RootComponent type="29" id="{66756cbd-4391-eb11-b1ac-0022482034e7}" behavior="0" />
+      <RootComponent type="29" id="{710c1206-2283-ea11-a812-000d3a1abe26}" behavior="0" />
+      <RootComponent type="29" id="{7cb6ddb4-2799-ea11-a811-000d3a1ab88b}" behavior="0" />
+      <RootComponent type="29" id="{82ef7432-34b7-eb11-8236-000d3a13fcc6}" behavior="0" />
+      <RootComponent type="29" id="{8b234c70-7c70-ea11-a811-000d3a1abe26}" behavior="0" />
+      <RootComponent type="29" id="{922df5ea-2683-ea11-a812-000d3a1abe26}" behavior="0" />
+      <RootComponent type="29" id="{976338ac-5720-4cb7-8f9b-a1e33ee1fa24}" behavior="0" />
+      <RootComponent type="29" id="{b516abc2-2483-ea11-a812-000d3a1abe26}" behavior="0" />
+      <RootComponent type="29" id="{d608c4f6-d37d-ea11-a812-000d3a1abe26}" behavior="0" />
+      <RootComponent type="29" id="{daf465ca-3fb7-eb11-8236-000d3a5574f7}" behavior="0" />
+      <RootComponent type="29" id="{f9afa5e8-2983-ea11-a812-000d3a33f58e}" behavior="0" />
+      <RootComponent type="60" id="{03ad6416-0dbb-4674-93f3-ce58ade03e11}" behavior="0" />
+      <RootComponent type="60" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      <RootComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" behavior="0" />
+      <RootComponent type="60" id="{21edc08f-0e9f-4bd2-859e-42458ec7cea1}" behavior="0" />
+      <RootComponent type="60" id="{35e079e8-0760-41aa-9a9f-063fade1f844}" />
+      <RootComponent type="60" id="{3ed2325b-43bc-4f92-a350-1dfb187a7e5c}" behavior="0" />
+      <RootComponent type="60" id="{7920d422-15bb-493b-9cda-b3905253dae4}" behavior="0" />
+      <RootComponent type="60" id="{92430049-99df-41e8-838e-70c33ccf07cc}" behavior="0" />
+      <RootComponent type="60" id="{a069d92f-c63c-4e5a-a189-627c79434c49}" behavior="0" />
+      <RootComponent type="60" id="{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" behavior="0" />
+      <RootComponent type="60" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" behavior="0" />
+      <RootComponent type="60" id="{f0794271-1580-ea11-a812-000d3a1abe26}" behavior="0" />
+      <RootComponent type="60" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      <RootComponent type="60" id="{fe695a13-c967-4ed0-8985-ba100c996e2b}" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_/_imgs/Dispenser_64.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_/_imgs/EventSchedule_64.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_/_imgs/Gate_64.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_/_imgs/HoursOfOperation_64.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_/_imgs/MediaRegistration.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_/_imgs/WeatherConditions_64.svg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_AttractionsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_AttractionTracksSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_ConcessionPartnersSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_ConcessionStandsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_EventAttractionsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_facilitysvg" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_MediaEventsSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_MediaVenuesSVG" behavior="0" />
+      <RootComponent type="300" schemaName="msmedia_imagegallerymediavenue_1ded7" behavior="0" />
+      <RootComponent type="431" schemaName="msmedia_mediaevent msmedia_cardimage" behavior="0" />
+      <RootComponent type="431" schemaName="msmedia_mediaevent msmedia_registrationportalbannerimage" behavior="0" />
+      <RootComponent type="431" schemaName="msmedia_mediaevent msmedia_registrationportallogo" behavior="0" />
+      <RootComponent type="431" schemaName="msmedia_mediavenue msmedia_image" behavior="0" />
+      <RootComponent type="432" schemaName="msmedia_mediaevent" behavior="0" />
+      <RootComponent type="432" schemaName="msmedia_mediavenue" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_guest" displayName="Guest" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_interest" displayName="Interest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_loyaltyprogramaccount" displayName="Loyalty Program Account" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_season" displayName="Season" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaEvent_Season_msmedia_Season" displayName="msmedia_MediaEvent_Season_msmedia_Season" parentSchemaName="msmedia_season" parentDisplayName="Season" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_talent" displayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_talent" displayName="Talent" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_threedigitzipcode" displayName="Three Digit Zip Code" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_tma" displayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_threedigitzipcode" displayName="Three Digit Zip Code" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="msmedia_numberofthreedigitzipcodes" displayName="# of Three Digit Zip Codes" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_tma" displayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_TMA_msmedia_TMA_Contact" displayName="msmedia_TMA_msmedia_TMA_Contact" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaVenue_TMA_msmedia_TMA" displayName="msmedia_MediaVenue_TMA_msmedia_TMA" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="createdbyname" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="createdbyyominame" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="createdonbehalfbyname" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="modifiedbyname" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="modifiedbyyominame" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="msmedia_numberofthreedigitzipcodes_date" displayName="# of Three Digit Zip Codes (Last Updated On)" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="msmedia_numberofthreedigitzipcodes_state" displayName="# of Three Digit Zip Codes (State)" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owneriddsc" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owneridname" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owneridtype" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owneridyominame" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="statecodename" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="statuscodename" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Guest_Category_msmedia_GuestCateg" displayName="msmedia_Guest_Category_msmedia_GuestCateg" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Guest_Company_Account" displayName="msmedia_Guest_Company_Account" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Guest_Contact_Contact" displayName="msmedia_Guest_Contact_Contact" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Guest_Guardian_Contact" displayName="msmedia_Guest_Guardian_Contact" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_Talent_Coordinator_msmedia_Talent" displayName="msmedia_Talent_Coordinator_msmedia_Talent" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msmedia_TMA_msmedia_TMA_msmedia_ThreeDigi" displayName="msmedia_TMA_msmedia_TMA_msmedia_ThreeDigi" parentSchemaName="msmedia_threedigitzipcode" parentDisplayName="Three Digit Zip Code" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="msmedia_numberofthreedigitzipcodes" displayName="# of Three Digit Zip Codes" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_birthdate" displayName="Birth Date" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_category" displayName="Category" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_city" displayName="City" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_company" displayName="Company" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_company_name" displayName="Company Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_contact" displayName="Contact" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_country" displayName="Country" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_displayname" displayName="Display Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_emailaddress" displayName="Email Address" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_externalcreateddate" displayName="External Created Date" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_firstname" displayName="First Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_genderidentity" displayName="Gender Identity" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_guardian" displayName="Guardian" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_guestid" displayName="Guest" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaRegistration_Guest_msmedia_G" displayName="msmedia_MediaRegistration_Guest_msmedia_G" parentSchemaName="msmedia_guest" parentDisplayName="Guest" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_isaseasonticketholder" displayName="Is a Season Ticket Holder" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_jobtitle" displayName="Job Title" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_lastname" displayName="Last Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_marketingoptin" displayName="Marketing Opt In" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaRegistration_Guest_msmedia_G" displayName="msmedia_MediaRegistration_Guest_msmedia_G" parentSchemaName="msmedia_guest" parentDisplayName="Guest" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktocall" displayName="OK to Call" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktofax" displayName="OK to Fax" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktomail" displayName="OK to Mail" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_oktosendemail" displayName="OK to Send Email" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_origin" displayName="Origin" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_pronoun" displayName="Pronoun" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_specialrequirements" displayName="Special Requirements" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_state" displayName="State" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_telephone" displayName="Telephone " parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_guest" parentDisplayName="Guest" solution="Active" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_assettype" displayName="Asset Type" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="Active Media Assets" displayName="Active Media Assets" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" id="{1311fa04-ec9e-4287-9d02-81b652748a2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_category" displayName="Category" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="Active Media Assets" displayName="Active Media Assets" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" id="{1311fa04-ec9e-4287-9d02-81b652748a2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_mediaassetid" displayName="Media Asset" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="Active Media Assets" displayName="Active Media Assets" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" id="{1311fa04-ec9e-4287-9d02-81b652748a2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="Active Media Assets" displayName="Active Media Assets" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" id="{1311fa04-ec9e-4287-9d02-81b652748a2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_price" displayName="Price" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="Active Media Assets" displayName="Active Media Assets" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" id="{1311fa04-ec9e-4287-9d02-81b652748a2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="26" schemaName="Active Media Assets" displayName="Active Media Assets" parentSchemaName="msmedia_mediaasset" parentDisplayName="Media Asset" id="{1311fa04-ec9e-4287-9d02-81b652748a2f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_season" parentDisplayName="Season" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaEvent_Season_msmedia_Season" displayName="msmedia_MediaEvent_Season_msmedia_Season" parentSchemaName="msmedia_season" parentDisplayName="Season" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_seasonid" displayName="Season" parentSchemaName="msmedia_season" parentDisplayName="Season" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaEvent_Season_msmedia_Season" displayName="msmedia_MediaEvent_Season_msmedia_Season" parentSchemaName="msmedia_season" parentDisplayName="Season" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_coordinator" displayName="Coordinator" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_email" displayName="Email" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_groupname" displayName="Group Name" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaEvent_PrimaryPerformer_msmed" displayName="msmedia_MediaEvent_PrimaryPerformer_msmed" parentSchemaName="msmedia_talent" parentDisplayName="Talent" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_number" displayName="Number" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_phone" displayName="Phone" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_stagename" displayName="Stage Name" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_talentid" displayName="Talent" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="10" schemaName="msmedia_MediaEvent_PrimaryPerformer_msmed" displayName="msmedia_MediaEvent_PrimaryPerformer_msmed" parentSchemaName="msmedia_talent" parentDisplayName="Talent" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_title" displayName="Title" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msmedia_talent" parentDisplayName="Talent" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Talent" id="{fba9df8b-1b73-43a7-8910-96c675661c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_threedigitzipcodeid" displayName="Three Digit Zip Code" parentSchemaName="msmedia_threedigitzipcode" parentDisplayName="Three Digit Zip Code" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="msmedia_numberofthreedigitzipcodes" displayName="# of Three Digit Zip Codes" parentSchemaName="msmedia_tma" parentDisplayName="TMA" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+        <Dependent type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msmedia_GuestsSVG" displayName="msmedia_GuestsSVG" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_guest" displayName="Guest" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msmedia_MediaAssetsSVG" displayName="msmedia_MediaAssetsSVG" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msmedia_TalentsSVG" displayName="msmedia_TalentsSVG" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="1" schemaName="msmedia_talent" displayName="Talent" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Media Venue Main Form" parentDisplayName="Media Venue" id="{a069d92f-c63c-4e5a-a189-627c79434c49}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Event Attraction Main Form" parentDisplayName="Event Attraction" id="{7920d422-15bb-493b-9cda-b3905253dae4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Media Event Main Form" parentDisplayName="Media Event" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.2.21064.00148)" />
+        <Dependent type="60" displayName="Guest Main Form" parentDisplayName="Guest" id="{165a28fe-e798-4086-ae69-3ef841d84590}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.2.21064.00148)" />
+        <Dependent type="60" displayName="Facility Main Form" parentDisplayName="Facility" id="{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Knob.RadialKnobControl" displayName="MscrmControls.Knob.RadialKnobControl" solution="CustomControlsCore (9.2.21064.00148)" />
+        <Dependent type="60" displayName="Main Form" parentDisplayName="Dispenser" id="{50bd97d4-cab9-47e3-8190-36a86a0667c4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Knob.RadialKnobControl" displayName="MscrmControls.Knob.RadialKnobControl" solution="CustomControlsCore (9.2.21064.00148)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Dispenser" id="{68576827-81bb-41e5-88ef-2da581c73755}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.NumberInput.NumberInputControl" displayName="MscrmControls.NumberInput.NumberInputControl" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Main Form" parentDisplayName="Dispenser" id="{50bd97d4-cab9-47e3-8190-36a86a0667c4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.NumberInput.NumberInputControl" displayName="MscrmControls.NumberInput.NumberInputControl" solution="BaseCustomControlsCore (9.0.2106.4016)" />
+        <Dependent type="60" displayName="Facility Main Form" parentDisplayName="Facility" id="{d196d9f4-1d46-4625-b43e-9ea89b769ae7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.2.21064.00148)" />
+        <Dependent type="60" displayName="Media Event Main Form" parentDisplayName="Media Event" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msmedia_eventformat" displayName="Event Format" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="2" schemaName="msmedia_availableformats" displayName="Available Formats" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msmedia_eventformat" displayName="Event Format" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="9" schemaName="msmedia_eventformat" displayName="Event Format" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

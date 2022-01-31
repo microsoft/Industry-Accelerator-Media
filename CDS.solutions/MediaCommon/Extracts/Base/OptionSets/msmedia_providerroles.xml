@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_providerroles" localizedName="Provider Roles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Provider Roles" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="766860000">
+      <labels>
+        <label description="Television Network" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860001">
+      <labels>
+        <label description="Radio Network" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Cable TV Operator" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="Satellite TV Operator" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860004">
+      <labels>
+        <label description="Motion Picture Studio" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860005">
+      <labels>
+        <label description="Production Company" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860006">
+      <labels>
+        <label description="Advertising Agency" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860007">
+      <labels>
+        <label description="Theme Park Operator" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860008">
+      <labels>
+        <label description="Ticketing Agency / Broker" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860009">
+      <labels>
+        <label description="Conference Producer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860010">
+      <labels>
+        <label description="Sports League" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860011">
+      <labels>
+        <label description="Sports Team" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860012">
+      <labels>
+        <label description="Food &amp; Beverage Operator" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860013">
+      <labels>
+        <label description="Website Operator" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860014">
+      <labels>
+        <label description="Streaming Service Operator" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860015">
+      <labels>
+        <label description="Hotel / Conference Chain" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860016">
+      <labels>
+        <label description="Brand / Merchandiser" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860017">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

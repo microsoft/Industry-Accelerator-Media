@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msmedia_SportsManagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>bd5022c4-6999-ea11-a811-000d3a17769f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msmedia_SportsManagement" />
+    <AppModuleComponent type="60" id="{8624ed5a-c684-ea11-a812-000d3a579ca8}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="msmedia_attraction" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="1" schemaName="msmedia_guest" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediaevent" />
+    <AppModuleComponent type="60" id="{386b48bd-039a-4357-a2b8-49d6ba9acff0}" />
+    <AppModuleComponent type="60" id="{a9f7c407-7089-ea11-a812-000d3a4e3831}" />
+    <AppModuleComponent type="26" id="{aea8f0ae-c91c-4e2c-97e4-a1efd601ac8f}" />
+    <AppModuleComponent type="26" id="{2c42a1a6-55aa-439d-9aec-1ba61b34fe81}" />
+    <AppModuleComponent type="26" id="{dab06b2f-8252-4505-b844-84229eabf472}" />
+    <AppModuleComponent type="26" id="{e2b0c214-7978-ea11-a811-000d3a1abe26}" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediavenue" />
+    <AppModuleComponent type="60" id="{a069d92f-c63c-4e5a-a189-627c79434c49}" />
+    <AppModuleComponent type="60" id="{dc47b1db-8d04-49ce-a909-74980567297c}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Sports Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

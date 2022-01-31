@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4ef030b9-510e-4b62-8260-bd7c0e6ecaa1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_threedigitzipcodeid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_threedigits" width="100" />
+          <cell name="msmedia_tma" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_threedigitzipcode">
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_threedigits" />
+          <attribute name="msmedia_tma" />
+          <attribute name="msmedia_threedigitzipcodeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.14</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Three Digit Zip Codes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

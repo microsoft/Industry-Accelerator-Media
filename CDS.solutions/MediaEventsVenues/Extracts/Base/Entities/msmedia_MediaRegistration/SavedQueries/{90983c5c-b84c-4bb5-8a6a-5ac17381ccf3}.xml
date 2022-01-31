@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{90983c5c-b84c-4bb5-8a6a-5ac17381ccf3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_mediaregistrationid">
+          <cell name="msmedia_mediaevent" width="211" />
+          <cell name="msmedia_eventattraction" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msmedia_contact" width="176" />
+          <cell name="msmedia_guest" width="203" />
+          <cell name="msmedia_registrationstatus" width="150" />
+          <cell name="msmedia_registeredon" width="167" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_mediaregistration">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_mediaevent" />
+          <attribute name="msmedia_eventattraction" />
+          <attribute name="msmedia_registrationstatus" />
+          <attribute name="msmedia_registeredon" />
+          <attribute name="msmedia_guest" />
+          <attribute name="msmedia_contact" />
+          <attribute name="msmedia_mediaregistrationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Media Registrations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

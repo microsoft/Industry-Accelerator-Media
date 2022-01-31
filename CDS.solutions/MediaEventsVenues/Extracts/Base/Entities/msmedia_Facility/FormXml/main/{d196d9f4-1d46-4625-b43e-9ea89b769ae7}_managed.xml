@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d196d9f4-1d46-4625-b43e-9ea89b769ae7}</formid>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{99c8dc30-3bc1-4a4f-b1f8-0b6b785f08fc}" IsUserDefined="1" name="GeneralTab" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{cb344ed2-d870-4368-abaf-299d8cc3230b}" columns="11" name="GeneralSection">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f2f49881-5c55-472f-b4cd-62a43c70be29}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{987d67b9-e05a-43d3-9660-abe11d37de1b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Internet Connection" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_internetconnection" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_internetconnection" disabled="false" uniqueid="{a4ed1971-4e9a-4844-be1d-69be4a7b0a53}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b21d7057-4a6d-45b1-acf7-e075a62a83cb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msmedia_type" disabled="false" />
+                      </cell>
+                      <cell id="{cbf7cec5-5934-4155-94b8-3c1b2f321de9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Flipchart" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_flipchart" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_flipchart" disabled="false" uniqueid="{396b1e86-c712-452a-846a-178a755d09a4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc2ed7bb-b8e0-4de4-aa9e-61e583184006}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                      </cell>
+                      <cell id="{195f34d3-f283-44a7-8e4e-a493e96e7d4e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Whiteboard" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_whiteboard" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_whiteboard" disabled="false" uniqueid="{a1d57540-7457-4732-abb4-0e9e82ae182e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b6aeba4-24fa-4758-ae51-61ea7ee3d8d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                      <cell id="{5afe8cae-387a-4fa4-b545-5ad1247af7b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="A/V Support" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_avsupport" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_avsupport" disabled="false" uniqueid="{9e9b1f81-4935-40d9-b6a0-64085dd411d1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6f9872c-58a3-4465-a1f5-ef8d2a73482e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_capacity" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_capacity" disabled="false" uniqueid="{8906e5af-d78e-4f45-97ae-39920c9ec525}" />
+                      </cell>
+                      <cell id="{e6b3ca4c-cb42-4cfd-8de3-23b0998e2f81}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Video Conferencing" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_videoconferencing" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_videoconferencing" disabled="false" uniqueid="{b35a1fc7-7621-4255-a404-ece154b16aea}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{934dae11-69dc-47da-b9bc-8dfde5bab062}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{d481a0f5-5580-42ce-8543-11610ebcc848}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="sec_LocationDetail" id="22fb88c5-27ae-4ad4-ac46-8ee9dab8fe45" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Location Detail" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a38d2912-2b15-4db9-9694-e82f73c44872}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_location" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_location" disabled="false" />
+                      </cell>
+                      <cell id="{2fddb960-6ec9-48bd-a144-ce89fdad4133}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="GPS Longitude" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_gpslongitude" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_gpslongitude" disabled="false" uniqueid="{40e9b805-06c4-407a-a970-9d31d507a02f}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bf07db7-429a-4b62-9ef4-0d8085256c7a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Floor" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_floor" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_floor" disabled="false" />
+                      </cell>
+                      <cell id="{b1004894-06c6-4ee0-bdf4-d9f7d67a4466}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="GPS Latitude" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_gpslatitude" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_gpslatitude" disabled="false" uniqueid="{90f507c3-1bb5-4cb9-9010-2db3ee58361e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{165b6f0e-0b17-4f32-9079-c4d8d943b7f9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{6754da2a-f528-4642-80cc-574c2fdf187b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{73d0692b-bed0-4a83-a0be-d16bea614f36}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{8d40b73a-26da-49fd-86f7-a269c3a4f2b6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="ref_pan_GeneralTab_section_4" showlabel="false" showbar="false" locklevel="0" id="{8005c05c-9a7c-2537-1de0-43e74ed5063b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8557e0dd-a8de-9248-ac2c-0a1d106d13b2}" showlabel="true" colspan="1" auto="false" rowspan="11">
+                        <labels>
+                          <label description="Dispensers" languagecode="1033" />
+                        </labels>
+                        <control id="sg_Dispensers" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{c6aaa46d-a389-20e2-244c-d56b27da4b79}">
+                          <parameters>
+                            <ViewId>{A3339DFB-8C12-463F-974A-31C8F9350FA5}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_Dispenser_Facility_msmedia_Facili</RelationshipName>
+                            <TargetEntityType>msmedia_dispenser</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A3339DFB-8C12-463F-974A-31C8F9350FA5}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>8</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_/_imgs/Dispenser_64.svg</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{08c83e6e-b7eb-1230-e731-4e2a3c53c5bc}" showlabel="true" colspan="1" auto="false" rowspan="11">
+                        <labels>
+                          <label description="Gates" languagecode="1033" />
+                        </labels>
+                        <control id="sg_Gates" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{ce11a076-8aa9-82cb-67d3-65098e38ec46}">
+                          <parameters>
+                            <ViewId>{B4C3DD5F-1069-4541-9795-664AEF7DB62A}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_gate_Facility_msmedia_Facility</RelationshipName>
+                            <TargetEntityType>msmedia_gate</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B4C3DD5F-1069-4541-9795-664AEF7DB62A}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>8</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_/_imgs/Gate_64.svg</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{db6d032d-6627-4975-92c5-ea89ec0c7b74}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{27c69d16-f706-4a96-bb3b-472b2a305858}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1f28fb29-604c-49cb-9747-49d21a17e781}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f34f61e3-50c7-417e-b9b3-b5ef0137f6cb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{622e53c6-d63a-41cd-ad43-f2dfa31d8fa7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fe5955ea-8401-486e-9f19-ed99c786fe47}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{78e57a23-8695-478f-bbed-d75f15d7b214}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bc5027b1-7946-4c30-8fc4-5ccb8157f8e5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{a4ed1971-4e9a-4844-be1d-69be4a7b0a53}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_internetconnection</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_internetconnection</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_internetconnection</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_internetconnection</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{396b1e86-c712-452a-846a-178a755d09a4}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_flipchart</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_flipchart</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_flipchart</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_flipchart</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{a1d57540-7457-4732-abb4-0e9e82ae182e}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_whiteboard</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_whiteboard</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_whiteboard</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_whiteboard</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{9e9b1f81-4935-40d9-b6a0-64085dd411d1}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_avsupport</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_avsupport</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_avsupport</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_avsupport</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{b35a1fc7-7621-4255-a404-ece154b16aea}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>msmedia_videoconferencing</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_videoconferencing</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_videoconferencing</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>msmedia_videoconferencing</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{40e9b805-06c4-407a-a970-9d31d507a02f}">
+          <customControl id="{0D2C745A-E5A8-4C8F-BA63-C6D3BB604660}">
+            <parameters>
+              <datafieldname>msmedia_gpslongitude</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_gpslongitude</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_gpslongitude</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_gpslongitude</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{90f507c3-1bb5-4cb9-9010-2db3ee58361e}">
+          <customControl id="{0D2C745A-E5A8-4C8F-BA63-C6D3BB604660}">
+            <parameters>
+              <datafieldname>msmedia_gpslatitude</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_gpslatitude</value>
+              <step type="FP" static="true">0.00000</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_gpslatitude</value>
+              <step type="FP" static="true">0.00000</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_gpslatitude</value>
+              <step type="FP" static="true">0.00000</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{8906e5af-d78e-4f45-97ae-39920c9ec525}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>msmedia_capacity</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_capacity</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_capacity</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value>msmedia_capacity</value>
+              <step type="Whole.None" static="true">0</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Facility Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{489e32df-6e70-ea11-a811-000d3a1ab88b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_mediaeventid">
+          <cell name="msmedia_name" width="192" />
+          <cell name="msmedia_eventtype" width="100" />
+          <cell name="msmedia_startdate" width="100" />
+          <cell name="msmedia_capacity" width="100" />
+          <cell name="msmedia_totalcost" width="100" />
+          <cell name="msmedia_totalprofit" width="100" />
+          <cell name="msmedia_issoldout" width="100" />
+          <cell name="msmedia_numberregistered" width="100" />
+          <cell name="msmedia_numberattended" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_mediaevent">
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <attribute name="msmedia_startdate" />
+          <attribute name="msmedia_eventtype" />
+          <attribute name="msmedia_mediaeventid" />
+          <attribute name="msmedia_issoldout" />
+          <attribute name="msmedia_capacity" />
+          <attribute name="msmedia_totalcost" />
+          <attribute name="msmedia_totalprofit" />
+          <attribute name="msmedia_numberregistered" />
+          <attribute name="msmedia_numberattended" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="msmedia_startdate" operator="next-x-days" value="30" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Media Events in the next 30 days" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
