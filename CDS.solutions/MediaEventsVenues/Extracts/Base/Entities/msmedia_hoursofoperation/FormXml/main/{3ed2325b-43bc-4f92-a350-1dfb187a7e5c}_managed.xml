@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3ed2325b-43bc-4f92-a350-1dfb187a7e5c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{0714d3ff-b6ce-4f05-84be-2f25f0920f69}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="GeneralSection1" showlabel="false" showbar="false" locklevel="0" id="{a84d9d31-6408-a170-2824-3d28e825c1cb}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{56a0e701-122e-4e98-93d1-d52c19eedeed}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{5aba7650-884c-a015-c1b5-50b4a31b6da1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1532bbf-1424-4259-bc82-7a15ab528c1e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Attraction" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_eventattraction" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_eventattraction" disabled="false" />
+                      </cell>
+                      <cell id="{dfc27c15-4118-43d4-9301-6fb5f4fdf18d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Days of Week" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_daysofweek" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="msmedia_daysofweek" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca607a97-27ad-29e4-4654-2115a420d3a7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Concession Stand" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_concessionstand" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_concessionstand" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{f18055d7-50d8-47b8-a840-473279dae51f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="GeneralSection2" showlabel="false" showbar="false" locklevel="0" id="{18cab200-ee72-e0ea-7625-7b4ca5da9981}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eebda711-6713-067c-0b2e-3165cb335e9b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Opens At" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_opensat" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_opensat" disabled="false" />
+                      </cell>
+                      <cell id="{d9747531-8671-37e1-6b35-e51866b6995b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Closes At" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_closesat" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_closesat" disabled="false" uniqueid="{3e5515da-a0be-b080-030c-4950794ebb97}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{255c5407-8a62-6699-e8b4-22e6327da341}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Opens at AM / PM" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_opensatamorpm" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_opensatamorpm" disabled="false" />
+                      </cell>
+                      <cell id="{ca8ba0ea-1939-b104-2aa6-2a80c8636951}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Closes at AM / PM" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_closesatamorpm" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_closesatamorpm" disabled="false" uniqueid="{72bb18d7-4b83-188b-416d-c9b1920030a8}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f2083c74-4140-492c-a3fa-2c6899bdd5f8}" columns="111">
+        <rows>
+          <row>
+            <cell id="{0abc1fb8-cb58-4dcd-be4d-e06db77038c9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5fd13791-f12b-4573-8c51-56b1f0f81667}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0b6d597a-2e67-0ddb-2c0b-0e456806267c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <footer id="{34b2725b-5744-418f-a653-57a582d61651}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3e6e50f6-744c-4730-a9a7-477e6467232d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dee711e6-d90f-47e0-bbf6-77a89980294b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c4960bdc-c01a-4d6a-aea6-35dd9237cc4d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Hours of Operation Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

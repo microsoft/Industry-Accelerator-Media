@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedi_timezones" localizedName="Time Zones" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Time Zones" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="766860000">
+      <labels>
+        <label description="Dateline Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860001">
+      <labels>
+        <label description="Samoa Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Hawaiian Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="Alaskan Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860004">
+      <labels>
+        <label description="Pacific Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860005">
+      <labels>
+        <label description="Mountain Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860006">
+      <labels>
+        <label description="Mexico Standard Time 2" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860007">
+      <labels>
+        <label description="U.S. Mountain Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860008">
+      <labels>
+        <label description="Central Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860009">
+      <labels>
+        <label description="Canada Central Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860010">
+      <labels>
+        <label description="Mexico Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860011">
+      <labels>
+        <label description="Central America Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860012">
+      <labels>
+        <label description="Eastern Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860013">
+      <labels>
+        <label description="U.S. Eastern Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860014">
+      <labels>
+        <label description="S.A. Pacific Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860015">
+      <labels>
+        <label description="Atlantic Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860016">
+      <labels>
+        <label description="S.A. Western Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860017">
+      <labels>
+        <label description="Pacific S.A. Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860018">
+      <labels>
+        <label description="Newfoundland and Labrador Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860019">
+      <labels>
+        <label description="E. South America Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860020">
+      <labels>
+        <label description="S.A. Eastern Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860021">
+      <labels>
+        <label description="Greenland Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860022">
+      <labels>
+        <label description="Mid-Atlantic Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860023">
+      <labels>
+        <label description="Azores Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860024">
+      <labels>
+        <label description="Cape Verde Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860025">
+      <labels>
+        <label description="GMT Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860026">
+      <labels>
+        <label description="Greenwich Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860027">
+      <labels>
+        <label description="Central Europe Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860028">
+      <labels>
+        <label description="Central European Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860029">
+      <labels>
+        <label description="Romance Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860030">
+      <labels>
+        <label description="W. Europe Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860031">
+      <labels>
+        <label description="W. Central Africa Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860032">
+      <labels>
+        <label description="E. Europe Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860033">
+      <labels>
+        <label description="Egypt Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860034">
+      <labels>
+        <label description="FLE Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860035">
+      <labels>
+        <label description="GTB Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860036">
+      <labels>
+        <label description="Israel Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860037">
+      <labels>
+        <label description="South Africa Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860038">
+      <labels>
+        <label description="Russian Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860039">
+      <labels>
+        <label description="Arab Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860040">
+      <labels>
+        <label description="E. Africa Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860041">
+      <labels>
+        <label description="Arabic Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860042">
+      <labels>
+        <label description="Iran Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860043">
+      <labels>
+        <label description="Arabian Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860044">
+      <labels>
+        <label description="Caucasus Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860045">
+      <labels>
+        <label description="Transitional Islamic State of Afghanistan Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860046">
+      <labels>
+        <label description="Ekaterinburg Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860047">
+      <labels>
+        <label description="West Asia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860048">
+      <labels>
+        <label description="India Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860049">
+      <labels>
+        <label description="Nepal Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860050">
+      <labels>
+        <label description="Central Asia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860051">
+      <labels>
+        <label description="Sri Lanka Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860052">
+      <labels>
+        <label description="N. Central Asia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860053">
+      <labels>
+        <label description="Myanmar Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860054">
+      <labels>
+        <label description="S.E. Asia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860055">
+      <labels>
+        <label description="North Asia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860056">
+      <labels>
+        <label description="China Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860057">
+      <labels>
+        <label description="Singapore Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860058">
+      <labels>
+        <label description="Taipei Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860059">
+      <labels>
+        <label description="W. Australia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860060">
+      <labels>
+        <label description="North Asia East Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860061">
+      <labels>
+        <label description="Korea Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860062">
+      <labels>
+        <label description="Tokyo Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860063">
+      <labels>
+        <label description="Yakutsk Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860064">
+      <labels>
+        <label description="A.U.S. Central Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860065">
+      <labels>
+        <label description="Cen. Australia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860066">
+      <labels>
+        <label description="A.U.S. Eastern Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860067">
+      <labels>
+        <label description="E. Australia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860068">
+      <labels>
+        <label description="Tasmania Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860069">
+      <labels>
+        <label description="Vladivostok Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860070">
+      <labels>
+        <label description="West Pacific Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860071">
+      <labels>
+        <label description="Central Pacific Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860072">
+      <labels>
+        <label description="Fiji Islands Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860073">
+      <labels>
+        <label description="New Zealand Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860074">
+      <labels>
+        <label description="Tonga Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860075">
+      <labels>
+        <label description="Azerbaijan Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860076">
+      <labels>
+        <label description="Middle East Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860077">
+      <labels>
+        <label description="Jordan Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860078">
+      <labels>
+        <label description="Central Standard Time (Mexico)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860079">
+      <labels>
+        <label description="Mountain Standard Time (Mexico)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860080">
+      <labels>
+        <label description="Pacific Standard Time (Mexico)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860081">
+      <labels>
+        <label description="Namibia Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860082">
+      <labels>
+        <label description="Georgian Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860083">
+      <labels>
+        <label description="Central Brazilian Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860084">
+      <labels>
+        <label description="Montevideo Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860085">
+      <labels>
+        <label description="Armenian Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860086">
+      <labels>
+        <label description="Venezuela Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860087">
+      <labels>
+        <label description="Argentina Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860088">
+      <labels>
+        <label description="Morocco Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860089">
+      <labels>
+        <label description="Pakistan Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860090">
+      <labels>
+        <label description="Mauritius Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860091">
+      <labels>
+        <label description="UTC" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860092">
+      <labels>
+        <label description="Paraguay Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860093">
+      <labels>
+        <label description="Kamchatka Standard Time" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

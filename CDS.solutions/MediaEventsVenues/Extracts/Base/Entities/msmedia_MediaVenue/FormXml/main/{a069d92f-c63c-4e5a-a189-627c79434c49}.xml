@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a069d92f-c63c-4e5a-a189-627c79434c49}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab name="General" id="{8e4d91e1-652b-1289-7a27-05579d56ede9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="VenueInformation" showlabel="true" showbar="false" locklevel="0" id="{08b139ca-90c5-4399-88aa-b3b4ca28ded3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Venue Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a48a3ae6-b40d-49c9-8098-5c547cfef36a}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76c2daa8-7000-79da-9a64-dd78bc812db1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Venue Type" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_venuetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_venuetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b60469ab-e61b-0e49-101d-43aa51221556}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_parentvenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_parentvenue" disabled="false" uniqueid="{258db229-29bd-24c5-2ab3-1d650da49e25}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3dad6c05-bd2e-241d-49c2-9c57eabd84d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_capacity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msmedia_capacity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04a5e61a-069a-5496-508a-c6e50565e0dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact Info" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_contactinfo" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_contactinfo" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Address" showlabel="true" showbar="false" locklevel="0" id="{7b663070-21dc-001d-08b0-49c377b15110}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{58d6937a-d68b-4d6e-8cc4-6efc3c918e39}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address Line 1" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addressline1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addressline1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{375cdd04-979c-4491-9932-3ba98ba899c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address Line 2" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addressline2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addressline2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1d2bbd9-faf0-429a-88d3-65ff2b8193ae}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address Line 3" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addressline3" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addressline3" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4cee24a-783f-4bf5-8ccd-81c3bd55cb1d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address City" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addresscity" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addresscity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51fe038e-234c-4a45-a9c8-7e82ec45050a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address State or Province" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addressstateorprovince" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addressstateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92d7aea5-bc23-457f-8deb-ca357d2c7ea5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address Postal Code" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addresspostalcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addresspostalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c759f4ec-cbb9-43c5-8fbc-4d21aeebc595}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address Country" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_addresscountry" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_addresscountry" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a04e6cb-a15a-4aaa-8ff2-ee28ffdafae5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_latitude" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_latitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68439770-8b62-4895-8f30-03779af943e0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_longitude" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msmedia_longitude" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="image" showlabel="true" showbar="false" locklevel="0" id="{8089b3d9-d5b1-ee1d-3db8-b960ea9dea35}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Venue Image" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{523906e4-de6f-45c5-8627-75a7b278a776}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Image" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_image" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_image" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ref_pan_General_section_4" showlabel="false" showbar="false" locklevel="0" id="{120ecb2a-ea93-1cd9-b361-a15729449e13}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{021d9109-db2e-ec56-3d57-a9eb91d714ee}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Media Assets" languagecode="1033" />
+                        </labels>
+                        <control id="sg_Assets" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{6384943a-7755-332d-0b5c-8b04cc6e29c9}">
+                          <parameters>
+                            <ViewId>{1311FA04-EC9E-4287-9D02-81B652748A2F}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_MediaAsset_MediaVenue_msmedia_Med</RelationshipName>
+                            <TargetEntityType>msmedia_mediaasset</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{1311FA04-EC9E-4287-9D02-81B652748A2F}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_MediaAssetsSVG</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row></row>
+                    <row>
+                      <cell id="{a674d28b-c514-148e-734e-ee2932aa4d2d}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Facilities" languagecode="1033" />
+                        </labels>
+                        <control id="sg_Facilities" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{2a84a02e-4be1-eb64-1234-3e19559dab53}">
+                          <parameters>
+                            <ViewId>{EF26F1F2-93DA-4ADC-A080-03BFCF0E64F5}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_Facility_MediaVenue_msmedia_Media</RelationshipName>
+                            <TargetEntityType>msmedia_facility</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EF26F1F2-93DA-4ADC-A080-03BFCF0E64F5}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_facilitysvg</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row></row>
+                    <row />
+                    <row>
+                      <cell id="{190117d8-ca53-c8ba-5e27-4a06e991bb07}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Concession Stands" languagecode="1033" />
+                        </labels>
+                        <control id="sg_ConcessionStands" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{d242b295-e356-72db-5daa-abcd1aa9b7be}">
+                          <parameters>
+                            <ViewId>{967C6F2A-EEE4-4BFC-87A5-1EB56B647AFB}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_concessionstand_MediaVenue_msmedi</RelationshipName>
+                            <TargetEntityType>msmedia_concessionstand</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{967C6F2A-EEE4-4BFC-87A5-1EB56B647AFB}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_ConcessionStandsSVG</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{1542cd0e-1771-0bd0-a445-ad014b1e5ad5}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Attractions" languagecode="1033" />
+                        </labels>
+                        <control id="sg_Attractions" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{3162a7ee-38b8-43de-e857-1e723b4711b7}">
+                          <parameters>
+                            <ViewId>{0D93B8EA-1B59-4C14-8730-7F51C1699308}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_Attraction_MediaVenue_msmedia_Med</RelationshipName>
+                            <TargetEntityType>msmedia_attraction</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{0D93B8EA-1B59-4C14-8730-7F51C1699308}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_AttractionsSVG</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{1bea6009-7580-3177-9b7a-582ba4cca2a2}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Gates" languagecode="1033" />
+                        </labels>
+                        <control id="sg_Gates" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}">
+                          <parameters>
+                            <ViewId>{B4C3DD5F-1069-4541-9795-664AEF7DB62A}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_gate_MediaVenue_msmedia_MediaVenu</RelationshipName>
+                            <TargetEntityType>msmedia_gate</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B4C3DD5F-1069-4541-9795-664AEF7DB62A}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_/_imgs/Gate_64.svg</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{6d53d57e-4c8b-a2b9-6e9c-6cabcc654ee9}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Hours of Operation" languagecode="1033" />
+                        </labels>
+                        <control id="sg_HoursOfOperation" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}">
+                          <parameters>
+                            <ViewId>{9E448DEA-7D7B-4D84-9B9F-15FDC445617B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_hoursofoperation_MediaVenue_msmed</RelationshipName>
+                            <TargetEntityType>msmedia_hoursofoperation</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{9E448DEA-7D7B-4D84-9B9F-15FDC445617B}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_/_imgs/HoursOfOperation_64.svg</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{71231323-ce40-0a92-ea1b-078c29a7ee8c}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Weather Conditions" languagecode="1033" />
+                        </labels>
+                        <control id="sg_WeatherConditions" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}">
+                          <parameters>
+                            <ViewId>{60B7DDFA-2E10-47A3-91A9-7568135E316A}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msmedia_WeatherCondition_MediaVenue_msmed</RelationshipName>
+                            <TargetEntityType>msmedia_weathercondition</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{60B7DDFA-2E10-47A3-91A9-7568135E316A}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <ReferencePanelSubgridIconUrl>msmedia_/_imgs/WeatherConditions_64.svg</ReferencePanelSubgridIconUrl>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="DetailsTab" id="{de65b350-4951-45de-ed8a-52323699dac7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="DetailsSection1" id="d96d9ad4-1980-4001-b2fd-9c6a50ded267" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f6f8bdaa-ee03-4e9a-9870-b2899002b1f6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_provider" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_provider" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5594c7f-3a6a-4368-bc49-0265ce20701a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TMA" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_tma" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_tma" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7bfba711-bae6-43f2-bfa5-e219f421bef4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rating" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_rating" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_rating" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62ee20cd-55a6-6628-e99c-8a4c9505841c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Handicapped Accessible" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_handicappedaccessible" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_handicappedaccessible" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a7a38b3-5324-cc5c-3522-79744c75750a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Age Restrictions" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_agerestrictions" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_agerestrictions" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab8b4c41-dcb2-d28a-c42b-da37d66c5aa1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Registered Union(s)" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_registeredunion" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_registeredunion" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36ec345c-3d0a-033b-6c5a-8ecc96617084}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Languages in Use" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_languagesinuse" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msmedia_languagesinuse" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="DetailsSection2" showlabel="false" showbar="false" locklevel="0" id="{bee00535-9050-2e47-beb0-5e962689a6d5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a36dd8a3-100d-2206-9423-797a20809e75}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of Floors" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_numberoffloors" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msmedia_numberoffloors" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1b6dd81-ec29-36bd-9c8a-2840847a0b39}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of Elevators" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_numberofelevators" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msmedia_numberofelevators" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74329a42-caa1-08e2-97cb-e945759d7497}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Square Footage" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_squarefootage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msmedia_squarefootage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41934067-8a0d-42a8-9210-318db86712c4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Square Footage Unit of Measure" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_squarefootageunitofmeasure" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_squarefootageunitofmeasure" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{199b7add-e147-3ec2-9e22-3ac657558ca3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Time Zone" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_timezone" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msmedia_timezone" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="WifiTab" id="d733d99a-fb5e-485e-a087-a295e7abe5b0" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Wifi" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="WifiSection" id="690b528d-62a3-4984-a600-6bc297eb81fc" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Wifi" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4532e151-1ca6-b8ea-185e-9e9c8db14ce2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wifi Available" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_wifiavailable" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_wifiavailable" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01b489b1-aeba-8091-c5d2-babe20ed2c4c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wifi SSID" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_wifissid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_wifissid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e2b1469-fd4f-4f42-8e3c-7c488f680a23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Wifi Public Password" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_wifipublicpassword" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msmedia_wifipublicpassword" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ImagesTab" id="{c97da99a-c79d-618d-d0b0-b7d4327d2bde}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Images" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Images Tab_section_2" showlabel="false" showbar="false" locklevel="0" id="{0d15a807-4970-4b36-a769-2acb1ae5aaac}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{09a08adc-3887-6bc9-e461-c6e0c53c83d6}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_name" disabled="false" uniqueid="{39ba0b61-2ad8-164d-8d7a-1464997b60a3}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{7b5f4238-fc80-4967-8b4e-3ed08e5cfc20}" columns="111">
+        <rows>
+          <row>
+            <cell id="{8e7153f3-28d4-4f2f-95fe-6f6d6fce653d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f6bc248a-c982-4a01-83f5-9e50ddf30481}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a7dcee83-a284-e07e-ca59-840100093a4c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{39ba0b61-2ad8-164d-8d7a-1464997b60a3}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msmedia_name</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>msmedia_name</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Media Venue</entityName>
+              <appName static="true" type="SingleLine.Text">msmedia_imagegallerymediavenue_1ded7</appName>
+              <appId static="true" type="SingleLine.Text">770d1007-70ae-4896-b606-68bafe5c94da</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>msmedia_name</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Media Venue</entityName>
+              <appName static="true" type="SingleLine.Text">msmedia_imagegallerymediavenue_1ded7</appName>
+              <appId static="true" type="SingleLine.Text">770d1007-70ae-4896-b606-68bafe5c94da</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>msmedia_name</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Media Venue</entityName>
+              <appName static="true" type="SingleLine.Text">msmedia_imagegallerymediavenue_1ded7</appName>
+              <appId static="true" type="SingleLine.Text">770d1007-70ae-4896-b606-68bafe5c94da</appId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{25374476-bf5d-40ae-a1b8-f2f73ff1deca}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{398607fa-8ef0-4186-8ca4-05416fbd3955}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7d634a56-2d0b-4994-a12d-8cefe4f1e610}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{919c7700-e7b1-42d4-9fd2-6b6bae954246}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Media Venue Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

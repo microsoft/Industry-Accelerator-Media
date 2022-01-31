@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fc9c9aa7-16d8-4ef7-a540-2604464efac1}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="productid">
+          <cell name="name" width="200" />
+          <cell name="price" width="100" />
+          <cell name="msmedia_season" width="100" />
+          <cell name="msmedia_availablequantity" width="125" />
+          <cell name="msmedia_soldquantity" width="100" />
+          <cell name="hierarchypath" width="300" />
+          <cell name="producttypecode" width="150" />
+          <cell name="subjectid" width="100" />
+          <cell name="productstructure" width="0" ishidden="1" />
+          <cell name="statecode" width="0" ishidden="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="product">
+          <attribute name="name" />
+          <order attribute="hierarchypath" descending="false" />
+          <attribute name="producttypecode" />
+          <filter type="and">
+            <condition attribute="productstructure" operator="eq" value="3" />
+            <filter type="or">
+              <condition attribute="statecode" operator="eq" value="2" />
+              <condition attribute="statecode" operator="eq" value="3" />
+            </filter>
+          </filter>
+          <attribute name="subjectid" />
+          <attribute name="productid" />
+          <attribute name="productstructure" />
+          <attribute name="iskit" />
+          <attribute name="parentproductid" />
+          <attribute name="hierarchypath" />
+          <attribute name="statecode" />
+          <attribute name="msmedia_season" />
+          <attribute name="msmedia_soldquantity" />
+          <attribute name="msmedia_availablequantity" />
+          <attribute name="price" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Draft Product Bundles" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about all product bundles in the system which are in Draft state" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,764 @@
+<Activity x:Class="XrmWorkflow00000000000000000000000000000000" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mcwc="clr-namespace:Microsoft.Crm.Workflow.ClientActivities;assembly=Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxs="clr-namespace:Microsoft.Xrm.Sdk;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxsq="clr-namespace:Microsoft.Xrm.Sdk.Query;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxswa="clr-namespace:Microsoft.Xrm.Sdk.Workflow.Activities;assembly=Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:s="clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:srs="clr-namespace:System.Runtime.Serialization;assembly=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:this="clr-namespace:" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="InputEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+    <x:Property Name="CreatedEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+  </x:Members>
+  <this:XrmWorkflow00000000000000000000000000000000.InputEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow00000000000000000000000000000000.InputEntities>
+  <this:XrmWorkflow00000000000000000000000000000000.CreatedEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow00000000000000000000000000000000.CreatedEntities>
+  <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
+  <mxswa:Workflow>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionSequence, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionStep1">
+      <mxswa:ActivityReference.Arguments>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="Wait">False</InArgument>
+      </mxswa:ActivityReference.Arguments>
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables">
+          <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep2_condition" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep2_1" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep2_2" />
+          <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep3_condition" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep3_1" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep3_2" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep3_3" />
+          <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep4_condition" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep4_1" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep4_2" />
+          <Variable x:TypeArguments="x:Boolean" Default="False" Name="True" />
+          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep5_1" />
+        </sco:Collection>
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <mxswa:GetEntityProperty Attribute="producttypecode" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" Value="[ConditionBranchStep2_1]">
+            <mxswa:GetEntityProperty.TargetType>
+              <InArgument x:TypeArguments="s:Type">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                  <x:Null />
+                </mxswa:ReferenceLiteral>
+              </InArgument>
+            </mxswa:GetEntityProperty.TargetType>
+          </mxswa:GetEntityProperty>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "766860005", "Picklist" }]</InArgument>
+              <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+              </InArgument>
+              <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep2_2]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep2_2 }]</InArgument>
+              <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep2_1]</InArgument>
+              <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep2_condition]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep2">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep2_condition]</InArgument>
+            </mxswa:ActivityReference.Arguments>
+            <mxswa:ActivityReference.Properties>
+              <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep2">
+                <mxswa:ActivityReference.Properties>
+                  <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                  <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                    <Sequence DisplayName="SetAttributeValueStep10: Clear Advertising Segment">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep10_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_advertisingsegment" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep10_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep10" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep11: Hide Advertising Segment">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingsegment" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep12: Don't require Advertising Segment">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingsegment" ControlType="standard" DisplayName="SetFieldRequiredLevelStep12" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep13: Clear Advertising Zone">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep13_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_advertisingzone" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep13_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep13" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep14: Hide Advertising Zone">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingzone" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep15: Don't require Advertising Zone">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingzone" ControlType="standard" DisplayName="SetFieldRequiredLevelStep15" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep88: Clear Facility">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep88_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_facility" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep88_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep88" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep89: Hide Facility">
+                      <mcwc:SetVisibility ControlId="msmedia_facility" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep90: Don't require Facility">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_facility" ControlType="standard" DisplayName="SetFieldRequiredLevelStep90" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep3: Show Ticket Type">
+                      <mcwc:SetVisibility ControlId="msmedia_tickettype" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep5: Require Ticket Type">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_tickettype" ControlType="standard" DisplayName="SetFieldRequiredLevelStep5" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                    </Sequence>
+                  </sco:Collection>
+                </mxswa:ActivityReference.Properties>
+              </mxswa:ActivityReference>
+              <x:Null x:Key="Else" />
+              <x:String x:Key="Description">Product Type = Ticket</x:String>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+          <mxswa:GetEntityProperty Attribute="producttypecode" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" Value="[ConditionBranchStep3_1]">
+            <mxswa:GetEntityProperty.TargetType>
+              <InArgument x:TypeArguments="s:Type">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                  <x:Null />
+                </mxswa:ReferenceLiteral>
+              </InArgument>
+            </mxswa:GetEntityProperty.TargetType>
+          </mxswa:GetEntityProperty>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "766860002", "Picklist" }]</InArgument>
+              <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+              </InArgument>
+              <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep3_2]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "766860003", "Picklist" }]</InArgument>
+              <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+              </InArgument>
+              <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep3_3]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep3_2, ConditionBranchStep3_3 }]</InArgument>
+              <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep3_1]</InArgument>
+              <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep3_condition]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep3">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep3_condition]</InArgument>
+            </mxswa:ActivityReference.Arguments>
+            <mxswa:ActivityReference.Properties>
+              <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep3">
+                <mxswa:ActivityReference.Properties>
+                  <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                  <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                    <Sequence DisplayName="SetAttributeValueStep58: Clear Ticket Type">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep58_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_tickettype" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep58_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep58" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep59: Hide Ticket Type">
+                      <mcwc:SetVisibility ControlId="msmedia_tickettype" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep60: Don't require Ticket Type">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_tickettype" ControlType="standard" DisplayName="SetFieldRequiredLevelStep60" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep61: Clear Media Event">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep61_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_mediaevent" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep61_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep61" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep62: Hide Media Event">
+                      <mcwc:SetVisibility ControlId="msmedia_mediaevent" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep63: Don't require Media Event">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_mediaevent" ControlType="standard" DisplayName="SetFieldRequiredLevelStep63" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep64: Clear Seat Tier">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep64_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_seattier" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep64_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep64" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep65: Hide Seat Tier">
+                      <mcwc:SetVisibility ControlId="msmedia_seattier" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep66: Don't Require Seat Tier">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_seattier" ControlType="standard" DisplayName="SetFieldRequiredLevelStep66" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep67: Clear Advertising Segment">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep67_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_advertisingsegment" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep67_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep67" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep68: Hide Advertising Segment">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingsegment" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep69: Don't require Advertising Segment">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingsegment" ControlType="standard" DisplayName="SetFieldRequiredLevelStep69" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep70: Clear Advertising Zone">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep70_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_advertisingzone" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep70_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep70" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep71: Hide Advertising Zone">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingzone" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep72: Don't require Advertising Zone">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingzone" ControlType="standard" DisplayName="SetFieldRequiredLevelStep72" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep73: Clear Event Attraction">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep73_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_attraction" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep73_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep73" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep74: Hide Event Attraction">
+                      <mcwc:SetVisibility ControlId="msmedia_attraction" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep75: Don't require Event Attraction">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_attraction" ControlType="standard" DisplayName="SetFieldRequiredLevelStep75" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep76: Clear Media Venue">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep76_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_mediavenue" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep76_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep76" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep77: Hide Media Venue">
+                      <mcwc:SetVisibility ControlId="msmedia_mediavenue" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep78: Don't require Media Venue">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_mediavenue" ControlType="standard" DisplayName="SetFieldRequiredLevelStep78" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep79: Show Facility">
+                      <mcwc:SetVisibility ControlId="msmedia_facility" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep86: Require Facility">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_facility" ControlType="standard" DisplayName="SetFieldRequiredLevelStep86" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                    </Sequence>
+                  </sco:Collection>
+                </mxswa:ActivityReference.Properties>
+              </mxswa:ActivityReference>
+              <x:Null x:Key="Else" />
+              <x:String x:Key="Description">Product Type = Hospitality Suite or Function Room</x:String>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+          <mxswa:GetEntityProperty Attribute="producttypecode" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" Value="[ConditionBranchStep4_1]">
+            <mxswa:GetEntityProperty.TargetType>
+              <InArgument x:TypeArguments="s:Type">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                  <x:Null />
+                </mxswa:ReferenceLiteral>
+              </InArgument>
+            </mxswa:GetEntityProperty.TargetType>
+          </mxswa:GetEntityProperty>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "766860008", "Picklist" }]</InArgument>
+              <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+              </InArgument>
+              <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep4_2]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep4_2 }]</InArgument>
+              <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep4_1]</InArgument>
+              <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep4_condition]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep4">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep4_condition]</InArgument>
+            </mxswa:ActivityReference.Arguments>
+            <mxswa:ActivityReference.Properties>
+              <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep4">
+                <mxswa:ActivityReference.Properties>
+                  <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                  <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                    <Sequence DisplayName="SetAttributeValueStep5: Clear Ticket Type">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep5_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_tickettype" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep5_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep5" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep1: Hide Ticket Type">
+                      <mcwc:SetVisibility ControlId="msmedia_tickettype" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep4: Don't require Ticket Type">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_tickettype" ControlType="standard" DisplayName="SetFieldRequiredLevelStep4" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep45: Clear Seat Tier">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep45_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_seattier" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep45_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep45" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep46: Hide Seat Tier">
+                      <mcwc:SetVisibility ControlId="msmedia_seattier" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep47: Don't Require Seat Tier">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_seattier" ControlType="standard" DisplayName="SetFieldRequiredLevelStep47" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep22: Show Advertising Segment">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingsegment" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep23: Require Advertising Segment">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingsegment" ControlType="standard" DisplayName="SetFieldRequiredLevelStep23" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep24: Show Advertising Zone">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingzone" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep25: Require Advertising Zone">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingzone" ControlType="standard" DisplayName="SetFieldRequiredLevelStep25" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep43: Show Media Event">
+                      <mcwc:SetVisibility ControlId="msmedia_mediaevent" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep44: Require Media Event">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_mediaevent" ControlType="standard" DisplayName="SetFieldRequiredLevelStep44" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep26: Show Event Attraction">
+                      <mcwc:SetVisibility ControlId="msmedia_attraction" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep27: Don't require Event Attraction">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_attraction" ControlType="standard" DisplayName="SetFieldRequiredLevelStep27" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep28: Show Media Venue">
+                      <mcwc:SetVisibility ControlId="msmedia_mediavenue" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="True" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep29: Require Media Venue">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_mediavenue" ControlType="standard" DisplayName="SetFieldRequiredLevelStep29" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="Required" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep56: Clear Facility">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep56_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_facility" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep56_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep56" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep55: Hide Facility">
+                      <mcwc:SetVisibility ControlId="msmedia_facility" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep84: Don't require Facility">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_facility" ControlType="standard" DisplayName="SetFieldRequiredLevelStep84" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                  </sco:Collection>
+                </mxswa:ActivityReference.Properties>
+              </mxswa:ActivityReference>
+              <x:Null x:Key="Else" />
+              <x:String x:Key="Description">Product Type = Advertising</x:String>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Boolean, "true" }]</InArgument>
+              <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Boolean" />
+              </InArgument>
+              <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep5_1]</OutArgument>
+            </mxswa:ActivityReference.Arguments>
+          </mxswa:ActivityReference>
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep5">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[True]</InArgument>
+            </mxswa:ActivityReference.Arguments>
+            <mxswa:ActivityReference.Properties>
+              <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep5">
+                <mxswa:ActivityReference.Properties>
+                  <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                  <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                    <Sequence DisplayName="SetAttributeValueStep7: Clear Ticket Type">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep7_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_tickettype" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep7_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep7" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep8: Hide Ticket Type">
+                      <mcwc:SetVisibility ControlId="msmedia_tickettype" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep9: Don't require Ticket Type">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_tickettype" ControlType="standard" DisplayName="SetFieldRequiredLevelStep9" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep48: Clear Media Event">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep48_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_mediaevent" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep48_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep48" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep49: Hide Media Event">
+                      <mcwc:SetVisibility ControlId="msmedia_mediaevent" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep50: Don't require Media Event">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_mediaevent" ControlType="standard" DisplayName="SetFieldRequiredLevelStep50" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep51: Clear Seat Tier">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep51_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_seattier" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep51_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep51" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep52: Hide Seat Tier">
+                      <mcwc:SetVisibility ControlId="msmedia_seattier" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep53: Don't Require Seat Tier">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_seattier" ControlType="standard" DisplayName="SetFieldRequiredLevelStep53" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep32: Clear Advertising Segment">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep32_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_advertisingsegment" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep32_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep32" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep33: Hide Advertising Segment">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingsegment" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep34: Don't require Advertising Segment">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingsegment" ControlType="standard" DisplayName="SetFieldRequiredLevelStep34" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep35: Clear Advertising Zone">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep35_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_advertisingzone" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep35_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep35" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep36: Hide Advertising Zone">
+                      <mcwc:SetVisibility ControlId="msmedia_advertisingzone" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep37: Don't require Advertising Zone">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_advertisingzone" ControlType="standard" DisplayName="SetFieldRequiredLevelStep37" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep38: Clear Event Attraction">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep38_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_attraction" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep38_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep38" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep39: Hide Event Attraction">
+                      <mcwc:SetVisibility ControlId="msmedia_attraction" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep40: Don't require Event Attraction">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_attraction" ControlType="standard" DisplayName="SetFieldRequiredLevelStep40" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep41: Clear Media Venue">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep41_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_mediavenue" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep41_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep41" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep42: Hide Media Venue">
+                      <mcwc:SetVisibility ControlId="msmedia_mediavenue" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep43: Don't require Media Venue">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_mediavenue" ControlType="standard" DisplayName="SetFieldRequiredLevelStep43" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetAttributeValueStep80: Clear Facility">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="SetAttributeValueStep80_1" />
+                      </Sequence.Variables>
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mxswa:SetEntityProperty Attribute="msmedia_facility" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" Value="[SetAttributeValueStep80_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mcwc:SetAttributeValue DisplayName="SetAttributeValueStep80" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="product" />
+                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+                    </Sequence>
+                    <Sequence DisplayName="SetVisibilityStep54: Hide Facility">
+                      <mcwc:SetVisibility ControlId="msmedia_facility" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" IsVisible="False" />
+                    </Sequence>
+                    <Sequence DisplayName="SetFieldRequiredLevelStep81: Don't require Facility">
+                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;product&quot;)]" />
+                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+                      <mcwc:SetFieldRequiredLevel ControlId="msmedia_facility" ControlType="standard" DisplayName="SetFieldRequiredLevelStep81" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="product" RequiredLevel="None" />
+                    </Sequence>
+                  </sco:Collection>
+                </mxswa:ActivityReference.Properties>
+              </mxswa:ActivityReference>
+              <x:Null x:Key="Else" />
+              <x:String x:Key="Description"></x:String>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+        </sco:Collection>
+        <x:Boolean x:Key="ContainsElseBranch">False</x:Boolean>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+  </mxswa:Workflow>
+</Activity>

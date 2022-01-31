@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a9f7c407-7089-ea11-a812-000d3a4e3831}</formid>
+    <IntroducedVersion>1.0.0.19</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab name="GeneralTab" id="{41c0e6d8-e480-3843-3560-266401cabd9a}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{657f10f1-30ee-4ed4-9d01-665284c00b19}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3d9a8ebe-21c3-4ecc-b1be-2beeb3a62438}" columns="11" name="GeneralSection" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" labelid="{029d31f4-b47f-4c0a-917b-635b93e9f61a}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{567c8e3e-a56b-4e19-8fb6-70adfc479fed}" ordinalvalue="10018" solutionaction="Removed" />
+                      <cell showlabel="true" locklevel="0" id="{712faf7f-f672-4ed7-a92f-a72664d9df36}" labelid="{b3b87eb1-ffeb-439e-9341-b3e2ba570462}" ordinalvalue="20019" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{cde96d7a-1a5b-43c7-a4d1-f6532bd56c28}" ordinalvalue="10020" solutionaction="Removed" />
+                      <cell showlabel="true" locklevel="0" id="{4eeab654-44b6-4c5c-ba5f-3817907c134b}" labelid="{04d21ade-71bd-4113-87f5-25ffcf8034be}" ordinalvalue="20021" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{eb0b28b2-2c57-4299-900f-96f0a883c563}" ordinalvalue="10022" solutionaction="Removed" />
+                      <cell showlabel="true" locklevel="0" id="{8cd6d83d-e996-4112-8c7c-5aa2716910ea}" labelid="{b0a9d9cb-d735-4e02-8932-9970e51dc53a}" ordinalvalue="20023" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="EventDetailsTab" id="{3717b406-c403-ce2d-a768-d71d77e9499a}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{6cd58829-68f5-4386-b8c8-665436098f5a}" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="EventDetailsSection" showlabel="false" showbar="false" locklevel="0" id="{a483e31c-3881-67b9-0258-23c8ec19add8}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" labelid="{33dfc48b-664d-4e25-b068-f840e12bc026}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{8778fde0-6922-4c26-b655-66facafe2f14}" labelid="{d973e12f-f96b-40f7-9bcc-79700f2d3193}" ordinalvalue="10022" solutionaction="Removed" />
+                      <cell showlabel="true" locklevel="0" id="{2b4fbdbb-14cf-4230-90a4-d57a1c8585b1}" labelid="{28fa4fac-141e-401e-8ebe-76846b1bbb4e}" ordinalvalue="20023" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{8f36ae5c-3061-49a3-a071-15ab80b46532}" labelid="{85a74a29-ba62-4db4-8d9e-f1a3bbf0b160}" ordinalvalue="10024" solutionaction="Removed" />
+                      <cell showlabel="true" locklevel="0" id="{626ac039-8a3b-4909-9ed8-bfb186b0c849}" labelid="{3061b106-74a1-4d2c-be89-88ceaf2321e5}" ordinalvalue="20025" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="TicketingTab" id="a2caf81c-c6dc-4ec8-8919-fa2b6f12c8a8" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="4">
+          <columns>
+            <column width="50%" id="0">
+              <sections>
+                <section name="TicketingSection1" id="c6852c74-4b61-481f-908a-e69206502636" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{c871c1ff-8483-4b9b-94af-b0b5f26d6831}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Media Venue Seat Map" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenueseatmap" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenueseatmap" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1">
+              <sections>
+                <section name="TicketingSection2" id="b9b49112-960a-403a-a297-72fc778bd868" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{eb2c87e4-acef-45e2-afad-d0a6c622cb78}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{c39beaed-08e3-44de-938c-7378bb563db0}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Admissions Auto-Created" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_admissionsautocreated" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_admissionsautocreated" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{994db6ae-d19c-4580-ac78-08018079f096}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Total Admissions Auto-Created" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_totaladmissionsautocreated" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msmedia_totaladmissionsautocreated" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4297bc11-a4bd-46c2-a758-dea9bed69e07}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Seat Products Auto-Created" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_seatproductsautocreated" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msmedia_seatproductsautocreated" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f39dfebb-7d8e-4838-b2cf-e7b5163a197c}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Total Seat Products Auto-Created" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_totalseatproductsautocreated" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msmedia_totalseatproductsautocreated" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{17bc5683-74dc-4e09-9caa-67e73422cecc}" columns="111">
+        <rows>
+          <row>
+            <cell id="{4ec840e9-07d6-08db-255a-8913b9d46a2a}" showlabel="false" labelid="{e60f2629-c0fa-4b5b-9628-8ee4837e2293}" ordinalvalue="40003" solutionaction="Removed" />
+          </row>
+        </rows>
+      </header>
+      <footer id="{7299fb5b-9903-43fb-a1a7-d139854ce618}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5e568baa-d1ee-4027-88a6-df082bd1abc1}" showlabel="false" labelid="{babc2a58-070b-48f4-847d-09aeaccc6e39}" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{a357413c-ba20-4d19-bde7-94e4971bcd70}" showlabel="false" labelid="{565957f6-80ea-482d-99d5-afd68e11aef5}" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{ad25a972-c029-4f06-80f9-0531b389cf02}" showlabel="false" labelid="{2b7d6c2b-7ba9-4ec3-af73-1b4aedd1435e}" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Media Event Sports Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

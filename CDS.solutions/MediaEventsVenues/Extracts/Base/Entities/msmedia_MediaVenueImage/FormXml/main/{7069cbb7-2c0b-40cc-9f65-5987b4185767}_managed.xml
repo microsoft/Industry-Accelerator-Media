@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7069cbb7-2c0b-40cc-9f65-5987b4185767}</formid>
+    <IntroducedVersion>1.0.0.14</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ad5c9d62-3b67-4e0d-ac25-a469c899c01d}" IsUserDefined="1" name="GeneralTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{fed2d1eb-9b23-4506-9a07-d38798e7b76d}" name="GeneralSection" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bca66b15-9533-4767-a836-2f9bc61543e2}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msmedia_name" />
+                      </cell>
+                      <cell id="{f38e9878-b6ed-45e4-987d-0f8116d40fbc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Uploaded Image" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_uploadedimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="msmedia_uploadedimage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{287990a1-f9e4-4322-9299-065acac35ba2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="msmedia_description" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{bbd23cb0-c5c9-474d-a4be-3d649454eaa4}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{190e1462-e889-4a53-8d22-abb3e62fd852}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Media Venue" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_mediavenue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_mediavenue" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{ea22cab9-994b-4529-844b-4292f6e5bafe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24d28c61-d1c7-4b2e-b1aa-cabff95ded4d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{567f4b9e-7477-4d99-9be4-e95df6cd2f9b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{001e57aa-cea1-4f6f-8e79-69fc95cdc47e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{2b1385d7-20a1-4186-be06-339c0de410db}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2f1d8876-7b39-49c2-85fb-a086c07f290d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c88b5374-8bbc-489e-9321-eef8c43524c9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6bbf8d61-1450-4f09-8547-48260c74e669}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f01526e3-d876-43e6-a795-a58a31f40e5c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7ebe7a90-1362-49a2-97cd-8be99981e9fb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c15d0a28-9d4e-4dac-a510-05e00aec24ee}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d169d500-907c-4152-87e8-7a23e977af21}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cabd1b50-7609-43e3-8a50-622eb4e0588e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Media Venue Image Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{07cd8f75-b33e-4bb9-bd60-4c767eb88575}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="result" id="msmedia_concessionpartnerid">
+          <cell name="msmedia_name" width="300" />
+          <cell name="msmedia_concessionstand" width="159" />
+          <cell name="msmedia_mediaevent" width="178" />
+          <cell name="a_ac22401ef08e43a2a98268a6b81a8827.msmedia_startdate" width="100" />
+          <cell name="msmedia_partner" width="124" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_concessionpartner">
+          <attribute name="msmedia_concessionpartnerid" />
+          <attribute name="msmedia_name" />
+          <order attribute="msmedia_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_concessionstand" />
+          <attribute name="msmedia_mediaevent" />
+          <attribute name="msmedia_partner" />
+          <link-entity alias="a_ac22401ef08e43a2a98268a6b81a8827" name="msmedia_mediaevent" to="msmedia_mediaevent" from="msmedia_mediaeventid" link-type="outer" visible="false">
+            <attribute name="msmedia_startdate" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Concession Partners" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

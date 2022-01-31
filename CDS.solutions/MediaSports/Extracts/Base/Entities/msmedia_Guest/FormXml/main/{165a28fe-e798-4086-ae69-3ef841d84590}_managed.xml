@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{165a28fe-e798-4086-ae69-3ef841d84590}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{9a263a7d-0aa8-46d7-9771-10ee2c9628a5}" IsUserDefined="1" name="GeneralTab" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0">
+              <sections>
+                <section name="sec_AdditionalDetails" id="ec46a660-6847-4d9d-9f20-990b1c2aec1f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" ordinalvalue="1">
+                  <labels>
+                    <label description="Additional Details" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                </section>
+                <section name="sec_ContactMethods" id="01c8b0e8-6e09-45c2-a71e-24a90873c5de" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{d51c2744-5010-439c-80b3-d8658a3b3a18}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="OK to Send Email" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1">
+              <sections>
+                <section name="sec_SpecialReq" id="46f3a81d-fef0-41ad-a408-bf8b73a58fb0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Special Requirements" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tb_GuestHistory" id="{c4008e86-ad18-c3a0-7812-98caa394891b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="tb_favorites" id="94d903ec-b75d-460a-982d-697ef78a5acf" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Favorites" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_5_section_1" id="83385899-57ba-427a-8af8-df244deb9c9b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Known Favorites" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{14437a65-712b-4087-a438-9a307762dcc9}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Favorite Team1" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_favoriteteam1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_favoriteteam1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9470d8a1-a79f-426a-8d92-b17c0b9274a3}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Favorite Team 2" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_favoriteteam2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msmedia_favoriteteam2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{1426c36b-e052-4311-bd46-3633ab57dd57}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows />
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Guest Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

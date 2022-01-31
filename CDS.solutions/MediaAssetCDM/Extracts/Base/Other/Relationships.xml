@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_msmedia_mediaasset" />
+  <EntityRelationship Name="business_unit_msmedia_mediaassetcategory" />
+  <EntityRelationship Name="lk_msmedia_mediaasset_createdby" />
+  <EntityRelationship Name="lk_msmedia_mediaasset_modifiedby" />
+  <EntityRelationship Name="lk_msmedia_mediaassetcategory_createdby" />
+  <EntityRelationship Name="lk_msmedia_mediaassetcategory_modifiedby" />
+  <EntityRelationship Name="msmedia_MediaAsset_Category_msmedia_Media" />
+  <EntityRelationship Name="owner_msmedia_mediaasset" />
+  <EntityRelationship Name="owner_msmedia_mediaassetcategory" />
+  <EntityRelationship Name="team_msmedia_mediaasset" />
+  <EntityRelationship Name="team_msmedia_mediaassetcategory" />
+  <EntityRelationship Name="TransactionCurrency_msmedia_MediaAsset" />
+  <EntityRelationship Name="user_msmedia_mediaasset" />
+  <EntityRelationship Name="user_msmedia_mediaassetcategory" />
+</EntityRelationships>

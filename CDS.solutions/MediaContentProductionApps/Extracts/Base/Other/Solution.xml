@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21064.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MediaContentProductionApps</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Media Content Production Apps" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>2.0.3.5</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365media</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Media" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmedia</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76686</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msmedia_episode" behavior="1" />
+      <RootComponent type="1" schemaName="msmedia_mediaassetfile" behavior="1" />
+      <RootComponent type="1" schemaName="msmedia_show" behavior="1" />
+      <RootComponent type="1" schemaName="msmedia_showseason" behavior="1" />
+      <RootComponent type="1" schemaName="msmedia_studio" behavior="1" />
+      <RootComponent type="60" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" behavior="0" />
+      <RootComponent type="60" id="{fb8b9801-2de9-eb11-bacb-000d3a9a6108}" behavior="0" />
+      <RootComponent type="62" schemaName="msmedia_ContentProduction" behavior="0" />
+      <RootComponent type="80" schemaName="msmedia_ContentProduction" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_assetblock" displayName="Asset Block" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_assetblock" displayName="Asset Block" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_assetfilelocation" displayName="Asset File Location" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_assetfilelocation" displayName="Asset File Location" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_assetmetadata" displayName="Asset Metadata" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_assetmetadataattribute" displayName="Asset Metadata Attribute" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_episode" displayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="1" schemaName="msmedia_episode" displayName="Episode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_episode" displayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Episode by Season" displayName="Episode by Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" id="{1a4be4f4-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_episode" displayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Episodes by Season" displayName="Episodes by Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" id="{cd64c522-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_episode" displayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_episode" displayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_episode" displayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Asset" solution="MediaAssetCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Asset" solution="MediaAssetCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetactivity" displayName="Media Asset Activity" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="60" displayName="Media CPM Activity Log" id="{fb8b9801-2de9-eb11-bacb-000d3a9a6108}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetactivity" displayName="Media Asset Activity" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetfile" displayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="1" schemaName="msmedia_mediaassetfile" displayName="Media Asset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetfile" displayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Virus Scan Status" displayName="Virus Scan Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" id="{2b79329f-05ca-eb11-bacc-000d3a16f137}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetfile" displayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Asset Upload Status" displayName="Asset Upload Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" id="{fce584a4-e6c9-eb11-bacc-000d3a1d5a7e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetfile" displayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetfile" displayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_show" displayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="1" schemaName="msmedia_show" displayName="Show" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_show" displayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Shows by studio" displayName="Shows by studio" parentSchemaName="msmedia_show" parentDisplayName="Show" id="{7ed2198a-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_show" displayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Show by studio" displayName="Show by studio" parentSchemaName="msmedia_show" parentDisplayName="Show" id="{8e385b6b-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_show" displayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_show" displayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_show" displayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showseason" displayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="1" schemaName="msmedia_showseason" displayName="Season" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showseason" displayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Season by Show" displayName="Season by Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" id="{7ae936aa-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showseason" displayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Seasons by Show" displayName="Seasons by Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" id="{f06656b7-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showseason" displayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showseason" displayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showseason" displayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_showvendormapping" displayName="Show Vendor Mapping" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_studio" displayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="1" schemaName="msmedia_studio" displayName="Studio" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_studio" displayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Studio list" displayName="Studio list" parentSchemaName="msmedia_studio" parentDisplayName="Studio" id="{bbc95e10-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_studio" displayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Studio by status" displayName="Studio by status" parentSchemaName="msmedia_studio" parentDisplayName="Studio" id="{dd10cb95-84ca-eb11-bacc-000d3a16f137}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_studio" displayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_studio" displayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_studio" displayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_episodenum" displayName="Episode Number" parentSchemaName="msmedia_episode" parentDisplayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Episode by Season" displayName="Episode by Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" id="{1a4be4f4-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_episode" parentDisplayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Episodes by Season" displayName="Episodes by Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" id="{cd64c522-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_season" displayName="Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Episode by Season" displayName="Episode by Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" id="{1a4be4f4-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_season" displayName="Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Episodes by Season" displayName="Episodes by Season" parentSchemaName="msmedia_episode" parentDisplayName="Episode" id="{cd64c522-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Virus Scan Status" displayName="Virus Scan Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" id="{2b79329f-05ca-eb11-bacc-000d3a16f137}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Asset Upload Status" displayName="Asset Upload Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" id="{fce584a4-e6c9-eb11-bacc-000d3a1d5a7e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_uploadstatus" displayName="Upload Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Asset Upload Status" displayName="Asset Upload Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" id="{fce584a4-e6c9-eb11-bacc-000d3a1d5a7e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_virusscanstatus" displayName="Virus Scan Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Virus Scan Status" displayName="Virus Scan Status" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" id="{2b79329f-05ca-eb11-bacc-000d3a16f137}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_show" parentDisplayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Shows by studio" displayName="Shows by studio" parentSchemaName="msmedia_show" parentDisplayName="Show" id="{7ed2198a-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_show" parentDisplayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Show by studio" displayName="Show by studio" parentSchemaName="msmedia_show" parentDisplayName="Show" id="{8e385b6b-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_studio" displayName="Studio" parentSchemaName="msmedia_show" parentDisplayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Shows by studio" displayName="Shows by studio" parentSchemaName="msmedia_show" parentDisplayName="Show" id="{7ed2198a-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_studio" displayName="Studio" parentSchemaName="msmedia_show" parentDisplayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Show by studio" displayName="Show by studio" parentSchemaName="msmedia_show" parentDisplayName="Show" id="{8e385b6b-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Season Name" parentSchemaName="msmedia_showseason" parentDisplayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Season by Show" displayName="Season by Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" id="{7ae936aa-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Season Name" parentSchemaName="msmedia_showseason" parentDisplayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Seasons by Show" displayName="Seasons by Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" id="{f06656b7-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_show" displayName="Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Season by Show" displayName="Season by Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" id="{7ae936aa-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_show" displayName="Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Seasons by Show" displayName="Seasons by Show" parentSchemaName="msmedia_showseason" parentDisplayName="Season" id="{f06656b7-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_studio" parentDisplayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Studio list" displayName="Studio list" parentSchemaName="msmedia_studio" parentDisplayName="Studio" id="{bbc95e10-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msmedia_name" displayName="Name" parentSchemaName="msmedia_studio" parentDisplayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Studio by status" displayName="Studio by status" parentSchemaName="msmedia_studio" parentDisplayName="Studio" id="{dd10cb95-84ca-eb11-bacc-000d3a16f137}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msmedia_studio" parentDisplayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Studio list" displayName="Studio list" parentSchemaName="msmedia_studio" parentDisplayName="Studio" id="{bbc95e10-85ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msmedia_studio" parentDisplayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="59" schemaName="Studio by status" displayName="Studio by status" parentSchemaName="msmedia_studio" parentDisplayName="Studio" id="{dd10cb95-84ca-eb11-bacc-000d3a16f137}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Media Asset Files" displayName="Active Media Asset Files" parentSchemaName="msmedia_mediaassetfile" parentDisplayName="Media Asset File" solution="MediaContentProductionCDM (2.0.2.9)" id="{50fe9c77-61f6-44dc-b6bf-f262bec7e7e6}" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Seasons" displayName="Active Seasons" parentSchemaName="msmedia_showseason" parentDisplayName="Season" solution="MediaContentProductionCDM (2.0.2.9)" id="{60fadd85-403e-4550-a57e-7901efd74ec4}" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Media Asset Activities" displayName="All Media Asset Activities" parentSchemaName="msmedia_mediaassetactivity" parentDisplayName="Media Asset Activity" solution="MediaContentProductionCDM (2.0.2.9)" id="{64500deb-109d-4f51-a597-fc09a540b6e2}" />
+        <Dependent type="60" displayName="Media CPM Activity Log" id="{fb8b9801-2de9-eb11-bacb-000d3a9a6108}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Episodes" displayName="Active Episodes" parentSchemaName="msmedia_episode" parentDisplayName="Episode" solution="MediaContentProductionCDM (2.0.2.9)" id="{6687fe2d-abfb-4246-8e47-2e65df7e686b}" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Shows" displayName="Active Shows" parentSchemaName="msmedia_show" parentDisplayName="Show" solution="MediaContentProductionCDM (2.0.2.9)" id="{72c68b3b-a4a1-463f-8aea-fd0e5d04f1ac}" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Studios" displayName="Active Studios" parentSchemaName="msmedia_studio" parentDisplayName="Studio" solution="MediaContentProductionCDM (2.0.2.9)" id="{a90f7656-fcd1-4a19-b147-b4b426c32d34}" />
+        <Dependent type="60" displayName="Media CPM Dashboard" id="{7e7993b7-86ca-eb11-bacc-000d3a1d5465}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msmedia_ContentProduction" displayName="Content Production" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msmedia_AssetMetadataIconSVG" displayName="msmedia_AssetMetadataIconSVG" solution="MediaContentProductionCDM (2.0.2.9)" />
+        <Dependent type="62" schemaName="msmedia_ContentProduction" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

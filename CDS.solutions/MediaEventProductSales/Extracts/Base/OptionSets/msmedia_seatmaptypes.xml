@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_seatmaptypes" localizedName="Seat Map Types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.4</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Seat Map Types" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="766860000">
+      <labels>
+        <label description="Venue" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860001">
+      <labels>
+        <label description="Facility" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Section" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="Row" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

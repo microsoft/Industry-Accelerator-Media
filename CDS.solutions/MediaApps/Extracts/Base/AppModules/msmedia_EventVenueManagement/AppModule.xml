@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msmedia_EventVenueManagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>f1b65058-6a99-ea11-a811-000d3a17769f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msmedia_EventVenueManagement" />
+    <AppModuleComponent type="60" id="{f0794271-1580-ea11-a812-000d3a1abe26}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="msmedia_attraction" />
+    <AppModuleComponent type="1" schemaName="msmedia_attractiontrack" />
+    <AppModuleComponent type="1" schemaName="msmedia_concessionpartner" />
+    <AppModuleComponent type="1" schemaName="msmedia_concessionstand" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="1" schemaName="msmedia_dispenser" />
+    <AppModuleComponent type="1" schemaName="msmedia_eventattraction" />
+    <AppModuleComponent type="1" schemaName="msmedia_guest" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediaasset" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediaassetcategory" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediaevent" />
+    <AppModuleComponent type="60" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" />
+    <AppModuleComponent type="60" id="{386b48bd-039a-4357-a2b8-49d6ba9acff0}" />
+    <AppModuleComponent type="26" id="{b5f9695f-915f-4ab4-8871-f00602ebab4e}" />
+    <AppModuleComponent type="26" id="{489e32df-6e70-ea11-a811-000d3a1ab88b}" />
+    <AppModuleComponent type="26" id="{198ae71f-1266-4e36-b421-c854766528c5}" />
+    <AppModuleComponent type="26" id="{aea8f0ae-c91c-4e2c-97e4-a1efd601ac8f}" />
+    <AppModuleComponent type="26" id="{2c42a1a6-55aa-439d-9aec-1ba61b34fe81}" />
+    <AppModuleComponent type="26" id="{dab06b2f-8252-4505-b844-84229eabf472}" />
+    <AppModuleComponent type="1" schemaName="msmedia_mediavenue" />
+    <AppModuleComponent type="60" id="{a069d92f-c63c-4e5a-a189-627c79434c49}" />
+    <AppModuleComponent type="60" id="{dc47b1db-8d04-49ce-a909-74980567297c}" />
+    <AppModuleComponent type="1" schemaName="msmedia_season" />
+    <AppModuleComponent type="1" schemaName="msmedia_talent" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Event/Venue Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

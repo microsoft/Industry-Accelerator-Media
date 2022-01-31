@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_filesizestatus" localizedName="File Size Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="File Size Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="207940000">
+      <labels>
+        <label description="Filesize Verified" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940001">
+      <labels>
+        <label description="Filesize Not Match" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="207940002">
+      <labels>
+        <label description="Filesize Verification Not Required" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{504d140b-f5a0-ea11-a812-000d3a1ab88b}" Name="BR -&gt; Media Event -&gt; Remind user if Registration Required = Yes" Description="BR -&gt; Media Event -&gt; Remind user if Registration Required = Yes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BR-MediaEvent-ReminduserifRegistrationRequiredYes-504D140B-F5A0-EA11-A812-000D3A1AB88B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.60</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
+  <PrimaryEntity>msmedia_MediaEvent</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="BR -&gt; Media Event -&gt; Remind user if Registration Required = Yes" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="BR -&gt; Media Event -&gt; Remind user if Registration Required = Yes" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{3a60d7aa-8686-49f2-b535-5a5a6e7dc258}">
+      <label languagecode="1033" description="Reminder!" />
+    </steplabels>
+    <steplabels id="{5dd529fe-2a20-4246-ad01-cd935677e213}">
+      <label languagecode="1033" description="By setting this field to Yes, you will be creating Media Registration records.  Please validate that this is accurate before saving." />
+    </steplabels>
+  </labels>
+</Workflow>

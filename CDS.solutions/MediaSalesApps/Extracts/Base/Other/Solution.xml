@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21064.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MediaSalesApps</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Media Sales Apps" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>2.0.3.5</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365medianew</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Media New" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msmedia</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76686</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="61" schemaName="msmedia_DisplayAdSalesSVG" behavior="0" />
+      <RootComponent type="61" schemaName="msmedia_MediaProductSalesTicketingSVG" behavior="0" />
+      <RootComponent type="62" schemaName="msmedia_DisplayAdSales" behavior="0" />
+      <RootComponent type="62" schemaName="msmedia_TicketSales" behavior="0" />
+      <RootComponent type="80" schemaName="msmedia_DisplayAdSales" behavior="0" />
+      <RootComponent type="80" schemaName="msmedia_TicketSales" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_admission" displayName="Admission" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_admission" displayName="Admission" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_advertisingsegment" displayName="Advertising Segment" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_advertisingsegment" displayName="Advertising Segment" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_advertisingsegmentgroup" displayName="Advertising Segment Group" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_advertisingsegmentgroup" displayName="Advertising Segment Group" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_advertisingspotfulfillment" displayName="Advertising Spot Fulfillment" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_advertisingspotfulfillment" displayName="Advertising Spot Fulfillment" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_attraction" displayName="Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_attraction" displayName="Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_attraction" displayName="Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_attraction" displayName="Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_attractiontrack" displayName="Attraction Track" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_concessionpartner" displayName="Concession Partner" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_concessionstand" displayName="Concession Stand" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_dispenser" displayName="Dispenser" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_eventattraction" displayName="Event Attraction" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guest" displayName="Guest" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_guestcategory" displayName="Guest Category" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_loyaltyprogram" displayName="Loyalty Program" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaasset" displayName="Media Asset" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaassetcategory" displayName="Media Asset Category" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaevent" displayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaeventsponsorship" displayName="Media Event Sponsorship" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediaeventsponsorship" displayName="Media Event Sponsorship" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediavenue" displayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediavenue" displayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediavenue" displayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediavenue" displayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediavenueadvertisingzone" displayName="Media Venue Advertising Zone" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_mediavenueadvertisingzone" displayName="Media Venue Advertising Zone" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_region" displayName="Region" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_region" displayName="Region" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_season" displayName="Season" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_season" displayName="Season" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_season" displayName="Season" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_seatmap" displayName="Seat Map" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_talent" displayName="Talent" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_ticket" displayName="Ticket" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_ticket" displayName="Ticket" solution="MediaEventProductSales (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msmedia_tma" displayName="TMA" solution="MediaCommon (2.0.2.0)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="pricelevel" displayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="pricelevel" displayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="pricelevel" displayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="msmedia_DisplayAdSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="62" schemaName="msmedia_TicketSales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorderdetail" displayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorderdetail" displayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Product Bundles" displayName="Active Product Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{06377234-f167-47e7-bd5e-f7cc61b82f99}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Product Bundles" displayName="Active Product Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{06377234-f167-47e7-bd5e-f7cc61b82f99}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ticket - Active Products, Families &amp; Bundles" displayName="Ticket - Active Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{0733418d-1275-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Kit Product Lookup View" displayName="Kit Product Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{18b841eb-8738-4bcb-9a59-af7f906e73b4}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Kit Product Lookup View" displayName="Kit Product Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{18b841eb-8738-4bcb-9a59-af7f906e73b4}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Media Events" displayName="Inactive Media Events" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{198ae71f-1266-4e36-b421-c854766528c5}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Media Events" displayName="Inactive Media Events" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{198ae71f-1266-4e36-b421-c854766528c5}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Family Lookup View" displayName="Product Family Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{19d7f2e0-e427-40fb-85e8-53e7cef2b166}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Family Lookup View" displayName="Product Family Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{19d7f2e0-e427-40fb-85e8-53e7cef2b166}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ad/Display - All Products, Families &amp; Bundles" displayName="Ad/Display - All Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{1e0488d9-1375-ea11-a811-000d3a33febe}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ad/Display - Draft Products, Families &amp; Bundles" displayName="Ad/Display - Draft Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{2668dbf5-1475-ea11-a811-000d3a33febe}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Associated View" displayName="Media Event Associated View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{2c42a1a6-55aa-439d-9aec-1ba61b34fe81}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Associated View" displayName="Media Event Associated View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{2c42a1a6-55aa-439d-9aec-1ba61b34fe81}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Products, Families &amp; Bundles" displayName="All Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{44aeb57e-840f-4026-b898-24b261493c3c}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Products, Families &amp; Bundles" displayName="All Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{44aeb57e-840f-4026-b898-24b261493c3c}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Media Events in the next 30 days" displayName="Active Media Events in the next 30 days" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{489e32df-6e70-ea11-a811-000d3a1ab88b}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Media Events in the next 30 days" displayName="Active Media Events in the next 30 days" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{489e32df-6e70-ea11-a811-000d3a1ab88b}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Orders" displayName="All Orders" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" id="{4b2438f6-4949-484b-a272-6f694a2b2fae}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Orders" displayName="All Orders" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" id="{4b2438f6-4949-484b-a272-6f694a2b2fae}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Products Lookup View" displayName="Active Products Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{58afc3c5-8add-4552-98cb-473bc8f75619}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Products Lookup View" displayName="Active Products Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{58afc3c5-8add-4552-98cb-473bc8f75619}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Leads" displayName="All Leads" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Order Products" displayName="All Order Products" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" id="{68972f8a-3a2a-42ea-b5dd-40b56f497618}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Order Products" displayName="All Order Products" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" id="{68972f8a-3a2a-42ea-b5dd-40b56f497618}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ticket - Draft Products, Families &amp; Bundles" displayName="Ticket - Draft Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{69dd38eb-1475-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Products With Price List" displayName="Products With Price List" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{6abca607-018d-4042-a8a7-56a6a1190483}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Products With Price List" displayName="Products With Price List" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{6abca607-018d-4042-a8a7-56a6a1190483}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ad/Display - Retired Products, Families &amp; Bundles" displayName="Ad/Display - Retired Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{81eb8ef1-1575-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Bundle Product Lookup View" displayName="Bundle Product Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{89a80f99-f388-412a-add2-d75c6acd930f}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Bundle Product Lookup View" displayName="Bundle Product Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{89a80f99-f388-412a-add2-d75c6acd930f}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ticket - All Products, Families &amp; Bundles" displayName="Ticket - All Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{8aa246d0-1375-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Lookup View" displayName="Product Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{8ba625b2-6a2a-4735-bab2-0c74ae8442a4}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Lookup View" displayName="Product Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{8ba625b2-6a2a-4735-bab2-0c74ae8442a4}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ticket - Retired Products, Families &amp; Bundles" displayName="Ticket - Retired Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{97d694e5-1575-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Products, Families &amp; Bundles" displayName="Active Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{a066d18a-8a4a-44ee-b78e-9a870dc799dd}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Products, Families &amp; Bundles" displayName="Active Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{a066d18a-8a4a-44ee-b78e-9a870dc799dd}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Draft Products, Families &amp; Bundles" displayName="Draft Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{a6c39ba9-ee07-4587-98a7-c23cb1ef496e}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Draft Products, Families &amp; Bundles" displayName="Draft Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{a6c39ba9-ee07-4587-98a7-c23cb1ef496e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Advanced Find View" displayName="Media Event Advanced Find View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{aea8f0ae-c91c-4e2c-97e4-a1efd601ac8f}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Advanced Find View" displayName="Media Event Advanced Find View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{aea8f0ae-c91c-4e2c-97e4-a1efd601ac8f}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Media Events" displayName="Active Media Events" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{b5f9695f-915f-4ab4-8871-f00602ebab4e}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Media Events" displayName="Active Media Events" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{b5f9695f-915f-4ab4-8871-f00602ebab4e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Products in Parent Price List" displayName="Products in Parent Price List" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{bcc509ee-1444-4a95-aed2-128efd85ffd5}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Products in Parent Price List" displayName="Products in Parent Price List" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{bcc509ee-1444-4a95-aed2-128efd85ffd5}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Opportunities" displayName="All Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Opportunities" displayName="All Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Ad -  Active Products, Families &amp; Bundles" displayName="Ad -  Active Products, Families &amp; Bundles" parentSchemaName="product" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{d4de01b6-1275-ea11-a811-000d3a33febe}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Lookup View" displayName="Media Event Lookup View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{dab06b2f-8252-4505-b844-84229eabf472}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Media Event Lookup View" displayName="Media Event Lookup View" parentSchemaName="msmedia_mediaevent" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{dab06b2f-8252-4505-b844-84229eabf472}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Bundle Lookup View" displayName="Bundle Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{dd35464e-bb9d-4575-9270-ba09db4244c1}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Bundle Lookup View" displayName="Bundle Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{dd35464e-bb9d-4575-9270-ba09db4244c1}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Product Bundles" displayName="All Product Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{eab4cded-a39f-4b21-b06a-49a45bfa47fd}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Product Bundles" displayName="All Product Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{eab4cded-a39f-4b21-b06a-49a45bfa47fd}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Draft Product Bundles" displayName="Draft Product Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{fc9c9aa7-16d8-4ef7-a540-2604464efac1}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Draft Product Bundles" displayName="Draft Product Bundles" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{fc9c9aa7-16d8-4ef7-a540-2604464efac1}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Display/Ad Sales Dashboard" solution="MediaEventProductSales (2.0.2.0)" id="{15e3dd1d-9a85-ea11-a812-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Media Event Quick View Form" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{386b48bd-039a-4357-a2b8-49d6ba9acff0}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Media Event Quick View Form" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{386b48bd-039a-4357-a2b8-49d6ba9acff0}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Ticket Sales Dashboard" solution="MediaEventProductSales (2.0.2.0)" id="{5947dc26-1480-ea11-a812-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Product Quick Create" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{672e520b-6bbc-47f8-977f-228bfc6d8faf}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Product Quick Create" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{672e520b-6bbc-47f8-977f-228bfc6d8faf}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Media Venue Main Form" parentDisplayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" id="{a069d92f-c63c-4e5a-a189-627c79434c49}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Ad/Display - Media Venue Main Form" parentDisplayName="Media Venue" solution="MediaEventProductSales (2.0.2.0)" id="{a6cd5d4d-0079-ea11-a811-000d3a33febe}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Product Main Form" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{b1db8953-69f4-4c31-93d8-e6c82a1696b9}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Product Main Form" parentDisplayName="Product" solution="MediaEventProductSales (2.0.2.0)" id="{b1db8953-69f4-4c31-93d8-e6c82a1696b9}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Quick Form" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Quick Form" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Media Venue Quick View Form" parentDisplayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" id="{dc47b1db-8d04-49ce-a909-74980567297c}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Media Venue Quick View Form" parentDisplayName="Media Venue" solution="MediaEventsVenues (2.0.2.2)" id="{dc47b1db-8d04-49ce-a909-74980567297c}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Main Form" parentDisplayName="Contact" solution="MediaEventProductSales (2.0.2.0)" id="{e4070ca7-2774-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Main Form" parentDisplayName="Contact" solution="MediaEventProductSales (2.0.2.0)" id="{e4070ca7-2774-ea11-a811-000d3a33f58e}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" />
+        <Dependent type="80" schemaName="msmedia_DisplayAdSales" displayName="Media Product Display/Ad Sales" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Media Event" solution="MediaEventsVenues (2.0.2.2)" id="{e4cd67d3-614d-4c2f-ad0d-690c89bf7357}" />
+        <Dependent type="80" schemaName="msmedia_TicketSales" displayName="Media Product Sales &amp; Ticketing" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msmedia_seatmapmilestest_0544c</Name>
+  <AppVersion>2020-09-02T19:49:35Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20081.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.20081.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"e708593e-6a02-4a77-a02f-155ec6755df4","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20081.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>Seat Map</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Seat Sections":{"entitySetName":"msmedia_seatsections","logicalName":"msmedia_seatsection"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Seat Maps":{"entitySetName":"msmedia_seatmaps","logicalName":"msmedia_seatmap"},"Advertising Segment Groups":{"entitySetName":"msmedia_advertisingsegmentgroups","logicalName":"msmedia_advertisingsegmentgroup"},"Seat Rows":{"entitySetName":"msmedia_seatrows","logicalName":"msmedia_seatrow"},"Seat Tiers":{"entitySetName":"msmedia_seattiers","logicalName":"msmedia_seattier"},"Seats":{"entitySetName":"msmedia_seats","logicalName":"msmedia_seat"}}}}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"msmedia_seatsection","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"msmedia_seatmap","componenttype":1},{"logicalname":"msmedia_advertisingsegmentgroup","componenttype":1},{"logicalname":"msmedia_seatrow","componenttype":1},{"logicalname":"msmedia_seattier","componenttype":1},{"logicalname":"msmedia_seat","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msmedia_seatmapmilestest_0544c_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msmedia_seatmapmilestest_0544c_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

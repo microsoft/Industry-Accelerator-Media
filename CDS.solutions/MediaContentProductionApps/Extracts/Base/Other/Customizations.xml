@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityImageConfigs>
+    <EntityImageConfig>
+      <parententitylogicalname>msmedia_show</parententitylogicalname>
+      <primaryimageattribute>msmedia_logo</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
+      <parententitylogicalname>msmedia_studio</parententitylogicalname>
+      <primaryimageattribute>msmedia_logo</primaryimageattribute>
+    </EntityImageConfig>
+  </EntityImageConfigs>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <Dashboards />
+  <CustomControls />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

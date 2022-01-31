@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msmedia_venuetype" localizedName="Venue Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Venue Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="766860001">
+      <labels>
+        <label description="Merchandising Store" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860002">
+      <labels>
+        <label description="Theme Park" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860003">
+      <labels>
+        <label description="Stage" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860004">
+      <labels>
+        <label description="Attraction/Ride" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860005">
+      <labels>
+        <label description="Arena/Stadium" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860006">
+      <labels>
+        <label description="Playing Field/Turf/Rink/Court/Pitch" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860007">
+      <labels>
+        <label description="Theatre/Concert Hall" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860008">
+      <labels>
+        <label description="Retail Store" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860009">
+      <labels>
+        <label description="Kiosk" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860010">
+      <labels>
+        <label description="E-Commerce/Web Site" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860011">
+      <labels>
+        <label description="Expo Center" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860012">
+      <labels>
+        <label description="Parking Lot/Garage" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860013">
+      <labels>
+        <label description="Park" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860014">
+      <labels>
+        <label description="Building " languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860015">
+      <labels>
+        <label description="Hotel" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860016">
+      <labels>
+        <label description="Casino" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860017">
+      <labels>
+        <label description="Box Office/Ticket Booth" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860018">
+      <labels>
+        <label description="Information/Help Desk" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860019">
+      <labels>
+        <label description="Gym/Locker Room" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860020">
+      <labels>
+        <label description="Museum" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860021">
+      <labels>
+        <label description="Office" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860022">
+      <labels>
+        <label description="Signage/Billboard" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="766860023">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

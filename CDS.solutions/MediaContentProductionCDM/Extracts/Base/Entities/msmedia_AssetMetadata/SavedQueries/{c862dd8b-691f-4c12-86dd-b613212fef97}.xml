@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c862dd8b-691f-4c12-86dd-b613212fef97}</savedqueryid>
+    <layoutxml>
+      <grid name="msmedia_assetmetadatas" jump="msmedia_name" select="1" icon="1" preview="1">
+        <row name="msmedia_assetmetadata" id="msmedia_assetmetadataid">
+          <cell name="msmedia_assetmetadataattribute" width="205" />
+          <cell name="msmedia_track" width="120" />
+          <cell name="msmedia_valuestring" width="152" />
+          <cell name="msmedia_valuenumeric" width="194" />
+          <cell name="msmedia_assetfile" width="115" />
+          <cell name="msmedia_asset" width="135" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msmedia_assetmetadata">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msmedia_valuestring" />
+          <attribute name="msmedia_valuenumeric" />
+          <attribute name="msmedia_assetmetadataid" />
+          <attribute name="msmedia_track" />
+          <attribute name="msmedia_assetmetadataattribute" />
+          <attribute name="msmedia_assetfile" />
+          <attribute name="msmedia_asset" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Asset Metadata Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
